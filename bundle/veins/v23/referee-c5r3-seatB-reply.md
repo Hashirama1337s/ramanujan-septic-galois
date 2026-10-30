@@ -1,0 +1,25 @@
+The lead worry is whether Class II* with all-odd M' can exist. I will check that case on the page, then open KSY10 Proposition 2.4 and re-check the exponent, Lemma 0, and §6.**In plain words.** The stray-root step is now a proof. The all-odd case is about the increment matrix \(M'\), and it really occurs. The exponent, the sign identification \(B_{-k}=B_k\), and the Galois count in §6 match the sources and the algebra on the page. One false display must be corrected: \(A+C\) is \(1+n(M'_{11}+M'_{21})\), not \(2+\cdots\).
+
+**Class II\*, case \(e=1\): CORRECT.** \(M'\) is not \(M\). Here \(M=I+nM'\) with \(\det M=1\). All four entries of \(M'\) odd does not force \(\det M\) even. For \(M'=[\begin{smallmatrix}1&1\\-1&-1\end{smallmatrix}]\), \(M=[\begin{smallmatrix}1+n&n\\-n&1-n\end{smallmatrix}]\) has determinant \(1\), and \(A+C=B+D=1\), so \(M\in\Gamma^*\). The diagonal of \(M\) is even and the off-diagonal is odd, so \(\det M\) is odd. The same pattern gives \(M=[\begin{smallmatrix}4&3\\21&16\end{smallmatrix}]\) at \(n=3\).
+
+The printed chain is right. From \((\diamond)\), all four entries of \(M'\) have one parity. For parity \(1\), \(A\) and \(D\) are even, so \(AD\equiv 0\pmod{4}\). Then \(AD=1+n^2 M'_{12}M'_{21}\) forces \(M'_{12}M'_{21}\equiv 3\pmod{4}\). Two odd residues with that product are \(1\) and \(3\) in some order, so \(M'_{12}+M'_{21}\equiv 0\pmod{4}\). The earlier reduction \(E\equiv k(M'_{12}+M'_{21})\pmod{4}\) gives \(E\equiv 0\pmod{4}\). Hand check: \(n=3\), \(k=1\), first matrix, \(E=8\); second matrix, \(E=68\).
+
+**Class II\*, case \(e=0\): CORRECT.** Even times even is \(0\pmod{4}\), so \((\diamond)\) gives \(M'_{11}+M'_{22}\equiv 0\pmod{4}\). Then \(M'_{22}-M'_{11}\equiv -2M'_{11}\equiv 0\pmod{4}\) and \(E\equiv 0\pmod{4}\).
+
+**Setup line of Class II\*: CORRECT WITH FIXES.** The page says "\(A+C=2+n(M'_{11}+M'_{21})\)". That identity is false, and for that false expression the parity sentence is false too. The matrix is \(A+C=1+n(M'_{11}+M'_{21})\). Since \(n\) is odd, this is odd exactly when \(M'_{11}+M'_{21}\) is even, so \(u=(M'_{11}+M'_{21})/2\) is an integer. The formulas actually used, \(c_1=nu\) and \(s_1=c_1+kM'_{11}\), match this correction. Replace \(2\) by \(1\).
+
+**Exponent \(E\): CORRECT.** Source OPENED: ar5iv HTML of arXiv:1008.0473, Proposition 2.4. (ii) says that for any \(\gamma\in\mathrm{SL}_2(\mathbb{Z})\), \(g_r(\tau)\circ\gamma=\varepsilon g_{r\gamma}(\tau)\) "with \(\varepsilon\) a 12th root of unity (depending on \(\gamma\))". For the generators, the roots are \(\zeta_{12}^9\) and \(\zeta_{12}\), with no \(r\) in them, so the ratio cancels \(\varepsilon\). (iii) says
+\[
+g_{r+s}=(-1)^{s_1s_2+s_1+s_2}e^{-\pi i(s_1 r_2-s_2 r_1)}g_r.
+\]
+(1.3) and 2.2(iii) (holomorphic, no zeros or poles on \(\mathfrak{H}\)) and 2.4(v) match the quotes in the proof. The proof of 2.4 is not on that page; it says "See [4]". Rebuilding their \(E\) from (iii), from \((-i)^k=(-i)^{k'}i^{-(k-k')}\), and from \(n\) odd, gives exactly their displayed exponent.
+
+**Lemma 0: CORRECT.** The shift \(j\mapsto j-1\) gives \(\theta[a+1]=\theta[a]\). The substitution \(j\mapsto -j\) gives \(\theta[-a]=\theta[a]\), and \((-j-a)^2=(j+a)^2\). Absolute convergence on \(\operatorname{Im}\tau>0\) is stated. So \(B_{x+n}=B_x\) and \(B_{-x}=B_x\).
+
+**§6: CORRECT.** "\(\varepsilon=1\)" is gone. The test is "\(\varepsilon\) constant", and a single \(-1\) is constant, so an idoneal prime power stays abelian. \(S=\mathrm{Gal}(L/KE)\) is stable under conjugation because each \(b_k\) is real and \(c(K)=K\). A normal subgroup of order \(2\) is central, so \(E/\mathbb{Q}\) is Galois exactly when \(\rho(\overline{\mathfrak{a}}/\mathfrak{a})\in S\) for every class. With \(H_O\subset KE\), that is \(\mathrm{Cl}(\mathcal{O})=\mathrm{Cl}(\mathcal{O})[2]\) and \(\varepsilon\) constant. The real-embedding count is \((\varphi(n)/2)\) times the number of those classes, because each class in \(C_1\) has \(\varphi(n)/2\) elements of \(G/S\). One wording fix: "\(G\) is abelian, so \(S\) is normal in \(G\rtimes\langle c\rangle\)" should cite both that \(G\) is abelian and that \(cSc^{-1}=S\). [KSY25] Lemma 7.3 was not opened this round.
+
+Kani, the class-number lists, and the PARI logs were not opened this round. The author already marks \(Q(b_1)=E\) unproved for non-idoneal composite \(n\). For idoneal \(n\), \(Q(b_1)\) needs no such equality: it sits inside an abelian \(E\) when \(n\) is a prime power, and (d) already moves \(b_1\) when \(n\) has two prime factors.
+
+**C5: ACCEPTED WITH FIXES.** For the field of all pieces, and for \(b_1\) alone when \(n\) is idoneal, the argument is a proof after the \(A+C\) line is corrected. The inherited list gap GAP-L′ stays disclosed.
+
+Next strike: change "\(A+C=2+n(M'_{11}+M'_{21})\)" to "\(A+C=1+n(M'_{11}+M'_{21})\)" and put the witness \(M=I+n[\begin{smallmatrix}1&1\\-1&-1\end{smallmatrix}]\) in the \(e=1\) case.

@@ -1,0 +1,7 @@
+p = 7  f = 3:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 3  (= f: 1)
+p = 23  f = 11:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 11  (= f: 1)
+p = 47  f = 23:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 23  (= f: 1)
+p = 31  f = 5:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 5  (= f: 1)
+p = 127  f = 7:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 7  (= f: 1)
+p = 151  f = 15:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 15  (= f: 1)
+p = 223  f = 37:  [(sigma_2 - 1)Z[G] : (sigma_2 - 1)I_G] = 37  (= f: 1)

@@ -1,0 +1,2 @@
+l=3: cosets (pairs up to sign) = 12, total order = 0, zeros = 1, poles = 1
+l=5: cosets (pairs up to sign) = 36, total order = 0, zeros = 5, poles = 5

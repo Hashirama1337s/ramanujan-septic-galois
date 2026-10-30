@@ -1,0 +1,11 @@
+reducer check th[0,1/3] at low z: 1e-134
+W_1(i sqrt3) vs B_1(i/sqrt3): 1e-134  value 7.69464420372614527903783249310107322192348958520272197978052174796103236427635731400588155139695210235449003543387536633 - 6.0091987466709813158000776527096350369 E-137*I
+BR Cor 3.7 check: 1e-132
+BR Cor 3.9 check: 1e-132
+BR Cor 3.4 check (B, m=3): 1e-133
+BR Cor 5.4 check u^5: 1e-132  v^5: 1e-134
+CTRL l=3 fam=B m=3 (m mod l=0) idoneal=1 ppow=1 h=1 |C_N|=24 deg=1 preddeg=1 mult=[24] W=150 round=1e-153 den=1 irred=1 P(z)@2W=1e-307 realroots=1/1 => NOT ABELIAN [Galois, non-abelian] Halt:MISS Hsame:MISS L3:MISMATCH  (0 s)
+CTRL l=3 fam=W m=3 (m mod l=0) idoneal=1 ppow=1 h=1 |C_N|=24 deg=3 preddeg=3 mult=[8] W=150 round=1e-151 den=1 irred=1 P(z)@2W=1e-307 realroots=1/3 => NOT ABELIAN [not Galois: mod 5 factor degrees [1, 2]] Halt:ok Hsame:MISS L3:ok  (0 s)
+CTRL l=3 fam=W m=5 (m mod l=2) idoneal=1 ppow=1 h=2 |C_N|=32 deg=4 preddeg=4 mult=[8] W=150 round=1e-150 den=1 irred=1 P(z)@2W=1e-308 realroots=4/4 => ABELIAN [[2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+CTRL l=5 fam=B m=5 (m mod l=0) idoneal=1 ppow=1 h=2 |C_N|=160 deg=4 preddeg=4 mult=[40] W=150 round=1e-149 den=1 irred=1 P(z)@2W=1e-309 realroots=4/4 => ABELIAN [[4]] Halt:ok Hsame:ok L3:ok  (0 s)
+BR Cor 3.9 polynomial x^4-64x^2+64 expected for cubic W m=5

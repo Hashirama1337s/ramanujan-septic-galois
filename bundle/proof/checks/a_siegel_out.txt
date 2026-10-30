@@ -1,0 +1,11 @@
+=== (1) expression of u_k at tau0 = i sqrt p, realprecision 260 ===
+p=7: Siegel form agrees with definition to >= 269 digits; theta form to >= 269 digits; g_(1/2,1/2) = -e^(-pi i/4) f^2 to 270 digits
+p=11: Siegel form agrees with definition to >= 269 digits; theta form to >= 269 digits; g_(1/2,1/2) = -e^(-pi i/4) f^2 to 269 digits
+p=13: Siegel form agrees with definition to >= 269 digits; theta form to >= 269 digits; g_(1/2,1/2) = -e^(-pi i/4) f^2 to 269 digits
+=== (2) b_k(gam tau) = b_{tk}(tau) at a random tau, realprecision 80 ===
+p=5: 24 checks (6 random x, both decompositions, all k): worst agreement 91 digits
+p=7: 36 checks (6 random x, both decompositions, all k): worst agreement 90 digits
+p=11: 60 checks (6 random x, both decompositions, all k): worst agreement 89 digits
+p=13: 72 checks (6 random x, both decompositions, all k): worst agreement 89 digits
+negative control p=11 x=2+1sqrt(-p), map k -> k/t: 5 of 5 fail (k with k/t = +-kt excepted)
+negative control p=13 x=2+1sqrt(-p), map k -> k/t: 6 of 6 fail (k with k/t = +-kt excepted)

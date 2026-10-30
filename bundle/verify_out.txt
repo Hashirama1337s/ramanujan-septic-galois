@@ -1,0 +1,2 @@
+identity: |lhs - rhs| ~ 1e-1294   (lhs = 1.0)
+negative control (one coefficient +1): |lhs - rhs| ~ 1e-1

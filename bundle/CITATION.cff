@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these results, proofs or tools, please cite them as below. Text and figures: CC BY 4.0. Code (all .gp, .py and .sh files): MIT."
+title: "Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+date-released: "{{RELEASE_DATE}}"
+license: CC-BY-4.0
+keywords:
+  - Ramanujan lost notebook
+  - theta dissection
+  - complex multiplication
+  - idoneal numbers
+  - ring class fields
+  - Stark units
+  - continued fractions

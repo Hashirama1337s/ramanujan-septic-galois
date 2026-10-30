@@ -1,0 +1,12 @@
+nbthreads = 1
+|theta| vs |g|^12: 4.799235297709264146 E-77
+h = 3 cyc [3] zk [1, 1/2*x - 1/2] certify 1
+ray cyc mod q: [33]
+cl cyc: [3]
+P cands: [0, 1]
+  ***   at top-level: print("chareval test: ",chareval(bnr1,[1],bnri
+  ***                                         ^----------------------
+  *** chareval: incorrect type in nf_to_scalar_or_basis (t_COL).
+... skipping file 'vectors/v8_stark/probe2.gp'
+lfun L'(0,rho): 0.281199574322961846512050764067878299792023225744066462675730 + 0.E-99*I
+zk to complex: -1/2 + 2.39791576165635977079871903208134695999835352095206467324265*I

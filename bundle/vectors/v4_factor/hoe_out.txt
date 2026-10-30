@@ -1,0 +1,9 @@
+  ***   Warning: new maximum stack size = 8000000000 (7629.395 Mbytes).
+POST HOC: ramification of 2 in H_O = J(sqrt -p) (degree 2h)
+  p = 17 (h = 4): primes of H_O above 2: [e, f] = [[2, 2], [2, 2]]; max e = 2 (Lemma R bound 2: 1)
+  p = 11 (h = 3): primes of H_O above 2: [e, f] = [[3, 2]]; max e = 3 (Lemma R bound 3: 1)
+  p = 29 (h = 6): primes of H_O above 2: [e, f] = [[2, 2], [2, 2], [2, 2]]; max e = 2 (Lemma R bound 2: 1)
+  p = 37 (h = 2): primes of H_O above 2: [e, f] = [[2, 2]]; max e = 2 (Lemma R bound 2: 1)
+  p = 43 (h = 3): primes of H_O above 2: [e, f] = [[3, 2]]; max e = 3 (Lemma R bound 3: 1)
+  p = 41 (h = 8): primes of H_O above 2: [e, f] = [[2, 2], [2, 2], [2, 2], [2, 2]]; max e = 2 (Lemma R bound 2: 1)
+  p = 53 (h = 6): primes of H_O above 2: [e, f] = [[2, 2], [2, 2], [2, 2]]; max e = 2 (Lemma R bound 2: 1)

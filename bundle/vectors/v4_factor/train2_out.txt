@@ -1,0 +1,32 @@
+TRAINING RUN part 2 (vector 4)
+== unit model cross-check against the direct nfinit at 5, 13, 17, 11, 19
+  p = 5 unit model: S integral monic of degree 4, S(0) = 1, irreducible 1, max coeff digits 3
+  primes P | 2 in Q(b_1) = Q(z): 1;  [e, f, v_P(z), v_P(b_1) = (p e_P + v_P(z))/2] = [[2, 2, 0, 5]]
+  formula v_P(b_1) = p c e_P/12: MATCH;  e_P all = 2: 1;  sum f_P v_P(b_1) = 10 vs v_2(G(0)) = 10;  residue degrees [2]  [0 s]
+  p = 13 unit model: S integral monic of degree 12, S(0) = 1, irreducible 1, max coeff digits 51
+  primes P | 2 in Q(b_1) = Q(z): 1;  [e, f, v_P(z), v_P(b_1) = (p e_P + v_P(z))/2] = [[2, 6, 0, 13]]
+  formula v_P(b_1) = p c e_P/12: MATCH;  e_P all = 2: 1;  sum f_P v_P(b_1) = 78 vs v_2(G(0)) = 78;  residue degrees [6]  [0 s]
+  p = 17 unit model: S integral monic of degree 32, S(0) = 1, irreducible 1, max coeff digits 135
+  primes P | 2 in Q(b_1) = Q(z): 3;  [e, f, v_P(z), v_P(b_1) = (p e_P + v_P(z))/2] = [[2, 4, 0, 17], [2, 4, 0, 17], [2, 8, 0, 17]]
+  formula v_P(b_1) = p c e_P/12: MATCH;  e_P all = 2: 1;  sum f_P v_P(b_1) = 272 vs v_2(G(0)) = 272;  residue degrees [4, 4, 8]  [15 s]
+  instrument control: v_P(uniformiser of P_1) = [1, 0, 0]
+  p = 11 unit model: S integral monic of degree 15, S(0) = -1, irreducible 1, max coeff digits 46
+  primes P | 2 in Q(b_1) = Q(z): 1;  [e, f, v_P(z), v_P(b_1) = (p e_P + v_P(z))/3] = [[3, 5, 0, 11]]
+  formula v_P(b_1) = p c e_P/12: MATCH;  e_P all = 3: 1;  sum f_P v_P(b_1) = 55 vs v_2(G(0)) = 55;  residue degrees [5]  [0 s]
+  p = 19 unit model: S integral monic of degree 27, S(0) = -1, irreducible 1, max coeff digits 201
+  primes P | 2 in Q(b_1) = Q(z): 1;  [e, f, v_P(z), v_P(b_1) = (p e_P + v_P(z))/3] = [[3, 9, 0, 19]]
+  formula v_P(b_1) = p c e_P/12: MATCH;  e_P all = 3: 1;  sum f_P v_P(b_1) = 171 vs v_2(G(0)) = 171;  residue degrees [9]  [26 s]
+
+== p = 29
+
+==================== p = 29 (p mod 8 = 5, h(-4p) = 6, 2 in K: ramified, Deuring c = 6)
+  G: degree 84 (want h(p-1)/2 = 84), rounding error 10^-516, max coeff digits 577, monic 1, irreducible 1
+  Newton polygon at 2: root valuations (v(2)=1) = [29/2] with multiplicities [84]; predicted single value p c/12 = 29/2 -> MATCH
+  Newton control (G * (x - 2)): [1, 29/2] (instrument sees the extra root)
+  unit certificate: beta^2/2^29 is a unit for every conjugate beta: 1 (integral, constant 1)
+  control (2^30 instead of 2^29): unit? 0 (not integral)  (fails, as it should)
+  control (wrong exponent 3): unit? 0 (integral, constant 2^1218 * -1)  (fails, as it should)
+  J and Q(zeta_p)^+: J (deg 6): 2 primes, [e,f] = [[2, 2], [1, 2]];  f in Q(zeta_p)^+ = 14 (g = 1)
+  (nfinit skipped)  [4 s]
+  p = 29 unit model: S integral monic of degree 84, S(0) = 1, irreducible 1, max coeff digits 648
+- (train2: p = 29 unit-model nfinit stopped by hand at ~4 min / 1 GB, before the test run, to keep one gp job)

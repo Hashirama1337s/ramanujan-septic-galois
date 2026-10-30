@@ -1,0 +1,7 @@
+nbthreads = 1
+GG: |SL2(Z/8)| = 384; numeric stabiliser size 8 = [[1, 0; 0, 1], [1, 0; 4, 1], [1, 4; 0, 1], [1, 4; 4, 1], [7, 0; 0, 7], [7, 0; 4, 7], [7, 4; 0, 7], [7, 4; 4, 7]]
+GG: sum over ALL elements / |stab|: sum ord = 0, poles = 1, zeros = 1
+GG: numeric-vs-exact order, max deviation over 384 lifts = 0.012960094489172534979165433020889544085
+CF: |SL2(Z/6)| = 144; numeric stabiliser size 4 = [[1, 0; 0, 1], [1, 0; 3, 1], [5, 0; 0, 5], [5, 0; 3, 5]]
+CF: sum over ALL elements / |stab|: sum ord = 0, poles = 1, zeros = 1
+CF: numeric-vs-exact order, max deviation over 144 lifts = 0.0067418356160825568564793746197465428417

@@ -1,0 +1,32 @@
+
+========== p = 7: h(-4p) = 1 reduced forms [(1, 0, 7)], degree d = 3
+   form (1, 0, 7) -> used (1, 0, 7), a' = 1, x = 0, Im t = sqrt(p)/1 = 2.6458
+   min Im of evaluation points y_min = 2.6458 (Lemma B'/T bound: 0.6614)
+   Arb modular_theta cross-check (256 bits): 3 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 6.6 bits (2.0 digits); closed-form Lemma H 50.1 bits
+   W = 75 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = [5.279125169723540873240e-19 +/- 4.77e-41]  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 3)
+   exact: monic True, degree 3 (want 3), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^0 * 1; C3 predicts 2^0 -> MATCH
+   max coefficient digits 2; sha256(certified coefficient list) = 3dd5447cebd4f13b
+   identical to known x^3 - 41x^2 + 54x - 1: True
+   NEG CONTROL conv 2: not applicable (conv 2 gives the same translations as conv 1, e.g. h = 1)
+   VERDICT p = 7: CERTIFIED   [total 0.0 s]
+
+========== p = 29: h(-4p) = 6 reduced forms [(1, 0, 29), (2, 2, 15), (3, -2, 10), (3, 2, 10), (5, -2, 6), (5, 2, 6)], degree d = 84
+   form (1, 0, 29) -> used (1, 0, 29), a' = 1, x = 0, Im t = sqrt(p)/1 = 5.3852
+   form (2, 2, 15) -> used (15, -2, 2) (swapped), a' = 31, x = 31, Im t = sqrt(p)/15 = 0.3590
+   form (3, -2, 10) -> used (3, -2, 10), a' = 39, x = 39, Im t = sqrt(p)/3 = 1.7951
+   form (3, 2, 10) -> used (3, 2, 10), a' = 39, x = -39, Im t = sqrt(p)/3 = 1.7951
+   form (5, -2, 6) -> used (5, -2, 6), a' = 93, x = 93, Im t = sqrt(p)/5 = 1.0770
+   form (5, 2, 6) -> used (5, 2, 6), a' = 93, x = -93, Im t = sqrt(p)/5 = 1.0770
+   min Im of evaluation points y_min = 0.3590 (Lemma B'/T bound: 0.3590)
+   Arb modular_theta cross-check (256 bits): 84 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 1919.4 bits (577.8 digits); closed-form Lemma H 6913.4 bits
+   W = 1998 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 3.57737422125587131229460056275337720421703124884516000747680664062500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e-18  [0.1 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 3486)
+   exact: monic True, degree 84 (want 84), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^1218 * 1; C3 predicts 2^1218 -> MATCH
+   max coefficient digits 577; sha256(certified coefficient list) = ee04eb8eb9a9f3ca
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 84; imag ball excludes 0: 84 -> certified NON-integral (control passes)
+   VERDICT p = 29: CERTIFIED   [total 0.3 s]

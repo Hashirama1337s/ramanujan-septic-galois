@@ -1,0 +1,2 @@
+# BAR-SWEEP2 Amendment 1 (before any run at 41, 53, 59, 61, 71, 73, 79, 83, 89, 97)
+Observed at 67 and 47: start W = 45 x basis gives chance-level relations (holding ~ n x coefficient digits). For the primes not yet started, the starting precision becomes W = 90 x basis (still doubled once on S1 failure). S3 note: as coefficients reach 30+ digits, a +-1 change is a tiny relative change, so S3's 50-digit bar weakens; S3 is kept as sealed, and S1/S2 at >= 0.9 W carry the weight.

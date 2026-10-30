@@ -1,0 +1,6 @@
+  ***   Warning: new maximum stack size = 6000001024 (5722.047 Mbytes).
+POST l=17 m=85 (m mod l=0) idoneal=1 h=4 cl2=4 |C_N|=4352 deg=32 preddeg=32 ok real=32/32 predreal=32 ok => ABELIAN pred=ABELIAN HIT  {p0=102 exact: round=1e-234 den=1 irred=1 P(z)@2W=1e-970 sturm=32 W=436 [[16, 2]]}  (19 s)
+POST l=17 m=357 (m mod l=0) idoneal=1 h=8 cl2=8 |C_N|=8704 deg=64 preddeg=64 ok real=64/64 predreal=64 ok => ABELIAN pred=ABELIAN HIT  {p0=152 exact: round=1e-462 den=1 irred=1 P(z)@2W=1e-2132 sturm=64 W=985 [[16, 2, 2]]}  (204 s)
+POST l=19 m=57 (m mod l=0) idoneal=1 h=4 cl2=4 |C_N|=5472 deg=36 preddeg=36 ok real=36/36 predreal=36 ok => ABELIAN pred=ABELIAN HIT  {p0=97 exact: round=1e-248 den=1 irred=1 P(z)@2W=1e-1071 sturm=36 W=473 [[18, 2]]}  (27 s)
+POST l=19 m=133 (m mod l=0) idoneal=1 h=4 cl2=4 |C_N|=5472 deg=36 preddeg=36 ok real=36/36 predreal=36 ok => ABELIAN pred=ABELIAN HIT  {p0=121 exact: round=1e-287 den=1 irred=1 P(z)@2W=1e-1303 sturm=36 W=593 [[18, 2]]}  (41 s)
+POST l=23 m=253 (m mod l=0) idoneal=1 h=4 cl2=4 |C_N|=8096 deg=44 preddeg=44 ok real=44/44 predreal=44 ok => ABELIAN pred=ABELIAN HIT  {p0=167 exact: round=1e-435 den=1 irred=1 P(z)@2W=1e-2207 sturm=44 W=1016 [[22, 2]]}  (184 s)

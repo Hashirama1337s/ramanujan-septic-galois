@@ -1,0 +1,44 @@
+I will referee section (c) against the sources themselves: Kani’s Theorems 12 and 32, KSY25, and the local v4/v5 write-ups. First I boot the house and open those texts.Local boot files are not reachable through the web fetcher. I will read them on disk and pull the papers next.**In plain words.** Section (c) is not a proof. The list it names is the one Grube’s square bound plus the prime case would give, if the Galois action on \(b_k\) and the sign character \(\varepsilon\) were proved for composite \(n\). Those two steps are still sketches. One sentence in step 9 is false: the order \(\mathbb{Z}[\sqrt{-15}]\) is not maximal.
+
+**Verdicts**
+
+| Step | Verdict |
+|---|---|
+| 1 Level | GAP |
+| 2 Units through \(\mathbb{Z}/n\) | GAP |
+| 3 The field | GAP |
+| 4 Complex conjugation | CORRECT WITH FIXES |
+| 5 Sign vector | GAP |
+| 6 Count | GAP |
+| 7 Evaluating \(\varepsilon\) | GAP |
+| 8 Grube and the list | CORRECT WITH FIXES |
+| 9 The hints | CORRECT WITH FIXES |
+| **C5** | **NOT A PROOF** |
+
+**1. GAP.** The sums on the page are right: for \(r=(k/n+1/2,1/2)\), \(s=(1/2,1/2)\) and exponents \(+n,-n\),
+\[\sum m(Nr_1)^2=16nk(k+n),\qquad \sum m(Nr_1)(Nr_2)=8kn^2,\]
+and the \((Nr_2)^2\) sum is \(0\). At \(N=4n\) these are \(0\) modulo \(N\), and \(\sum m=0\) is \(0\) modulo \(12\). Kubert–Lang, as stated in arXiv:2502.04084, Theorem 8 (OPENED), requires those congruences only when \(\gcd(N,6)=1\). Here \(N=4n\) is divisible by \(4\), so that theorem does not apply. The book statement for general \(N\) was not opened. “The \(q\)-expansion has rational coefficients” and the Siegel identification of \(B_k\) have no locator. Integrality of \(G_n\) at 14 values does not put \(B_k\) in \(\mathcal{F}_{4n}\).
+
+**2. GAP.** For \(D=-4n\), KSY25 (OPENED) equation (6) gives \(b_{\mathcal{O}}=0\), \(c_{\mathcal{O}}=n\). Proposition 5.1’s Cartan matrix is then \(\begin{pmatrix}t&-ns\\ s&t\end{pmatrix}\). The page’s \(g_x=\begin{pmatrix}s&-nt\\ t&s\end{pmatrix}\) is that matrix for \(x=s+t\sqrt{-n}\). Right multiplication sends the characteristic \((k/n,0)\) to \((ks/n,-kt)\). The index that appears is \(ks\), so the conclusion \(b_k\mapsto b_{\pm ks}\) matches the matrix. The citation on the same line, “\(B_k^{g(x)}=B_{tk}\)”, does not. \(\mathcal{O}/(\sqrt{-n})\cong\mathbb{Z}/n\) is correct, since \((\sqrt{-n})=n\mathbb{Z}+\sqrt{-n}\,\mathbb{Z}\). What is missing is the theta cocycle. For odd \(n\), an \(n\)th power does not kill a general 8th root of unity. The appeal to a v4 lemma that “never uses primality” is NOT CHECKED: v4 was not opened. \(st\) even from \(\det g_x\) odd is correct and is not the cocycle.
+
+**3. GAP.** KSY25, §2 (OPENED), defines \(K_{\mathcal{O},N}\) as the ray class field of \(\mathcal{O}\) modulo the integer ideal \(N\mathcal{O}\), with
+\[\mathrm{Gal}(K_{\mathcal{O},N}/H_{\mathcal{O}})\cong(\mathcal{O}/N\mathcal{O})^\times/\mathcal{O}^\times\]
+by Proposition 5.1. Remark 5.2(i): \(\mathcal{O}^\times=\{\pm1\}\) for \(D\neq-3,-4\). For modulus \(n\mathcal{O}\) that group has order \(n\varphi(n)/2\), \(n\) times larger than \((\mathbb{Z}/n)^\times/\{\pm1\}\). The ideal \(\mathfrak{m}=(\sqrt{-n})\) is invertible (it is principal, and the norm form \(nx^2+y^2\) is primitive), and \((\mathcal{O}/\mathfrak{m})^\times\cong(\mathbb{Z}/n)^\times\), so a ray class field modulo \(\mathfrak{m}\) would have the stated degree \(h(-4n)\varphi(n)/2\). The page never shows \(b_1\) lies in that field and generates it. \(\deg G_n=h(-4n)\varphi(n)/2\) is \([\mathbb{Q}(b_1):\mathbb{Q}]\). It equals \([K(b_1):K]\) only because \(b_1\) is real. That was not said. “Confirmed at 14 \(n\)” was not opened.
+
+**4. CORRECT WITH FIXES.** Kani, Theorem 32 (OPENED, pp. 214–215 in the journal; archive text at the theorem heading): “\(\mathbb{Q}(j(\sqrt{-n}))\) is a Galois field extension of \(\mathbb{Q}\) if and only if \(n\) is idoneal.” The proof says complex conjugation acts on \(\mathrm{Gal}(L/K)\) by inversion, citing Cox, Lemma 9.3, and only for \(L=H_{\mathcal{O}}\). The page marks that limit. For \(L=K(b_1)\) with \(b_1\in\mathbb{R}\), \(c\) fixes \(L\), and \(\sigma(b_1)\) is real if and only if \(\sigma\) commutes with \(c\), because only the identity in \(\mathrm{Gal}(L/K)\) fixes \(b_1\). The relation \(c\,\mathrm{Art}(\mathfrak{a})\,c^{-1}=\mathrm{Art}(\overline{\mathfrak{a}})\) on a ray class field is not given a locator. Fix: cite it.
+
+**5. GAP.** If \(\mathfrak{a}\overline{\mathfrak{a}}=(N\mathfrak{a})\) and conjugation inverts \(\mathrm{Gal}(H_{\mathcal{O}}/K)\), then \(\mathrm{Art}(\mathfrak{a}/\overline{\mathfrak{a}})\) is trivial on \(H_{\mathcal{O}}\) if and only if \([\mathfrak{a}]^2=1\). From \(N(\lambda)=(N\mathfrak{a})^2\), \(s^2\equiv(N\mathfrak{a})^2\pmod{n}\). For odd \(n\), \(x^2=1\) in \((\mathbb{Z}/q^e)^\times\) has only the solutions \(\pm1\). The quotient by the diagonal \(\{\pm1\}\) makes the class of \(\lambda\) independent of the unit \(\pm1\). All of that is fine. The load-bearing sentence, “\(\mathrm{Art}(\mathfrak{a}/\overline{\mathfrak{a}})\) sends \(b_1\) to \(b_{s/N\mathfrak{a}}\)”, is step 2 applied to \(\lambda/N\mathfrak{a}\). Step 2 requires an element prime to \(4n\). The raw square of \((q^e,\sqrt{-n})\) is not.
+
+**6. GAP.** The shape is the right one once steps 2–5 exist: \(L/\mathbb{Q}\) is abelian if and only if \(c\) commutes with every element of \(\mathrm{Gal}(L/K)\), if and only if \(n\) is idoneal and \(\varepsilon\) is the constant class. Kani, Theorem 6 and Remark 7(b) (OPENED): \(n\) idoneal if and only if \(c(-4n)=1\) if and only if \(\mathrm{Cl}(-4n)\) is an elementary abelian \(2\)-group. The factor \(\varphi(n)/2\) is \(|\mathrm{Gal}(L/H_{\mathcal{O}})|\). The equality for the number of real roots is a numerical seal. The output files were not opened.
+
+**7. GAP.** If \(\omega(n)=1\), then \(\{\pm1\}/\{\pm1\}\) is trivial, so \(\varepsilon=1\). That half is correct. For two prime factors the form \((q^e,0,n/q^e)\) is primitive of discriminant \(-4n\) and ambiguous. The sketch does not produce a representative prime to \(2n\), and the uniformizer sentence does not identify \(\beta\). `theory_out.txt` was not opened. A direct check at \(n=15\), class of \((3,0,5)\): the prime \(\mathfrak{P}=(17,\sqrt{-15}-6)\) satisfies \(\mathfrak{P}^2=(7-4\sqrt{-15})\), and \(7\cdot17^{-1}\equiv11\pmod{15}\), so \((\varepsilon_3,\varepsilon_5)=(-1,+1)\). The pattern claimed for this one class is right. That is one class, not the argument.
+
+**8. CORRECT WITH FIXES.** Kani, Theorem 12 (OPENED): “If \(n\) is idoneal and \(t^2\mid n\), then \(t^2=1,4,9,16\) or \(25\). Moreover: (a) If \(n\) is idoneal and \(9\mid n\), then \(n=9,18,45,72\). (b) If \(n\) is idoneal and \(25\mid n\), then \(n=25\).” The odd prime powers this allows, of exponent at least \(2\), are \(9\) and \(25\). Euler’s list of \(65\) is not used. The odd primes \(\{3,5,7,13,37\}\) are imported from C4, which was not opened. Kani, Theorem 22(a) (OPENED), still allows one fundamental discriminant beyond absolute value \(5460\) with one class per genus. A prime exception would be another odd idoneal prime. “Exactly” is exact only if C4 has already excluded that prime.
+
+**9. CORRECT WITH FIXES.** At \(n=25\), \(h(-100)\varphi(25)/2=20\), so a cyclic factor of order \(10\) survives in \(\mathrm{Gal}(L/K)\) even if \(L/\mathbb{Q}\) is abelian. Inversion on the whole of \(\mathrm{Gal}(L/K)\) is the wrong test; Kani’s inversion is only on \(\mathrm{Gal}(H_{\mathcal{O}}/K)\). The sentence “15 has a maximal order” is false. For odd \(n\), \(\mathbb{Z}[\sqrt{-n}]\) is maximal if and only if \(n\equiv1\pmod{4}\) and \(n\) is squarefree. Here \(15\equiv3\pmod{4}\), discriminant \(-60=2^2\cdot(-15)\), conductor \(2\).
+
+**Prior art.** Not found for “the ray class field of \(\mathbb{Z}[\sqrt{-n}]\) modulo \((\sqrt{-n})\) is abelian over \(\mathbb{Q}\) precisely for \(n\) in that set.” Kani, Theorem 32, is the ring class field \(\mathbb{Q}(j(\sqrt{-n}))\). Kopp–Lagarias, arXiv:2212.09177 (ABSTRACT, and the definition in the HTML): ray class fields of orders exist for an arbitrary ideal modulus and sit inside a ray class field of the maximal order. That paper does not treat this modulus or abelianness over \(\mathbb{Q}\).
+
+**Sources.** OPENED: Kani, Ann. Sci. Math. Québec 35 (2011), via the 2022 archive PDF (Theorems 6, 12, 22, 32, Remark 7(b)); KSY25, arXiv:2506.14139, ar5iv HTML, Proposition 4.1, Proposition 5.1, Remark 5.2, equations (5)–(6); arXiv:2502.04084, Theorem 8. ABSTRACT: Kopp–Lagarias. NOT OPENED: Kubert–Lang’s book for \(2\mid N\), Grube’s 1874 paper, v4/v5.1, `theory_out.txt`, the \(G_n\) runs, C4.
+
+Next strike: write the theta transformation law of \(g_x=\begin{pmatrix}s&-nt\\ t&s\end{pmatrix}\) at level \(4n\), odd \(n\), and prove the multiplier on \(B_k(\tau_0)\) is exactly the sign in \(b_{\pm ks}\).

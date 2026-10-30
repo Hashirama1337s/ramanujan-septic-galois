@@ -1,0 +1,9 @@
+== rerun of the POST HOC p-th-root test with relative-tolerance labelling
+  F_23: polredbest degree 33, signature 11 real roots; 2 s
+  bnfinit done 3 s: h = 1, class group [], unit rank 21, torsion w = 2, regulator 255776199.9
+  roots of G_p in this field: 11  (4 s)
+  p=23: b_1^(k^2)/b_k is a p-th power in F_p for 10 of 10 k; control b_1/b_2 (sum = -3): not a p-th power (as expected)
+  F_31: polredbest degree 45, signature 15 real roots; 20 s
+  bnfinit done 28 s: h = 1, class group [], unit rank 29, torsion w = 2, regulator 1.092318188 e15
+  roots of G_p in this field: 15  (30 s)
+  p=31: b_1^(k^2)/b_k is a p-th power in F_p for 14 of 14 k; control b_1/b_2 (sum = -3): not a p-th power (as expected)

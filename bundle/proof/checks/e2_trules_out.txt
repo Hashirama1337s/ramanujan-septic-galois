@@ -1,0 +1,5 @@
+T rules (f^24(t+1) = -f1^24, f1^24(t+1) = -f^24, f2^24(t+1) = f2^24): 615 616 615 digits
+S rules (f^24 fixed, f1^24 <-> f2^24): 616 614 614 digits
+p=11 tau'=(-1+sqrt(-p))/2: y^12 = -f2(tau')^24: 615 digits; cubic residuals at f^24,-f1^24,-f2^24 (log10): -608 -608 -611
+p=19 tau'=(-1+sqrt(-p))/2: y^12 = -f2(tau')^24: 616 digits; cubic residuals at f^24,-f1^24,-f2^24 (log10): -606 -606 -612
+p=23 tau'=(-1+sqrt(-p))/2: y^12 = -f2(tau')^24: 615 digits; cubic residuals at f^24,-f1^24,-f2^24 (log10): -605 -605 -612

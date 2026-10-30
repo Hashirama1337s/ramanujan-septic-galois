@@ -1,0 +1,6 @@
+p=79 h=5 W=3918 degree=195 (want 195)  conjugates in 83134 ms
+  (i)   rounding error 10^-1199  max coefficient digits 2726  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^-0 -> fails as it should
+  total 168131 ms

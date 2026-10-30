@@ -1,0 +1,5 @@
+GD l=9 m=27 h=3 idoneal=0 ambiguous_cosets=0  |V'| vs closed form rel.err=1e-37  Im/|V'|=1e-152  V' strictly smallest: 1  min log(|sigma V'|/V') = 36.379  proved bound l F/24 = 10.768  (0 s)
+GD l=9 m=51 h=6 idoneal=0 ambiguous_cosets=0  |V'| vs closed form rel.err=1e-0  Im/|V'|=1e-151  V' strictly smallest: 1  min log(|sigma V'|/V') = 112.076  proved bound l F/24 = -33.809  (1 s)
+GD l=9 m=63 h=4 idoneal=0 ambiguous_cosets=0  |V'| vs closed form rel.err=1e-152  Im/|V'|=1e-152  V' strictly smallest: 1  min log(|sigma V'|/V') = 50.672  proved bound l F/24 = 6.540  (1 s)
+GD l=27 m=27 h=3 idoneal=0 ambiguous_cosets=0  |V'| vs closed form rel.err=1e-151  Im/|V'|=1e-151  V' strictly smallest: 1  min log(|sigma V'|/V') = 309.223  proved bound l F/24 = 84.340  (8 s)
+GD l=25 m=75 h=6 idoneal=0 ambiguous_cosets=0  |V'| vs closed form rel.err=1e-151  Im/|V'|=1e-151  V' strictly smallest: 1  min log(|sigma V'|/V') = 396.708  proved bound l F/24 = 190.039  (15 s)

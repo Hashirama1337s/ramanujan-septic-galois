@@ -1,0 +1,36 @@
+nbthreads = 1
+check Geta vs law.gp Gcf: 95 digits
+check H8 vs product formula: 95 digits
+Gt (cubic CF, w = z/2): Gamma(6)-check worst rel. diff = 91 digits agree
+H (Goellnitz-Gordon at q = e^{2 pi i z}): Gamma(8)-check worst rel. diff = 90 digits agree
+Ht (Goellnitz-Gordon at q = e^{pi i z}): Gamma(8)-check worst rel. diff = 91 digits agree
+Ht (Goellnitz-Gordon at q = e^{pi i z}): Gamma(16)-check worst rel. diff = 90 digits agree
+--- calibration: cubic CF at level 6 (RESULT-V1 F2 observed abelian n in {2, 8}, not 5) ---
+Gt m = 2: idoneal 1, h = 1, z = 0.224744871391589049098642037352945695983 | torus elements != +-1: 0, moving z: 0 | eps elements tested: 3, moving z: 0 | psi(G) fixes z (=> abelian, idoneal m): YES
+Gt m = 5: idoneal 1, h = 2, z = 0.096087615996130406187289467874398908606 | torus elements != +-1: 0, moving z: 0 | eps elements tested: 6, moving z: 3 | psi(G) fixes z (=> abelian, idoneal m): NO
+Gt m = 8: idoneal 1, h = 2, z = 0.0517122639159732379480544755191992890642 | torus elements != +-1: 0, moving z: 0 | eps elements tested: 6, moving z: 0 | psi(G) fixes z (=> abelian, idoneal m): YES
+--- stabilisers in SL2(Z/N) at a generic point (S' = {g : F o g~ = F}) ---
+Gt level 6: |S'| = 4 of |SL2(Z/6)|; elements: [[1, 0; 0, 1], [1, 0; 3, 1], [5, 0; 0, 5], [5, 0; 3, 5]]
+Ht level 8: |S'| = 8 of |SL2(Z/8)|; elements: [[1, 0; 0, 1], [1, 0; 4, 1], [1, 4; 0, 1], [1, 4; 4, 1], [7, 0; 0, 7], [7, 0; 4, 7], [7, 4; 0, 7], [7, 4; 4, 7]]
+--- EXPLORATORY: Goellnitz-Gordon Ht(i sqrt m) = H(e^{-pi sqrt m}), level 8, five idoneal m ---
+Ht m = 2: idoneal 1, h = 1, z = 0.107177221224008684154826187129427443360 + 5.09885616967672838162156103826920513710 E-98*I | torus elements != +-1: 3, moving z: 2 (e.g. y = [5, 2]) | eps elements tested: 3, moving z: 3 | psi(G) fixes z (=> abelian, idoneal m): NO
+Ht m = 3: idoneal 1, h = 1, z = 0.065543462815238228564543724879942794922 + 4.33250312493047635046062328243771076680 E-98*I | torus elements != +-1: 2, moving z: 0 | eps elements tested: 3, moving z: 0 | psi(G) fixes z (=> abelian, idoneal m): YES
+Ht m = 4: idoneal 1, h = 1, z = 0.0431332190271042238310601065759705399897 + 1.60441054476571821255871754890612049098 E-98*I | torus elements != +-1: 3, moving z: 2 (e.g. y = [1, 2]) | eps elements tested: 3, moving z: 0 | psi(G) fixes z (=> abelian, idoneal m): NO
+Ht m = 5: idoneal 1, h = 2, z = 0.0297984978937204509634683326506844549480 + 1.76025747974941864311665012441026447290 E-98*I | torus elements != +-1: 2, moving z: 0 | eps elements tested: 6, moving z: 3 | psi(G) fixes z (=> abelian, idoneal m): NO
+Ht m = 7: idoneal 1, h = 1, z = 0.0156672606184639580746995982557911206831 + 2.06750457589216118790132554533024450162 E-97*I | torus elements != +-1: 2, moving z: 0 | eps elements tested: 3, moving z: 0 | psi(G) fixes z (=> abelian, idoneal m): YES
+--- half-characteristic piece: th[1/2,0]/th[0,0] vs (f2/f)^2 (first run compared 2 th/th and got 0 digits: a factor-2 slip in the seat derivation, corrected) ---
+z = 0.10000000000000000000 + 0.9000000000000000000*I: rel diff 99999 digits
+z = 1.4142135623730950488*I: rel diff 95 digits
+z = 2.449489742783178098*I: rel diff 99999 digits
+z = 0.3000000000000000000 + 1.7000000000000000000*I: rel diff 95 digits
+--- parity split (2-peel candidate): th[k/2l,0](z) = (th[k/l,0](z/4) + e^{-pi i k/l} th[k/l,1/2](z/4))/2 ---
+k = 1, l = 3, z = 0.10000000000000000000 + 0.9000000000000000000*I: agree to 99999 digits
+k = 1, l = 3, z = 2.449489742783178098*I: agree to 95 digits
+k = 1, l = 5, z = 0.10000000000000000000 + 0.9000000000000000000*I: agree to 96 digits
+k = 1, l = 5, z = 2.449489742783178098*I: agree to 95 digits
+k = 3, l = 5, z = 0.10000000000000000000 + 0.9000000000000000000*I: agree to 96 digits
+k = 3, l = 5, z = 2.449489742783178098*I: agree to 95 digits
+k = 1, l = 7, z = 0.10000000000000000000 + 0.9000000000000000000*I: agree to 96 digits
+k = 1, l = 7, z = 2.449489742783178098*I: agree to 95 digits
+k = 5, l = 9, z = 0.10000000000000000000 + 0.9000000000000000000*I: agree to 96 digits
+k = 5, l = 9, z = 2.449489742783178098*I: agree to 95 digits

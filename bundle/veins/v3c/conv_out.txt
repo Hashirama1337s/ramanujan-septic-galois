@@ -1,0 +1,5 @@
+p = 23: Q = [101,98,24], a' = 41, predicted sigma_Q(b_1) = b_8;  relative error conv1 / conv2 / conv3 = ["3.09 e-130", "1.00", "9.83 e10"]
+p = 31: Q = [133,130,32], a' = 69, predicted sigma_Q(b_1) = b_10;  relative error conv1 / conv2 / conv3 = ["5.28 e-129", "1.00", "2.25 e18"]
+p = 47: Q = [197,194,48], a' = 21, predicted sigma_Q(b_1) = b_16;  relative error conv1 / conv2 / conv3 = ["6.26 e-130", "1.96 e17", "8.94 e45"]
+p = 127: Q = [517,514,128], a' = 113, predicted sigma_Q(b_1) = b_42;  relative error conv1 / conv2 / conv3 = ["2.71 e-126", "3.90 e89", "3.45 e210"]
+exit 0

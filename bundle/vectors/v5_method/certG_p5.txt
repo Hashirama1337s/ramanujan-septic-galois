@@ -1,0 +1,6 @@
+# certified G_5, coefficients of x^0 .. x^4 (certmin.py, W = 81 bits)
+-1024
+3328
+-1056
+72
+1

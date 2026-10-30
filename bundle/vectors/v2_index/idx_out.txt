@@ -1,0 +1,102 @@
+
+==== p = 7  m = 3  f = 3  h(-4p) = 1  prec = 150
+  label shifts x_Q (x^2 = a_Q): [];  route A vs route B: max |diff| = 9.55 e-153;  sum of log|N| over embeddings = 5.22 e-154
+  X: worst distance to Z = 0.e-38, worst residual = 0.e-38
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 6)
+  P1 rank X = 2   predicted r = m - m/f = 2  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 2)
+  P2 [S : X]: coordinate det = [2, 2; 7, 1]; Gram ratio sqrt = [2, 2; 7, 1]; integral coordinates: 1; Smith form product = [2, 2; 7, 1]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 5.07 e-153, worst residual = 2.39 e-153; rank W = 2; saturation of W = S: 1
+     [S : W]: coordinate det = Mat([2, 2]); Gram ratio sqrt = Mat([2, 2]); integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 2 of 2 k; smallest distance 0.286
+  (0 s)
+
+==== p = 23  m = 11  f = 11  h(-4p) = 3  prec = 300
+  label shifts x_Q (x^2 = a_Q): [7];  route A vs route B: max |diff| = 2.72 e-305;  sum of log|N| over embeddings = -9.08 e-306
+  X: worst distance to Z = 0.e-154, worst residual = 0.e-154
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 22)
+  P1 rank X = 10   predicted r = m - m/f = 10  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 10)
+  P2 [S : X]: coordinate det = [2, 10; 23, 9]; Gram ratio sqrt = [2, 10; 23, 9]; integral coordinates: 1; Smith form product = [2, 10; 23, 9]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 2.21 e-305, worst residual = 2.85 e-305; rank W = 10; saturation of W = S: 1
+     [S : W]: coordinate det = Mat([2, 10]); Gram ratio sqrt = Mat([2, 10]); integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 10 of 10 k; smallest distance 0.435
+  N2 shift x_Q + 1: distance to Z = 0.499, residual = 3.74 e-306 -> rejected (null HOLDS)
+  (0 s)
+
+==== p = 47  m = 23  f = 23  h(-4p) = 5  prec = 300
+  label shifts x_Q (x^2 = a_Q): [12, 17];  route A vs route B: max |diff| = 2.95 e-304;  sum of log|N| over embeddings = -2.71 e-304
+  X: worst distance to Z = 6.23 e-305, worst residual = 5.54 e-305
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 46)
+  P1 rank X = 22   predicted r = m - m/f = 22  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 22)
+  P2 [S : X]: coordinate det = [2, 22; 47, 21; 139, 1]; Gram ratio sqrt = [2, 22; 47, 21; 139, 1]; integral coordinates: 1; Smith form product = [2, 22; 47, 21; 139, 1]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 6.95 e-304, worst residual = 6.29 e-304; rank W = 22; saturation of W = S: 1
+     [S : W]: coordinate det = [2, 22; 139, 1]; Gram ratio sqrt = [2, 22; 139, 1]; integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 22 of 22 k; smallest distance 0.468
+  N2 shift x_Q + 1: distance to Z = 0.489, residual = 5.84 e-305 -> rejected (null HOLDS)
+  (1 s)
+
+==== p = 31  m = 15  f = 5  h(-4p) = 3  prec = 300
+  label shifts x_Q (x^2 = a_Q): [6];  route A vs route B: max |diff| = 6.34 e-305;  sum of log|N| over embeddings = 1.43 e-304
+  X: worst distance to Z = 2.63 e-305, worst residual = 2.14 e-305
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 30)
+  P1 rank X = 12   predicted r = m - m/f = 12  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 12)
+  P2 [S : X]: coordinate det = [2, 12; 31, 11]; Gram ratio sqrt = [2, 12; 31, 11]; integral coordinates: 1; Smith form product = [2, 12; 31, 11]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 1.87 e-304, worst residual = 1.68 e-304; rank W = 12; saturation of W = S: 1
+     [S : W]: coordinate det = Mat([2, 12]); Gram ratio sqrt = Mat([2, 12]); integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 14 of 14 k; smallest distance 0.452
+  N2 shift x_Q + 1: distance to Z = 0.463, residual = 2.28 e-305 -> rejected (null HOLDS)
+  (0 s)
+
+==== p = 127  m = 63  f = 7  h(-4p) = 5  prec = 450
+  label shifts x_Q (x^2 = a_Q): [12, 30];  route A vs route B: max |diff| = 3.46 e-237;  sum of log|N| over embeddings = -5.44 e-457
+  X: worst distance to Z = 0.e-308, worst residual = 0.e-308
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 126)
+  P1 rank X = 54   predicted r = m - m/f = 54  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 54)
+  P2 [S : X]: coordinate det = [2, 54; 43, 1; 127, 53; 547, 1; 883, 1; 626599, 1]; Gram ratio sqrt = [2, 54; 43, 1; 127, 53; 547, 1; 883, 1; 626599, 1]; integral coordinates: 1; Smith form product = [2, 54; 43, 1; 127, 53; 547, 1; 883, 1; 626599, 1]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 3.12 e-456, worst residual = 2.38 e-456; rank W = 54; saturation of W = S: 1
+     [S : W]: coordinate det = [2, 54; 43, 1; 547, 1; 883, 1; 626599, 1]; Gram ratio sqrt = [2, 54; 43, 1; 547, 1; 883, 1; 626599, 1]; integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 62 of 62 k; smallest distance 0.488
+  N2 shift x_Q + 1: distance to Z = 0.491, residual = 3.78 e-458 -> rejected (null HOLDS)
+  (32 s)
+
+==== p = 151  m = 75  f = 15  h(-4p) = 7  prec = 450
+  label shifts x_Q (x^2 = a_Q): [55, 64, 39];  route A vs route B: max |diff| = 2.95 e-236;  sum of log|N| over embeddings = -5.52 e-457
+  X: worst distance to Z = 1.09 e-457, worst residual = 1.37 e-457
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 150)
+  P1 rank X = 70   predicted r = m - m/f = 70  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 70)
+  P2 [S : X]: coordinate det = [2, 70; 11, 2; 151, 69; 25951, 1; 1207501, 1; 312885301, 1]; Gram ratio sqrt = [2, 70; 11, 2; 151, 69; 25951, 1; 1207501, 1; 312885301, 1]; integral coordinates: 1; Smith form product = [2, 70; 11, 2; 151, 69; 25951, 1; 1207501, 1; 312885301, 1]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 4.08 e-456, worst residual = 4.95 e-456; rank W = 70; saturation of W = S: 1
+     [S : W]: coordinate det = [2, 70; 11, 2; 25951, 1; 1207501, 1; 312885301, 1]; Gram ratio sqrt = [2, 70; 11, 2; 25951, 1; 1207501, 1; 312885301, 1]; integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 74 of 74 k; smallest distance 0.490
+  N2 shift x_Q + 1: distance to Z = 0.500, residual = 1.07 e-457 -> rejected (null HOLDS)
+  (59 s)
+
+==== p = 223  m = 111  f = 37  h(-4p) = 7  prec = 500
+  label shifts x_Q (x^2 = a_Q): [26, 67, 54];  route A vs route B: max |diff| = 9.76 e-254;  sum of log|N| over embeddings = -5.23 e-494
+  X: worst distance to Z = 0.e-462, worst residual = 0.e-462
+  P5 exponent vector of N = Corollary 1 vector sigma_{1/4} beta (sigma_2 - 1): 1   (max |exponent| = 222)
+  P1 rank X = 108   predicted r = m - m/f = 108  -> HOLDS
+  P3 saturation S = lattice of (sigma_2 - 1) sigma_c (HNF equal): 1  (rank of that lattice 108)
+  P2 [S : X]: coordinate det = [2, 108; 223, 107; 721184094096513240020505852919000357402463, 1]; Gram ratio sqrt = [2, 108; 223, 107; 721184094096513240020505852919000357402463, 1]; integral coordinates: 1; Smith form product = [2, 108; 223, 107; 721184094096513240020505852919000357402463, 1]
+  P4 N(w_k) vectors (all k, all conjugates): worst distance to Z = 5.02 e-494, worst residual = 7.36 e-494; rank W = 108; saturation of W = S: 1
+     [S : W]: coordinate det = [2, 108; 721184094096513240020505852919000357402463, 1]; Gram ratio sqrt = [2, 108; 721184094096513240020505852919000357402463, 1]; integral: 1
+  N3 unweighted w-null: non-integral (dist > 1e-3) for 110 of 110 k; smallest distance 0.493
+  N2 shift x_Q + 1: distance to Z = 0.499, residual = 4.27 e-496 -> rejected (null HOLDS)
+  (260 s)
+
+SUMMARY [rank X, [S:X], rank W, [S:W]]:
+  ***   syntax error, unexpected end of file, expecting )-> or ',' or ')': 
+  ***   ...,p)),r=m-m/f,P=predPX(p));
+  ***                               ^-
+... skipping file 'idx.gp'
+  ***   syntax error, unexpected end of file, expecting )-> or ',' or ')': 
+  ***   ...-1): ",v[4]==P[1]/p^(r-1),
+  ***                               ^-
+  ***   syntax error, unexpected ',', expecting end of file: "; N1: [S:X] != 
+  ***   COR2: ",v[2]!=P[2],", rank !=
+  ***          ^----------------------

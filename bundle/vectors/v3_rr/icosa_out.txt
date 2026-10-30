@@ -1,0 +1,4 @@
+Mat([5, 50])
+2 icosa residual 1e-214
+3 icosa residual 1e-216
+4 icosa residual 1e-99999

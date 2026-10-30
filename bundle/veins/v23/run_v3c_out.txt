@@ -1,0 +1,31 @@
+==== p = 7 and 23: p-th-root test (POST HOC)
+p=7 h=1 W=303 degree=3 (want 3)  conjugates in 3 ms
+  (i)   rounding error 10^-304  max coefficient digits 2  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  total 3 ms
+  F_7: polredbest degree 3, signature 3 real roots; 0 s
+  bnfinit done 0 s: h = 1, class group [], unit rank 2, torsion w = 2, regulator 0.5254546821
+  roots of G_p in this field: 3  (0 s)
+  p=7: b_1^(k^2)/b_k is a p-th power in F_p for 2 of 2 k; control b_1/b_2 (sum = -3): not a p-th power (as expected)
+  F_23: polredbest degree 33, signature 11 real roots; 2 s
+  bnfinit done 4 s: h = 1, class group [], unit rank 21, torsion w = 2, regulator 255776199.9
+  roots of G_p in this field: 11  (4 s)
+  p=23: b_1^(k^2)/b_k is a p-th power in F_p for 10 of 10 k; control b_1/b_2 (sum = -3): not a p-th power (as expected)
+==== p = 31
+p=31 h=3 W=589 degree=45 (want 45)  conjugates in 398 ms
+  (i)   rounding error 10^-383  max coefficient digits 210  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  total 404 ms
+  F_31: polredbest degree 45, signature 15 real roots; 21 s
+  bnfinit done 29 s: h = 1, class group [], unit rank 29, torsion w = 2, regulator 1.092318188 e15
+  roots of G_p in this field: 15  (31 s)
+  F_31: rank of <-1, conjugates> = 15 of unit rank 29  (NOT full)
+    index in its saturation = 22708318056623889609630 = [2, 1; 3, 1; 5, 1; 31, 14]
+    elementary divisors [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 930, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 1]
+    null (squares): index 744106166079451614728355840, ratio 32768 (want 2^15 = 32768)
+    h = 1,  index / h = 22708318056623889609630 = [2, 1; 3, 1; 5, 1; 31, 14]
+  p=31: b_1^(k^2)/b_k is a p-th power in F_p for 12 of 14 k; control b_1/b_2 (sum = -3): not a p-th power (as expected)
+  total 64 s
+exit 0

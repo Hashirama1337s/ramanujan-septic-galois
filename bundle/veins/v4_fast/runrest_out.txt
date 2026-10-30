@@ -1,0 +1,23 @@
+p=59 h=9 W=4584 degree=261 (want 261)  conjugates in 140766 ms
+  (i)   rounding error 10^-1362  max coefficient digits 3218  monic=1
+  (iii) constant term = -2^5133 * 1   predicted 2^5133  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^-0 -> fails as it should
+  total 281783 ms
+p=71 h=7 W=3900 degree=245 (want 245)  conjugates in 74680 ms
+  (i)   rounding error 10^-1209  max coefficient digits 2697  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^-0 -> fails as it should
+  total 152294 ms
+p=83 h=9 W=9773 degree=369 (want 369)  conjugates in 1130033 ms
+  (i)   rounding error 10^-2604  max coefficient digits 7177  monic=1
+  (iii) constant term = -2^10209 * 1   predicted 2^10209  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^-0 -> fails as it should
+  total 2257989 ms
+p=89 h=12 W=16697 degree=528 (want 528)  conjugates in 5278918 ms
+  (i)   rounding error 10^-4240  max coefficient digits 12456  monic=1
+  (iii) constant term = +2^23496 * 1   predicted 2^23496  -> MATCH
+  (iv)  irreducible=1
+exit 124

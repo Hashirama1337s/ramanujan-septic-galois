@@ -1,0 +1,16 @@
+  ***   Warning: new maximum stack size = 4000002048 (3814.699 Mbytes).
+ctrl l=3 m=15 (m mod l=0) idoneal=1 h=2 cl2=2 |C_N|=48 deg=2 preddeg=2 ok real=2/2 predreal=2 ok => ABELIAN pred=ABELIAN HIT  {exact: round=1e-152 den=1 irred=1 P(z)@2W=1e-308 sturm=2 W=150 [degree <= 2] P=x^2 - 7*x + 1}  (0 s)
+ctrl l=3 m=7 (m mod l=1) idoneal=1 h=1 cl2=1 |C_N|=32 deg=4 preddeg=4 ok real=2/4 predreal=2 ok => NOT ABELIAN pred=NOT ABELIAN HIT  {exact: round=1e-151 den=1 irred=1 P(z)@2W=1e-307 sturm=2 W=150 [not Galois: mod 5 factor degrees [1, 1, 2]] P=x^4 - 8*x^3 + x + 1}  (0 s)
+ctrl l=5 m=15 (m mod l=0) idoneal=1 h=2 cl2=2 |C_N|=160 deg=4 preddeg=4 ok real=4/4 predreal=4 ok => ABELIAN pred=ABELIAN HIT  {exact: round=1e-150 den=1 irred=1 P(z)@2W=1e-308 sturm=4 W=150 [[4]] P=x^4 - 28*x^3 + 194*x^2 - 347*x + 1}  (0 s)
+ctrl l=5 m=21 (m mod l=1) idoneal=1 h=4 cl2=4 |C_N|=256 deg=32 preddeg=32 ok real=16/32 predreal=16 ok => NOT ABELIAN pred=NOT ABELIAN HIT  {exact: round=1e-152 den=1 irred=1 P(z)@2W=1e-372 sturm=16 W=174 [not Galois: mod 419 factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]]}  (0 s)
+ctrl l=5 m=1365 (m mod l=0) idoneal=1 h=16 cl2=16 |C_N|=1280 deg=32 preddeg=32 ok real=32/32 predreal=32 ok => ABELIAN pred=ABELIAN HIT  {exact: round=1e-153 den=1 irred=1 P(z)@2W=1e-536 sturm=32 W=248 [[4, 2, 2, 2]]}  (3 s)
+  NULL conv=2 l=3 m=21: 16 distinct values; distance of coefficients to integers 1e-198  -> DID NOT FAIL
+  NULL conv=3 l=3 m=21: 4 distinct values; distance of coefficients to integers 1e-207  -> DID NOT FAIL
+  NULL conv=2 l=5 m=21: 46 distinct values; distance of coefficients to integers 1e-0  -> fails as it should
+  NULL conv=3 l=5 m=21: 40 distinct values; distance of coefficients to integers 1e-0  -> fails as it should
+product identity l=3 tau=i sqrt 5+0.3: |lhs/rhs - 1| = 1e-95
+product identity l=7 tau=i sqrt 3+0.3: |lhs/rhs - 1| = 1e-95
+product identity l=7 tau=i sqrt 21+0.3: |lhs/rhs - 1| = 1e-94
+product identity l=11 tau=i sqrt 9+0.3: |lhs/rhs - 1| = 1e-94
+product identity l=13 tau=i sqrt 13+0.3: |lhs/rhs - 1| = 1e-95
+product identity l=15 tau=i sqrt 7+0.3: |lhs/rhs - 1| = 1e-95

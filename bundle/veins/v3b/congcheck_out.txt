@@ -1,0 +1,5 @@
+p = 5: all x with t = 1 mod p; lifts checked 128000; non-integral S 0; basis vectors with 2Phi not in Z 0; null (e_1) with 2Phi not in Z: 102400  (4 s)
+p = 7: all x with t = 1 mod p; lifts checked 702464; non-integral S 0; basis vectors with 2Phi not in Z 0; null (e_1) with 2Phi not in Z: 602112  (31 s)
+p = 11: 20000 random x; lifts checked 9042; non-integral S 0; basis vectors with 2Phi not in Z 0; null (e_1) with 2Phi not in Z: 8196  (0 s)
+p = 13: 20000 random x; lifts checked 17774; non-integral S 0; basis vectors with 2Phi not in Z 0; null (e_1) with 2Phi not in Z: 16428  (1 s)
+exit 0

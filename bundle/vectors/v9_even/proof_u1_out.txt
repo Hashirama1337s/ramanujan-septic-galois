@@ -1,0 +1,30 @@
+nbthreads = 1
+================ GG Ht: F(z) = g_(1/8,0)(4z) / g_(3/8,0)(4z), level 8 ================
+(1) 200 random Gamma(8) elements: F o h = F exactly: 1
+(2) S' element [1, 0; 0, 1] lift [1, 0; 8, 1]: F o h = e^{pi i 0} F^1
+(2) S' element [1, 0; 4, 1] lift [1, 0; 4, 1]: F o h = e^{pi i 0} F^1
+(2) S' element [1, 4; 0, 1] lift [33, 4; 8, 1]: F o h = e^{pi i 0} F^1
+(2) S' element [1, 4; 4, 1] lift [17, 4; 4, 1]: F o h = e^{pi i 0} F^1
+(2) S' element [7, 0; 0, 7] lift [55, 48; 8, 7]: F o h = e^{pi i 0} F^1
+(2) S' element [7, 0; 4, 7] lift [55, 96; 4, 7]: F o h = e^{pi i 0} F^1
+(2) S' element [7, 4; 0, 7] lift [23, 20; 8, 7]: F o h = e^{pi i 0} F^1
+(2) S' element [7, 4; 4, 7] lift [39, 68; 4, 7]: F o h = e^{pi i 0} F^1
+(2) all claimed elements fix F exactly: 1
+(3) |SL2(Z/8)| = 384, |S'| = 8, cosets = 48; sum of orders = 0 (must be 0); poles (degree) = 1; zeros = 1
+    multiset of orders: [-1/4, -1/4, -1/4, -1/4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1/4, 1/4, 1/4, 1/4]
+(3b) order is constant on cosets: 1
+================ CF Gt: F(z) = g_(1/6,0)(3z) / g_(1/2,0)(3z), level 6 ================
+(1) 200 random Gamma(6) elements: F o h = F exactly: 1
+(2) S' element [1, 0; 0, 1] lift [1, 0; 6, 1]: F o h = e^{pi i 0} F^1
+(2) S' element [1, 0; 3, 1] lift [1, 0; 3, 1]: F o h = e^{pi i 0} F^1
+(2) S' element [5, 0; 0, 5] lift [29, 24; 6, 5]: F o h = e^{pi i 0} F^1
+(2) S' element [5, 0; 3, 5] lift [29, 48; 3, 5]: F o h = e^{pi i 0} F^1
+(2) all claimed elements fix F exactly: 1
+(3) |SL2(Z/6)| = 144, |S'| = 4, cosets = 36; sum of orders = 0 (must be 0); poles (degree) = 1; zeros = 1
+    multiset of orders: [-1/3, -1/3, -1/3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
+(3b) order is constant on cosets: 1
+(N0) Ht = g_(1/8,0)(4z)/g_(3/8,0)(4z): 75 digits
+(N0) Gt = g_(1/6,0)(3z)/g_(1/2,0)(3z): 76 digits
+(N1) numeric control of the exact action formula: 339 random elements of Gamma0(4), worst rel. error 1e-74
+(N1) numeric control of the exact action formula: 237 random elements of Gamma0(3), worst rel. error 1e-74
+(E) idoneal 4m for m = 3, 7, 15: [1, 1, 1]; 9n for n = 2, 8: [1, 1]

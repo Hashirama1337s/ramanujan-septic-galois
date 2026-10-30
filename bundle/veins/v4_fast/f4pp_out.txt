@@ -1,0 +1,6 @@
+== F4'' validation (13, 73, 97)
+  (F4'') p=13 relative closure correct: 10^-133   wrong: 10^-1  -> PASS
+  (F4'') p=73 relative closure correct: 10^-130   wrong: 10^-1  -> PASS
+  (F4'') p=97 relative closure correct: 10^-129   wrong: 10^-1  -> PASS
+== F4'' on p = 89
+  (F4'') p=89 relative closure correct: 10^-130   wrong: 10^-1  -> PASS

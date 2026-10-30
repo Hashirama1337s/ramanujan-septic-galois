@@ -1,0 +1,21 @@
+p=7: 2/f^2 = i g(0,1/2) g(1/2,0): 1502 digits; b_1 formula: 1502 digits; cubic residuals (log10): -1490 -1492 -1498
+p=11: 2/f^2 = i g(0,1/2) g(1/2,0): 1502 digits; b_1 formula: 1501 digits; cubic residuals (log10): -1488 -1488 -1498
+p=13: 2/f^2 = i g(0,1/2) g(1/2,0): 1502 digits; b_1 formula: 1502 digits; cubic residuals (log10): -1488 -1486 -1499
+--- norms of Y = (2/f(sqrt -p)^2)^4 over Q ---
+p=7 (7 mod 8) h=1 deg=1 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^0 * 1   predicted 2^0  MATCH
+p=23 (7 mod 8) h=3 deg=3 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^0 * 1   predicted 2^0  MATCH
+p=31 (7 mod 8) h=3 deg=3 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^0 * 1   predicted 2^0  MATCH
+p=47 (7 mod 8) h=5 deg=5 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^0 * 1   predicted 2^0  MATCH
+p=71 (7 mod 8) h=7 deg=7 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^0 * 1   predicted 2^0  MATCH
+p=11 (3 mod 8) h=3 deg=3 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=19 (3 mod 8) h=3 deg=3 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=43 (3 mod 8) h=3 deg=3 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=59 (3 mod 8) h=9 deg=9 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^12 * 1   predicted 2^12  MATCH
+p=67 (3 mod 8) h=3 deg=3 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=83 (3 mod 8) h=9 deg=9 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^12 * 1   predicted 2^12  MATCH
+p=5 (1 mod 4) h=2 deg=2 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=13 (1 mod 4) h=2 deg=2 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=17 (1 mod 4) h=4 deg=4 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^8 * 1   predicted 2^8  MATCH
+p=29 (1 mod 4) h=6 deg=6 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^12 * 1   predicted 2^12  MATCH
+p=37 (1 mod 4) h=2 deg=2 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^4 * 1   predicted 2^4  MATCH
+p=41 (1 mod 4) h=8 deg=8 irreducible=1 monic=1 root ok=1 |N(Y)| = 2^16 * 1   predicted 2^16  MATCH

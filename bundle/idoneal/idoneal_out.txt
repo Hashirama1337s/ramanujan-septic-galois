@@ -1,0 +1,20 @@
+control n=7 (basis 6, W=3000): ABELIAN via u^7 (max|n|~1e1, holds 3407)
+control n=13 (basis 12, W=3000): ABELIAN via u^13 (max|n|~1e7, holds 3403)
+idoneal n=15 (basis 8, W=3000): NOT ABELIAN
+idoneal n=21 (basis 12, W=3000): NOT ABELIAN
+idoneal n=25 (basis 20, W=3000): ABELIAN via u^25 (max|n|~1e20, holds 3388)
+idoneal n=33 (basis 20, W=3000): NOT ABELIAN
+idoneal n=45 (basis 24, W=3000): NOT ABELIAN
+idoneal n=57 (basis 36, W=3000): NOT ABELIAN
+idoneal n=85 (basis 64, W=3840): NOT ABELIAN
+idoneal n=93 (basis 60, W=3600): NOT ABELIAN
+idoneal n=105 (basis 48, W=3000): NOT ABELIAN
+non-idoneal n=11 (basis 10, W=3000): NOT ABELIAN
+non-idoneal n=27 (basis 18, W=3000): NOT ABELIAN
+non-idoneal n=35 (basis 24, W=3000): NOT ABELIAN
+non-idoneal n=39 (basis 24, W=3000): NOT ABELIAN
+non-idoneal n=51 (basis 32, W=3000): NOT ABELIAN
+non-idoneal n=55 (basis 40, W=3000): NOT ABELIAN
+non-idoneal n=63 (basis 36, W=3000): NOT ABELIAN
+non-idoneal n=69 (basis 44, W=3000): NOT ABELIAN
+non-idoneal n=75 (basis 40, W=3000): NOT ABELIAN

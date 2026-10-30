@@ -1,0 +1,10 @@
+p = 11, reduced forms [[1, 0, 11], [3, -2, 4], [3, 2, 4]]
+  convention 1: degree 15, rounding error 10^-1473, max coefficient digits 27
+  min separation 10^-3.0, irreducible=1
+  convention 2: degree 15, rounding error 10^-0, max coefficient digits 26
+  convention 3: degree 15, rounding error 10^-0, max coefficient digits 34
+  G = x^15 + 8000*x^14 + 20708096*x^13 + 14352893952*x^12 - 4688204922880*x^11 - 11109022268129280*x^10 - 5400272091868037120*x^9 - 921276628372023148544*x^8 + 30275077202849310965760*x^7 - 2987680524480183839752192*x^6 + 200589033414364359070580736*x^5 - 127224270916539148104892416*x^4 + 37698290352842777986859008*x^3 - 9252005296440824286937088*x^2 + 9247677964043694374912*x - 36028797018963968
+  polredbest: x^15 - 6*x^14 + 7*x^13 + 10*x^12 - x^11 - 45*x^10 + 9*x^9 + 40*x^8 + 36*x^7 - 49*x^6 - 21*x^5 + 27*x^3 - 6*x^2 - 4*x + 1
+  number of automorphisms of Q(b_1): 5 (degree 15) -> NOT Galois over Q, hence not abelian
+  field discriminant factorisation: [-1, 1; 2, 10; 11, 13]
+  polclass(-44) = x^3 - 1122662608*x^2 + 270413882112*x - 653249011576832; polgalois: [6, -1, 1, "S3"]; Q(j) subfield of Q(b_1): 1

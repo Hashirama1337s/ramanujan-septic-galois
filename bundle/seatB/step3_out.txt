@@ -1,0 +1,8 @@
+direct target series vs product digits: 1599
+C4 rebuild digits of agreement: 1595
+negative control: 168 perturbations, max digits of agreement after perturbation = 6
+perturbations still agreeing to >=20 digits: []
+quintic roots vs table b_k digits: [1600, 1599, 1595, 1590, 1588]
+C4 via quintic route digits: 1590
+e5 vs P^11 digits: 1588
+time 0.9978158473968506

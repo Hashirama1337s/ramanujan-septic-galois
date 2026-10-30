@@ -1,0 +1,39 @@
+{
+  "title": "Moki & Julio: Ramanujan's septic theta identity at every odd prime - explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "version": "1.0",
+  "description": "<p>On page 206 of the lost notebook Ramanujan recorded an incomplete septic identity for phi(q); Rebak (2023) supplied the missing terms. For every odd prime p the p-dissection of phi at q = e^{-pi/sqrt p} gives pieces u_k; we study b_k = u_k^p at the CM point and their relatives at other levels. Results: explicit identities at p = 11 and 13 and certified minimal polynomials of b_1 at every prime 5 &lt;= p &lt;= 97 (ball arithmetic); the field F_p of the pieces, an explicit Galois rule, integrality and the 2-adic valuation law, units exactly for p = 7 mod 8, with an index formula in Bernoulli numbers; the cyclotomic cases (p in {3, 5, 7, 13, 37}; odd n in {3, 5, 7, 9, 13, 25, 37}); one abelian-over-Q law at every odd level in terms of Euler's idoneal numbers (Theorem G), covering Berndt-Rebak's cubic and quintic pieces and the Rogers-Ramanujan continued fraction; even-level laws for the Goellnitz-Gordon (m = 3, 7, 15) and cubic (n = 2, 8) continued fractions; and a Stark-unit dictionary for the pieces. Proofs were checked by independent AI reviewers, not yet by a human expert; status words and condition tags are given for every statement; nothing rests on GRH. Code, data, sealed predictions and a clean-room record are included. Text CC BY 4.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Ramanujan lost notebook",
+    "theta dissection",
+    "complex multiplication",
+    "idoneal numbers",
+    "ring class fields",
+    "Shimura reciprocity",
+    "Stark units",
+    "Rogers-Ramanujan continued fraction",
+    "cubic continued fraction",
+    "Goellnitz-Gordon continued fraction",
+    "ball arithmetic"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2112.11884",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "10.5281/zenodo.22285880",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

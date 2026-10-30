@@ -1,0 +1,3 @@
+# BAR-SWEEP2 Amendment 2 (Galois transport; before any run of it at 41, 53, 59, 61, 71, 73(restart), 79, 83, 89, 97)
+Validated on p = 29 and 31 against the brute-force tables (identical S2 to 1-2 digits).
+Method: one LLL relation for b_1 at W; every b_k must be matched to >= 0.9 W as an explicit Galois image of b_1's expression (cos 2pi/N -> cos 2pi a/N, P -> a root of P's minimal polynomial). S1 holds iff all pieces are matched. S2 as before (rebuilt from b_1's relation + images). S3: 40 random +-1 changes to b_1's relation. NC: wrong conductor for b_1. Observed rule to be re-checked at each prime: the image under a is the piece k with k^2 = +-a (mod p).

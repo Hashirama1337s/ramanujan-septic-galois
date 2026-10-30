@@ -1,0 +1,56 @@
+p=7 h=1 W=303 degree=3 (want 3)  conjugates in 4 ms
+  (i)   rounding error 10^-304  max coefficient digits 2  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  total 4 ms
+
+==== p = 7  h = 1
+  Q(zeta_p)^+: h+ = 1  bnfcertify = 1
+  G_p over Q(zeta_p)^+: 3 factors of degree 1
+  [E : C+] = 4;  [E : <Galois conjugates of N(b)>] = 28 (rank 2);  ratio [C+ : <N(b)^G>] = 7 = Mat([7, 1])
+  N(b) exponents in xi_2..xi_m: Mat([-2, -1])
+    chi^2: |A/C| = 4.582575695  |B_{1,chi psi}| = 0.7559289460  ratio 6.062177826  ratio/|1-chi(2)| = 3.500000000  ratio/|2-chi(2)| = 2.291287847
+    chi^4: |A/C| = 4.582575695  |B_{1,chi psi}| = 0.7559289460  ratio 6.062177826  ratio/|1-chi(2)| = 3.500000000  ratio/|2-chi(2)| = 2.291287847
+  product over chi != 1 of |chi ratio| = 21.0000000000 ; product of |B_{1, chi psi}| = 0.571428571429 ; h^-(Q(zeta_p)) via B: 1.0000000
+  total 0 s
+
+==== p = 23  h = 3
+  Q(zeta_p)^+: h+ = 1  bnfcertify = 1
+  G_p over Q(zeta_p)^+: 11 factors of degree 3
+  [E : C+] = 1024;  [E : <Galois conjugates of N(b)>] = 1844380325338112 (rank 10);  ratio [C+ : <N(b)^G>] = 1801152661463 = Mat([23, 9])
+  N(b) exponents in xi_2..xi_m: Mat([7, -3, -8, 11, 10, -2, -4, -1, -6, 5])
+    chi^2: |A/C| = 14.15197501  |B_{1,chi psi}| = 1.138099902  ratio 12.43473880  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 6.805677845
+    chi^4: |A/C| = 32.80206386  |B_{1,chi psi}| = 1.567861175  ratio 20.92153589  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 7.579349842
+    chi^6: |A/C| = 19.91212082  |B_{1,chi psi}| = 0.8746470293  ratio 22.76589316  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 7.657876981
+    chi^8: |A/C| = 28.83257716  |B_{1,chi psi}| = 1.658737700  ratio 17.38224021  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 7.365581271
+    chi^10: |A/C| = 16.70138165  |B_{1,chi psi}| = 2.577433848  ratio 6.479848807  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 5.067664686
+    chi^12: |A/C| = 16.70138165  |B_{1,chi psi}| = 2.577433848  ratio 6.479848807  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 5.067664686
+    chi^14: |A/C| = 28.83257716  |B_{1,chi psi}| = 1.658737700  ratio 17.38224021  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 7.365581271
+    chi^16: |A/C| = 19.91212082  |B_{1,chi psi}| = 0.8746470293  ratio 22.76589316  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 7.657876981
+    chi^18: |A/C| = 32.80206386  |B_{1,chi psi}| = 1.567861175  ratio 20.92153589  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 7.579349842
+    chi^20: |A/C| = 14.15197501  |B_{1,chi psi}| = 1.138099902  ratio 12.43473880  ratio/|1-chi(2)| = 11.50000000  ratio/|2-chi(2)| = 6.805677845
+  product over chi != 1 of |chi ratio| = 1.98126792761 e13 ; product of |B_{1, chi psi}| = 44.5217391304 ; h^-(Q(zeta_p)) via B: 3.0000000
+  total 0 s
+
+==== p = 31  h = 3
+  Q(zeta_p)^+: h+ = 1  bnfcertify = 1
+  G_p over Q(zeta_p)^+: 15 factors of degree 3
+  [E : C+] = 16384;  [E : <Galois conjugates of N(b)>] = 104073121367674187776 (rank 12);  ratio [C+ : <N(b)^G>] = 25408476896404831/4 = [2, -2; 31, 11]
+  N(b) exponents in xi_2..xi_m: Mat([3, -2, -14, -5, -1, -8, -7, 11, 13, -9, 15, -10, -4, 12])
+    chi^2: |A/C| = 32.55938077  |B_{1,chi psi}| = 1.104353514  ratio 29.48275201  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 10.27325476
+    chi^4: |A/C| = 22.63991260  |B_{1,chi psi}| = 1.242494191  ratio 18.22134282  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 9.392030483
+    chi^6: |A/C| = 36.44268564  |B_{1,chi psi}| = 2.000000000  ratio 18.22134282  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 9.392030483
+    chi^8: |A/C| = 22.99705860  |B_{1,chi psi}| = 0.7800173673  ratio 29.48275201  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 10.27325476
+    chi^10: |A/C| = 2.351714758 e-154  |B_{1,chi psi}| = 3.464101615  ratio 6.788815744 e-155  ratio/|1-chi(2)| = chi(2)=1  ratio/|2-chi(2)| = 6.788815744 e-155
+    chi^12: |A/C| = 58.96550401  |B_{1,chi psi}| = 2.000000000  ratio 29.48275201  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 10.27325476
+    chi^14: |A/C| = 48.92296370  |B_{1,chi psi}| = 2.684926362  ratio 18.22134282  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 9.392030483
+    chi^16: |A/C| = 48.92296370  |B_{1,chi psi}| = 2.684926362  ratio 18.22134282  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 9.392030483
+    chi^18: |A/C| = 58.96550401  |B_{1,chi psi}| = 2.000000000  ratio 29.48275201  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 10.27325476
+    chi^20: |A/C| = 2.351714758 e-154  |B_{1,chi psi}| = 3.464101615  ratio 6.788815744 e-155  ratio/|1-chi(2)| = chi(2)=1  ratio/|2-chi(2)| = 6.788815744 e-155
+    chi^22: |A/C| = 22.99705860  |B_{1,chi psi}| = 0.7800173673  ratio 29.48275201  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 10.27325476
+    chi^24: |A/C| = 36.44268564  |B_{1,chi psi}| = 2.000000000  ratio 18.22134282  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 9.392030483
+    chi^26: |A/C| = 22.63991260  |B_{1,chi psi}| = 1.242494191  ratio 18.22134282  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 9.392030483
+    chi^28: |A/C| = 32.55938077  |B_{1,chi psi}| = 1.104353514  ratio 29.48275201  ratio/|1-chi(2)| = 15.50000000  ratio/|2-chi(2)| = 10.27325476
+  product over chi != 1 of |chi ratio| = 1.75653955692 e-289 ; product of |B_{1, chi psi}| = 1585.54838710 ; h^-(Q(zeta_p)) via B: 9.0000000
+  total 106 s
+exit 0

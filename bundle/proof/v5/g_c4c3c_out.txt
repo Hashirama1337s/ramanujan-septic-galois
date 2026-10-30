@@ -1,0 +1,28 @@
+(A) primes 5..1000: 2388 non-principal reduced forms checked, failures = 0; principal-form equality (control) holds: 1
+(B) P = 2^{(p-1)/2} f^{1-p} for primes 5..61 at 300 digits: failures = 0
+(C) p=5 h=2: deg minpoly(v)=2 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=-1003 max coeff log10=1001 (vs 3 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(C) p=7 h=1: deg minpoly(v)=1 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=n/a max coeff log10=n/a (vs 0 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(C) p=11 h=3: deg minpoly(v)=3 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=-1336 max coeff log10=667 (vs 21 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(C) p=13 h=2: deg minpoly(v)=2 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=-1002 max coeff log10=1001 (vs 32 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(C) p=17 h=4: deg minpoly(v)=4 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=-1503 max coeff log10=501 (vs 105 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(C) p=19 h=3: deg minpoly(v)=3 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=-1336 max coeff log10=667 (vs 85 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(C) p=23 h=3: deg minpoly(v)=3 irreducible=1 residual log10=-2400 | best degree-(h-1) relation: residual log10=-1359 max coeff log10=649 (vs 62 for the true one) | Q(v) = Q(j) (nfisisom): 1
+(D) p=5 (p mod 8 = 5) h=2: deg=2 monic=1 resid log10=-390 |c0| = 2^12 odd part 1 predicted 2^12
+(D) p=7 (p mod 8 = 7) h=1: deg=1 monic=1 resid log10=-390 |c0| = 2^12 odd part 1 predicted 2^12
+(D) p=11 (p mod 8 = 3) h=3: deg=3 monic=1 resid log10=-389 |c0| = 2^24 odd part 1 predicted 2^24
+(D) p=13 (p mod 8 = 5) h=2: deg=2 monic=1 resid log10=-390 |c0| = 2^12 odd part 1 predicted 2^12
+(D) p=17 (p mod 8 = 1) h=4: deg=4 monic=1 resid log10=-381 |c0| = 2^24 odd part 1 predicted 2^24
+(D) p=19 (p mod 8 = 3) h=3: deg=3 monic=1 resid log10=-385 |c0| = 2^24 odd part 1 predicted 2^24
+(D) p=23 (p mod 8 = 7) h=3: deg=3 monic=1 resid log10=-384 |c0| = 2^36 odd part 1 predicted 2^36
+(D) p=29 (p mod 8 = 5) h=6: deg=6 monic=1 resid log10=-359 |c0| = 2^36 odd part 1 predicted 2^36
+(D) p=31 (p mod 8 = 7) h=3: deg=3 monic=1 resid log10=-381 |c0| = 2^36 odd part 1 predicted 2^36
+(D) p=37 (p mod 8 = 5) h=2: deg=2 monic=1 resid log10=-387 |c0| = 2^12 odd part 1 predicted 2^12
+(D) p=41 (p mod 8 = 1) h=8: deg=8 monic=1 resid log10=-333 |c0| = 2^48 odd part 1 predicted 2^48
+(D) p=43 (p mod 8 = 3) h=3: deg=3 monic=1 resid log10=-376 |c0| = 2^24 odd part 1 predicted 2^24
+(D) p=47 (p mod 8 = 7) h=5: deg=5 monic=1 resid log10=-356 |c0| = 2^60 odd part 1 predicted 2^60
+(D) p=53 (p mod 8 = 5) h=6: deg=6 monic=1 resid log10=-344 |c0| = 2^36 odd part 1 predicted 2^36
+(D) p=59 (p mod 8 = 3) h=9: deg=9 monic=1 resid log10=-309 |c0| = 2^72 odd part 1 predicted 2^72
+(D) p=61 (p mod 8 = 5) h=6: deg=6 monic=1 resid log10=-339 |c0| = 2^36 odd part 1 predicted 2^36
+(D) p=71 (p mod 8 = 7) h=7: deg=7 monic=1 resid log10=-323 |c0| = 2^84 odd part 1 predicted 2^84
+(D) p=79 (p mod 8 = 7) h=5: deg=5 monic=1 resid log10=-342 |c0| = 2^60 odd part 1 predicted 2^60
+exit 0

@@ -1,0 +1,18 @@
+  ***   Warning: new maximum stack size = 8000000000 (7629.395 Mbytes).
+POST HOC model check (not part of the sealed test)
+== positive controls at training primes (direct factorisation known): 17 ([2,4],[2,4],[2,8]), 11 ([3,5]), 29
+  p = 17: J = x^4 - x^3 - 2*x^2 - x + 1  (deg 4); Q(zeta_68)^+ deg 16; compositum factors of degree n = 32: 2; model max coeff digits 7
+    primes P | 2 in F_p: 3; [e, f] = [[2, 4], [2, 4], [2, 8]]; all e_P = 2: 1; sum e f = 32 (= n: 1)
+    hence (with T1) v_P(b_1) = [17, 17, 17]; sum f_P v_P = 272 vs v_2(N b_1) = p h (p-1)/4 = 272  [0 s]
+  p = 11: J = x^3 - x^2 - x - 1  (deg 3); Q(zeta_11)^+ deg 5; compositum factors of degree n = 15: 1; model max coeff digits 2
+    primes P | 2 in F_p: 1; [e, f] = [[3, 5]]; all e_P = 3: 1; sum e f = 15 (= n: 1)
+    hence (with T1) v_P(b_1) = [11]; sum f_P v_P = 55 vs v_2(N b_1) = p h (p-1)/6 = 55  [0 s]
+  p = 29: J = x^6 - x^5 - 8*x^4 + 17*x^3 - 8*x^2 - x + 1  (deg 6); Q(zeta_116)^+ deg 28; compositum factors of degree n = 84: 2; model max coeff digits 24
+    primes P | 2 in F_p: 2; [e, f] = [[2, 14], [2, 28]]; all e_P = 2: 1; sum e f = 84 (= n: 1)
+    hence (with T1) v_P(b_1) = [29, 29]; sum f_P v_P = 1218 vs v_2(N b_1) = p h (p-1)/4 = 1218  [38 s]
+== test primes where sealed T3 did not finish
+  p = 43: J = x^3 - x^2 - x + 3  (deg 3); Q(zeta_43)^+ deg 21; compositum factors of degree n = 63: 1; model max coeff digits 14
+    primes P | 2 in F_p: 3; [e, f] = [[3, 7], [3, 7], [3, 7]]; all e_P = 3: 1; sum e f = 63 (= n: 1)
+    hence (with T1) v_P(b_1) = [43, 43, 43]; sum f_P v_P = 903 vs v_2(N b_1) = p h (p-1)/6 = 903  [13 s]
+  p = 41: J = x^8 - 3*x^7 + x^6 + 4*x^5 - 4*x^4 + 4*x^3 + x^2 - 3*x + 1  (deg 8); Q(zeta_164)^+ deg 40; compositum factors of degree n = 160: 2; model max coeff digits 40
+  p = 41 and 53: model nfinit (degree 160/156) stopped by hand after ~12 min; replaced by hoe.gp (H_O, degree 2h)

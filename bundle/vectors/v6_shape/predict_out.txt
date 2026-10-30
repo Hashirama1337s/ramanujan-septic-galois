@@ -1,0 +1,38 @@
+[5, 9] h=2 cl2=2 preddeg=16 predreal=8
+[17, 3] h=1 cl2=1 preddeg=144 predreal=16
+[17, 13] h=2 cl2=2 preddeg=256 predreal=32
+[19, 7] h=1 cl2=1 preddeg=180 predreal=18
+[19, 5] h=2 cl2=2 preddeg=360 predreal=36
+[23, 5] h=2 cl2=2 preddeg=484 predreal=44
+[29, 3] h=1 cl2=1 preddeg=420 predreal=28
+[23, 69] h=8 cl2=4 preddeg=88 predreal=44
+[9, 13] h=2 cl2=2 preddeg=72 predreal=12
+[15, 13] h=2 cl2=2 preddeg=192 predreal=16
+[21, 25] h=2 cl2=2 preddeg=384 predreal=24
+[35, 3] h=1 cl2=1 preddeg=432 predreal=-1
+[9, 51] h=6 cl2=2 preddeg=54 predreal=-1
+[25, 7] h=1 cl2=1 preddeg=300 predreal=20
+p=31 h=3 ord=5 n=45 predJ=[[1, 3]] predF=[[1, 15], [1, 15], [1, 15]] fM=15 fMold=10
+p=47 h=5 ord=23 n=115 predJ=[[1, 5]] predF=[[1, 115]] fM=115 fMold=46
+p=73 h=4 ord=9 n=144 predJ=-1 predF=[[2, 18], [2, 18], [2, 18], [2, 18]] fM=18 fMold=18
+p=59 h=9 ord=58 n=261 predJ=[[3, 1], [3, 2]] predF=[[3, 29], [3, 58]] fM=58 fMold=58
+p=71 h=7 ord=35 n=245 predJ=[[1, 7]] predF=[[1, 35], [1, 35], [1, 35], [1, 35], [1, 35], [1, 35], [1, 35]] fM=35 fMold=70
+p=41 h=8 ord=20 n=160 predJ=-1 predF=-1 fM=20 fMold=20
+p=79 predJ=[[1, 5]]
+p=83 predJ=[[3, 1], [3, 2]]
+p=103 predJ=[[1, 5]]
+p=107 predJ=[[3, 1], [3, 2]]
+p=127 predJ=[[1, 5]]
+p=131 predJ=[[3, 1], [3, 2], [3, 2]]
+p=139 predJ=[[3, 1], [3, 2]]
+p=151 predJ=[[1, 7]]
+p=163 predJ=[[3, 1]]
+p=167 predJ=[[1, 11]]
+p=179 predJ=[[3, 1], [3, 2], [3, 2]]
+p=191 predJ=[[1, 13]]
+p=199 predJ=[[1, 9]]
+p=211 predJ=[[3, 1], [3, 2]]
+p=223 predJ=[[1, 7]]
+p=227 predJ=[[3, 1], [3, 2], [3, 2]]
+p=239 predJ=[[1, 15]]
+p=251 predJ=[[3, 1], [3, 2], [3, 2], [3, 2]]

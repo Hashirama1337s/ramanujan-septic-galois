@@ -1,0 +1,109 @@
+SEALED TEST RUN BAR-F1 (vector 4)
+
+==================== p = 37 (p mod 8 = 5, h(-4p) = 2, 2 in K: ramified, Deuring c = 6)
+  G: degree 36 (want h(p-1)/2 = 36), rounding error 10^-479, max coeff digits 518, monic 1, irreducible 1
+  Newton polygon at 2: root valuations (v(2)=1) = [37/2] with multiplicities [36]; predicted single value p c/12 = 37/2 -> MATCH
+  Newton control (G * (x - 2)): [1, 37/2] (instrument sees the extra root)
+  unit certificate: beta^2/2^37 is a unit for every conjugate beta: 1 (integral, constant 1)
+  control (2^38 instead of 2^37): unit? 0 (not integral)  (fails, as it should)
+  control (wrong exponent 3): unit? 0 (integral, constant 2^666 * -1)  (fails, as it should)
+  J and Q(zeta_p)^+: J (deg 2): 1 primes, [e,f] = [[1, 2]];  f in Q(zeta_p)^+ = 18 (g = 1)
+  (nfinit skipped)  [1 s]
+
+==================== p = 43 (p mod 8 = 3, h(-4p) = 3, 2 in K: inert, Deuring c = 4)
+  G: degree 63 (want h(p-1)/2 = 63), rounding error 10^-563, max coeff digits 763, monic 1, irreducible 1
+  Newton polygon at 2: root valuations (v(2)=1) = [43/3] with multiplicities [63]; predicted single value p c/12 = 43/3 -> MATCH
+  Newton control (G * (x - 2)): [1, 43/3] (instrument sees the extra root)
+  unit certificate: beta^3/2^43 is a unit for every conjugate beta: 1 (integral, constant -1)
+  control (2^44 instead of 2^43): unit? 0 (not integral)  (fails, as it should)
+  control (wrong exponent 2): unit? 0 (not integral)  (fails, as it should)
+  J and Q(zeta_p)^+: J (deg 3): 1 primes, [e,f] = [[3, 1]];  f in Q(zeta_p)^+ = 7 (g = 3)
+  (nfinit skipped)  [3 s]
+
+==================== p = 41 (p mod 8 = 1, h(-4p) = 8, 2 in K: ramified, Deuring c = 6)
+  G: degree 160 (want h(p-1)/2 = 160), rounding error 10^-838, max coeff digits 1584, monic 1, irreducible 1
+  Newton polygon at 2: root valuations (v(2)=1) = [41/2] with multiplicities [160]; predicted single value p c/12 = 41/2 -> MATCH
+  Newton control (G * (x - 2)): [1, 41/2] (instrument sees the extra root)
+  unit certificate: beta^2/2^41 is a unit for every conjugate beta: 1 (integral, constant 1)
+  control (2^42 instead of 2^41): unit? 0 (not integral)  (fails, as it should)
+  control (wrong exponent 3): unit? 0 (integral, constant 2^3280 * 1)  (fails, as it should)
+  J and Q(zeta_p)^+: J (deg 8): 3 primes, [e,f] = [[2, 1], [2, 2], [1, 2]];  f in Q(zeta_p)^+ = 10 (g = 2)
+  (nfinit skipped)  [35 s]
+
+==================== p = 53 (p mod 8 = 5, h(-4p) = 6, 2 in K: ramified, Deuring c = 6)
+  G: degree 156 (want h(p-1)/2 = 156), rounding error 10^-1068, max coeff digits 2375, monic 1, irreducible 1
+  Newton polygon at 2: root valuations (v(2)=1) = [53/2] with multiplicities [156]; predicted single value p c/12 = 53/2 -> MATCH
+  Newton control (G * (x - 2)): [1, 53/2] (instrument sees the extra root)
+  unit certificate: beta^2/2^53 is a unit for every conjugate beta: 1 (integral, constant 1)
+  control (2^54 instead of 2^53): unit? 0 (not integral)  (fails, as it should)
+  control (wrong exponent 3): unit? 0 (integral, constant 2^4134 * -1)  (fails, as it should)
+  J and Q(zeta_p)^+: J (deg 6): 2 primes, [e,f] = [[2, 2], [1, 2]];  f in Q(zeta_p)^+ = 26 (g = 1)
+  (nfinit skipped)  [67 s]
+
+== T3: unit model (cap 60 min at 37, 43; 30 min at 41, 53)
+  p = 37 unit model: S integral monic of degree 36, S(0) = 1, irreducible 1, max coeff digits 785
+  primes P | 2 in Q(b_1) = Q(z): 1;  [e, f, v_P(z), v_P(b_1) = (p e_P + v_P(z))/2] = [[2, 18, 0, 37]]
+  formula v_P(b_1) = p c e_P/12: MATCH;  e_P all = 2: 1;  sum f_P v_P(b_1) = 666 vs v_2(G(0)) = 666;  residue degrees [18]  [180 s]
+  p = 43 unit model: S integral monic of degree 63, S(0) = -1, irreducible 1, max coeff digits 1684
+  p = 43: T3 NOT RUN (e_STACK)
+  p = 41 unit model: S integral monic of degree 160, S(0) = 1, irreducible 1, max coeff digits 1772
+  p = 41: T3 NOT RUN (e_STACK)
+  p = 53 unit model: S integral monic of degree 156, S(0) = 1, irreducible 1, max coeff digits 3072
+  p = 53: T3 NOT RUN (e_ALARM)
+
+== T4 at 37: direct factorisation + conjugates in F_p (60-minute cap)
+
+==================== p = 37 (p mod 8 = 5, h(-4p) = 2, 2 in K: ramified, Deuring c = 6)
+  G: degree 36 (want h(p-1)/2 = 36), rounding error 10^-479, max coeff digits 518, monic 1, irreducible 1
+  Newton polygon at 2: root valuations (v(2)=1) = [37/2] with multiplicities [36]; predicted single value p c/12 = 37/2 -> MATCH
+  Newton control (G * (x - 2)): [1, 37/2] (instrument sees the extra root)
+  unit certificate: beta^2/2^37 is a unit for every conjugate beta: 1 (integral, constant 1)
+  control (2^38 instead of 2^37): unit? 0 (not integral)  (fails, as it should)
+  control (wrong exponent 3): unit? 0 (integral, constant 2^666 * -1)  (fails, as it should)
+  J and Q(zeta_p)^+: J (deg 2): 1 primes, [e,f] = [[1, 2]];  f in Q(zeta_p)^+ = 18 (g = 1)
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^11646)
+  primes P | 2 in Q(b_1): 1;  [e, f, v_P(b_1)] = [[2, 18, 37]]
+  check: sum f_P v_P(b_1) = 666 vs v_2(N b_1) = v_2(G(0)) = 666 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [37] -> MATCH
+  all e_P equal to 2: 1
+  residue degrees f_P: [18]
+  conjugates of b_1 lying in Q(b_1): 36
+    root 1: numerically b_1 at (1,0,37) (agreement 10^-99999), v_P = [37]  (= v_P(b_1))
+    root 2: numerically sigma_Q(b_18), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-544), v_P = [37]  (= v_P(b_1))
+    root 3: numerically sigma_Q(b_7), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-545), v_P = [37]  (= v_P(b_1))
+    root 4: numerically sigma_Q(b_15), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-545), v_P = [37]  (= v_P(b_1))
+    root 5: numerically sigma_Q(b_14), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-546), v_P = [37]  (= v_P(b_1))
+    root 6: numerically sigma_Q(b_8), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-547), v_P = [37]  (= v_P(b_1))
+    root 7: numerically sigma_Q(b_4), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-549), v_P = [37]  (= v_P(b_1))
+    root 8: numerically sigma_Q(b_11), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-549), v_P = [37]  (= v_P(b_1))
+    root 9: numerically sigma_Q(b_3), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-551), v_P = [37]  (= v_P(b_1))
+    root 10: numerically sigma_Q(b_10), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-552), v_P = [37]  (= v_P(b_1))
+    root 11: numerically sigma_Q(b_2), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-558), v_P = [37]  (= v_P(b_1))
+    root 12: numerically b_13 at (1,0,37) (agreement 10^-571), v_P = [37]  (= v_P(b_1))
+    root 13: numerically b_11 at (1,0,37) (agreement 10^-572), v_P = [37]  (= v_P(b_1))
+    root 14: numerically b_15 at (1,0,37) (agreement 10^-575), v_P = [37]  (= v_P(b_1))
+    root 15: numerically b_9 at (1,0,37) (agreement 10^-577), v_P = [37]  (= v_P(b_1))
+    root 16: numerically b_17 at (1,0,37) (agreement 10^-582), v_P = [37]  (= v_P(b_1))
+    root 17: numerically b_3 at (1,0,37) (agreement 10^-604), v_P = [37]  (= v_P(b_1))
+    root 18: numerically b_18 at (1,0,37) (agreement 10^-589), v_P = [37]  (= v_P(b_1))
+    root 19: numerically b_5 at (1,0,37) (agreement 10^-585), v_P = [37]  (= v_P(b_1))
+    root 20: numerically b_12 at (1,0,37) (agreement 10^-579), v_P = [37]  (= v_P(b_1))
+    root 21: numerically b_16 at (1,0,37) (agreement 10^-579), v_P = [37]  (= v_P(b_1))
+    root 22: numerically b_14 at (1,0,37) (agreement 10^-578), v_P = [37]  (= v_P(b_1))
+    root 23: numerically b_7 at (1,0,37) (agreement 10^-577), v_P = [37]  (= v_P(b_1))
+    root 24: numerically b_10 at (1,0,37) (agreement 10^-577), v_P = [37]  (= v_P(b_1))
+    root 25: numerically b_8 at (1,0,37) (agreement 10^-575), v_P = [37]  (= v_P(b_1))
+    root 26: numerically b_6 at (1,0,37) (agreement 10^-573), v_P = [37]  (= v_P(b_1))
+    root 27: numerically b_4 at (1,0,37) (agreement 10^-572), v_P = [37]  (= v_P(b_1))
+    root 28: numerically b_2 at (1,0,37) (agreement 10^-572), v_P = [37]  (= v_P(b_1))
+    root 29: numerically sigma_Q(b_1), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-571), v_P = [37]  (= v_P(b_1))
+    root 30: numerically sigma_Q(b_9), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-552), v_P = [37]  (= v_P(b_1))
+    root 31: numerically sigma_Q(b_12), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-549), v_P = [37]  (= v_P(b_1))
+    root 32: numerically sigma_Q(b_13), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-547), v_P = [37]  (= v_P(b_1))
+    root 33: numerically sigma_Q(b_5), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-545), v_P = [37]  (= v_P(b_1))
+    root 34: numerically sigma_Q(b_16), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-545), v_P = [37]  (= v_P(b_1))
+    root 35: numerically sigma_Q(b_17), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-544), v_P = [37]  (= v_P(b_1))
+    root 36: numerically sigma_Q(b_6), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39 (agreement 10^-544), v_P = [37]  (= v_P(b_1))
+  [148 s]
+
+END OF SEALED RUN

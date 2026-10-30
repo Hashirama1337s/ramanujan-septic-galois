@@ -1,0 +1,5 @@
+# certified G_7, coefficients of x^0 .. x^3 (certmin.py, W = 75 bits)
+-1
+54
+-41
+1

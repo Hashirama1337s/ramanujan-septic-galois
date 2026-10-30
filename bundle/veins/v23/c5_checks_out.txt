@@ -1,0 +1,16 @@
+(A) class II* (M = I mod n, theta condition): 128 residue cases, 0 failures
+(B) class I* (M = I mod 4, n | B): 2904 integer matrices, 0 failures
+(C) Lemma 3* analytic: 648 (n, M, k) cases, worst agreement 10^-67
+    negative controls at n = 15, k = 1: M = [1,15;0,1] agreement 10^--1, M = T agreement 10^-0 (both should be ~10^0)
+(D) Lemma P (Prop 4.1 at principal classes): 275 cases, worst agreement 10^-65
+(E) n=15: [q^e, N a, eps vector over primes of n] = [[3, 23, [-1, 1]], [5, 17, [1, -1]]]
+(E) n=21: [q^e, N a, eps vector over primes of n] = [[3, 31, [-1, 1]], [7, 19, [1, -1]]]
+(E) n=33: [q^e, N a, eps vector over primes of n] = [[3, 47, [-1, 1]], [11, 23, [1, -1]]]
+(E) n=45: [q^e, N a, eps vector over primes of n] = [[9, 29, [-1, 1]], [5, 41, [1, -1]]]
+(E) n=57: [q^e, N a, eps vector over primes of n] = [[3, 79, [-1, 1]], [19, 31, [1, -1]]]
+(E) n=85: [q^e, N a, eps vector over primes of n] = [[5, 73, [-1, 1]], [17, 37, [1, -1]]]
+(E) n=93: [q^e, N a, eps vector over primes of n] = [[3, 127, [-1, 1]], [31, 43, [1, -1]]]
+(E) n=105: [q^e, N a, eps vector over primes of n] = [[3, 143, [-1, 1, 1]], [5, 89, [1, -1, 1]], [7, 67, [1, 1, -1]]]
+(E) n=9: [q^e, N a, eps vector over primes of n] = [[9, 13, [-1]]]
+(E) n=25: [q^e, N a, eps vector over primes of n] = [[25, 29, [-1]]]
+    referee check n=15: 6^2 + 15 = 51 = 3*17; N(7 - 4 sqrt-15) = 289 = 17^2; 7/17 mod 3 = 2, mod 5 = 1  -> (-1, 1)

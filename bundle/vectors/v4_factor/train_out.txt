@@ -1,0 +1,144 @@
+TRAINING RUN (vector 4), engine f1.gp
+
+==================== p = 5 (p mod 8 = 5, h(-4p) = 2, 2 in K: ramified, Deuring c = 6)
+  G: degree 4 (want h(p-1)/2 = 4), rounding error 10^-302, max coeff digits 4, monic 1, irreducible 1
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^14)
+  primes P | 2 in Q(b_1): 1;  [e, f, v_P(b_1)] = [[2, 2, 5]]
+  check: sum f_P v_P(b_1) = 10 vs v_2(N b_1) = v_2(G(0)) = 10 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [5] -> MATCH
+  all e_P equal to 2: 1
+  residue degrees f_P: [2];  J (deg 2): 1 primes, [e,f] = [[1, 2]];  f in Q(zeta_p)^+ = 2 (g = 1)
+  unit certificate: beta^2/2^5 is a unit for every conjugate beta: 1 (constant 1)
+  control (2^6 instead of 2^5): not integral, as it should be
+  control (wrong exponent 3): integral unit? 1  <- UNEXPECTED
+  conjugates of b_1 lying in Q(b_1): 4
+    root 1: numerically b_1 (agreement 10^-99999), v_P = [5]  (= v_P(b_1))
+    root 2: numerically b_2 (agreement 10^--2), v_P = [5]  (= v_P(b_1))
+    root 3: numerically b_2 (agreement 10^--1), v_P = [5]  (= v_P(b_1))
+    root 4: numerically b_2 (agreement 10^-304), v_P = [5]  (= v_P(b_1))
+  [0 s]
+
+==================== p = 13 (p mod 8 = 5, h(-4p) = 2, 2 in K: ramified, Deuring c = 6)
+  G: degree 12 (want h(p-1)/2 = 12), rounding error 10^-323, max coeff digits 40, monic 1, irreducible 1
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^426)
+  primes P | 2 in Q(b_1): 1;  [e, f, v_P(b_1)] = [[2, 6, 13]]
+  check: sum f_P v_P(b_1) = 78 vs v_2(N b_1) = v_2(G(0)) = 78 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [13] -> MATCH
+  all e_P equal to 2: 1
+  residue degrees f_P: [6];  J (deg 2): 1 primes, [e,f] = [[1, 2]];  f in Q(zeta_p)^+ = 6 (g = 1)
+  unit certificate: beta^2/2^13 is a unit for every conjugate beta: 1 (constant 1)
+  control (2^14 instead of 2^13): not integral, as it should be
+  control (wrong exponent 3): integral unit? 1  <- UNEXPECTED
+  conjugates of b_1 lying in Q(b_1): 12
+    root 1: numerically b_1 (agreement 10^-99999), v_P = [13]  (= v_P(b_1))
+    root 2: numerically b_4 (agreement 10^-0), v_P = [13]  (= v_P(b_1))
+    root 3: numerically b_6 (agreement 10^--8), v_P = [13]  (= v_P(b_1))
+    root 4: numerically b_5 (agreement 10^-337), v_P = [13]  (= v_P(b_1))
+    root 5: numerically b_3 (agreement 10^-338), v_P = [13]  (= v_P(b_1))
+    root 6: numerically b_4 (agreement 10^-338), v_P = [13]  (= v_P(b_1))
+    root 7: numerically b_6 (agreement 10^-338), v_P = [13]  (= v_P(b_1))
+    root 8: numerically b_2 (agreement 10^-337), v_P = [13]  (= v_P(b_1))
+    root 9: numerically b_6 (agreement 10^--6), v_P = [13]  (= v_P(b_1))
+    root 10: numerically b_1 (agreement 10^--8), v_P = [13]  (= v_P(b_1))
+    root 11: numerically b_6 (agreement 10^--6), v_P = [13]  (= v_P(b_1))
+    root 12: numerically b_1 (agreement 10^--7), v_P = [13]  (= v_P(b_1))
+  [0 s]
+
+==================== p = 17 (p mod 8 = 1, h(-4p) = 4, 2 in K: ramified, Deuring c = 6)
+  G: degree 32 (want h(p-1)/2 = 32), rounding error 10^-355, max coeff digits 123, monic 1, irreducible 1
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^4232)
+  primes P | 2 in Q(b_1): 3;  [e, f, v_P(b_1)] = [[2, 4, 17], [2, 4, 17], [2, 8, 17]]
+  check: sum f_P v_P(b_1) = 272 vs v_2(N b_1) = v_2(G(0)) = 272 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [17, 17, 17] -> MATCH
+  all e_P equal to 2: 1
+  residue degrees f_P: [4, 4, 8];  J (deg 4): 2 primes, [e,f] = [[2, 1], [1, 2]];  f in Q(zeta_p)^+ = 4 (g = 2)
+  unit certificate: beta^2/2^17 is a unit for every conjugate beta: 1 (constant 1)
+  control (2^18 instead of 2^17): not integral, as it should be
+  control (wrong exponent 3): integral unit? 1  <- UNEXPECTED
+  instrument control: v_P(uniformiser of P_1) = [1, 0, 0] (non-uniform expected)
+  conjugates of b_1 lying in Q(b_1): 16
+    root 1: numerically b_1 (agreement 10^-99999), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 2: numerically b_5 (agreement 10^-2), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 3: numerically b_1 (agreement 10^--9), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 4: numerically b_8 (agreement 10^--12), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 5: numerically b_8 (agreement 10^--7), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 6: numerically b_2 (agreement 10^-387), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 7: numerically b_4 (agreement 10^-388), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 8: numerically b_6 (agreement 10^-390), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 9: numerically b_3 (agreement 10^-391), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 10: numerically b_8 (agreement 10^-392), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 11: numerically b_7 (agreement 10^-388), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 12: numerically b_5 (agreement 10^-387), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 13: numerically b_1 (agreement 10^--12), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 14: numerically b_1 (agreement 10^--10), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 15: numerically b_8 (agreement 10^--7), v_P = [17, 17, 17]  (= v_P(b_1))
+    root 16: numerically b_8 (agreement 10^--11), v_P = [17, 17, 17]  (= v_P(b_1))
+  [9 s]
+
+==================== p = 11 (p mod 8 = 3, h(-4p) = 3, 2 in K: inert, Deuring c = 4)
+  G: degree 15 (want h(p-1)/2 = 15), rounding error 10^-318, max coeff digits 27, monic 1, irreducible 1
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^380)
+  primes P | 2 in Q(b_1): 1;  [e, f, v_P(b_1)] = [[3, 5, 11]]
+  check: sum f_P v_P(b_1) = 55 vs v_2(N b_1) = v_2(G(0)) = 55 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [11] -> MATCH
+  all e_P equal to 3: 1
+  residue degrees f_P: [5];  J (deg 3): 1 primes, [e,f] = [[3, 1]];  f in Q(zeta_p)^+ = 5 (g = 1)
+  unit certificate: beta^3/2^11 is a unit for every conjugate beta: 1 (constant -1)
+  control (2^12 instead of 2^11): not integral, as it should be
+  control (wrong exponent 2): integral unit? 0  (fails, as it should)
+  conjugates of b_1 lying in Q(b_1): 5
+    root 1: numerically b_1 (agreement 10^-99999), v_P = [11]  (= v_P(b_1))
+    root 2: numerically b_3 (agreement 10^-320), v_P = [11]  (= v_P(b_1))
+    root 3: numerically b_5 (agreement 10^-322), v_P = [11]  (= v_P(b_1))
+    root 4: numerically b_4 (agreement 10^-322), v_P = [11]  (= v_P(b_1))
+    root 5: numerically b_2 (agreement 10^-320), v_P = [11]  (= v_P(b_1))
+  [0 s]
+
+==================== p = 19 (p mod 8 = 3, h(-4p) = 3, 2 in K: inert, Deuring c = 4)
+  G: degree 27 (want h(p-1)/2 = 27), rounding error 10^-354, max coeff digits 104, monic 1, irreducible 1
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^2214)
+  primes P | 2 in Q(b_1): 1;  [e, f, v_P(b_1)] = [[3, 9, 19]]
+  check: sum f_P v_P(b_1) = 171 vs v_2(N b_1) = v_2(G(0)) = 171 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [19] -> MATCH
+  all e_P equal to 3: 1
+  residue degrees f_P: [9];  J (deg 3): 1 primes, [e,f] = [[3, 1]];  f in Q(zeta_p)^+ = 9 (g = 1)
+  unit certificate: beta^3/2^19 is a unit for every conjugate beta: 1 (constant -1)
+  control (2^20 instead of 2^19): not integral, as it should be
+  control (wrong exponent 2): integral unit? 0  (fails, as it should)
+  conjugates of b_1 lying in Q(b_1): 9
+    root 1: numerically b_1 (agreement 10^-99999), v_P = [19]  (= v_P(b_1))
+    root 2: numerically b_7 (agreement 10^-370), v_P = [19]  (= v_P(b_1))
+    root 3: numerically b_5 (agreement 10^-371), v_P = [19]  (= v_P(b_1))
+    root 4: numerically b_9 (agreement 10^-374), v_P = [19]  (= v_P(b_1))
+    root 5: numerically b_3 (agreement 10^-375), v_P = [19]  (= v_P(b_1))
+    root 6: numerically b_8 (agreement 10^-374), v_P = [19]  (= v_P(b_1))
+    root 7: numerically b_6 (agreement 10^-372), v_P = [19]  (= v_P(b_1))
+    root 8: numerically b_4 (agreement 10^-371), v_P = [19]  (= v_P(b_1))
+    root 9: numerically b_2 (agreement 10^-370), v_P = [19]  (= v_P(b_1))
+  [2 s]
+
+==================== p = 23 (p mod 8 = 7, h(-4p) = 3, 2 in K: split, Deuring c = 0)
+  G: degree 33 (want h(p-1)/2 = 33), rounding error 10^-343, max coeff digits 96, monic 1, irreducible 1
+  nfinit([G,[2]]): order maximal at 2 (index of Z[b_1] at 2: 2^0)
+  primes P | 2 in Q(b_1): 1;  [e, f, v_P(b_1)] = [[1, 33, 0]]
+  check: sum f_P v_P(b_1) = 0 vs v_2(N b_1) = v_2(G(0)) = 0 -> OK
+  formula v_P(b_1) = p c e_P / 12: predicted [0] -> MATCH
+  all e_P equal to 1: 1
+  residue degrees f_P: [33];  J (deg 3): 1 primes, [e,f] = [[1, 3]];  f in Q(zeta_p)^+ = 11 (g = 1)
+  unit certificate (p = 7 mod 8): b_1 itself a unit: 1 (constant -1)
+  conjugates of b_1 lying in Q(b_1): 11
+    root 1: numerically b_1 (agreement 10^-99999), v_P = [0]  (= v_P(b_1))
+    root 2: numerically b_7 (agreement 10^-243), v_P = [0]  (= v_P(b_1))
+    root 3: numerically b_9 (agreement 10^-244), v_P = [0]  (= v_P(b_1))
+    root 4: numerically b_5 (agreement 10^-248), v_P = [0]  (= v_P(b_1))
+    root 5: numerically b_11 (agreement 10^-250), v_P = [0]  (= v_P(b_1))
+    root 6: numerically b_3 (agreement 10^-252), v_P = [0]  (= v_P(b_1))
+    root 7: numerically b_10 (agreement 10^-249), v_P = [0]  (= v_P(b_1))
+    root 8: numerically b_8 (agreement 10^-248), v_P = [0]  (= v_P(b_1))
+    root 9: numerically b_6 (agreement 10^-246), v_P = [0]  (= v_P(b_1))
+    root 10: numerically b_4 (agreement 10^-244), v_P = [0]  (= v_P(b_1))
+    root 11: numerically b_2 (agreement 10^-243), v_P = [0]  (= v_P(b_1))
+  [10 s]
+
+==================== p = 29 (p mod 8 = 5, h(-4p) = 6, 2 in K: ramified, Deuring c = 6)
+  G: degree 84 (want h(p-1)/2 = 84), rounding error 10^-516, max coeff digits 577, monic 1, irreducible 1

@@ -1,0 +1,34 @@
+
+== n=7 k=1 h(-4n)=1 W=304  #conjugate values=3  (pred deg for k=1: 3)
+  integrality: rounding error 10^-304, max coeff digits 2, monic=1, min separation 10^0.1, forms with x0 != 0: 0
+  irreducible factors of radical: degrees [3]
+  real roots (polsturm of radical): 3 of 3  -> totally real
+  constant term: |c0| = 2^0 * 1
+  NEG CONTROL convention 2: identical to convention 1 here (all x0 = 0) - not informative
+  inclusion in Q(zeta_28)^+ (degree 6): YES (3 embeddings)
+  time 0 s
+
+== n=11 k=1 h(-4n)=3 W=350  #conjugate values=15  (pred deg for k=1: 15)
+  integrality: rounding error 10^-337, max coeff digits 27, monic=1, min separation 10^-3.0, forms with x0 != 0: 2
+  irreducible factors of radical: degrees [15]
+  real roots (polsturm of radical): 5 of 15  -> NOT totally real => not Galois => not abelian
+  constant term: |c0| = 2^55 * 1
+  NEG CONTROL convention 2: rounding error 10^-0 -> fails as it should
+  time 0 s
+
+== n=9 k=1 h(-4n)=2 W=319  #conjugate values=6  (pred deg for k=1: 6)
+  integrality: rounding error 10^-313, max coeff digits 12, monic=1, min separation 10^0.1, forms with x0 != 0: 1
+  irreducible factors of radical: degrees [6]
+  real roots (polsturm of radical): 6 of 6  -> totally real
+  constant term: |c0| = 2^27 * 1
+  NEG CONTROL convention 2: rounding error 10^--13 -> fails as it should
+  inclusion in Q(zeta_36)^+ (degree 6): YES (6 embeddings)
+  time 0 s
+
+== n=15 k=1 h(-4n)=2 W=324  #conjugate values=8  (pred deg for k=1: 8)
+  integrality: rounding error 10^-310, max coeff digits 14, monic=1, min separation 10^-1.1, forms with x0 != 0: 1
+  irreducible factors of radical: degrees [8]
+  real roots (polsturm of radical): 4 of 8  -> NOT totally real => not Galois => not abelian
+  constant term: |c0| = 2^0 * 1
+  NEG CONTROL convention 2: rounding error 10^--17 -> fails as it should
+  time 0 s

@@ -1,0 +1,8 @@
+p = 7: rank 2 (pred 2), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, PC HOLDS
+p = 23: rank 10 (pred 10), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, PC HOLDS
+p = 47: rank 22 (pred 22), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, PC HOLDS
+p = 31: rank 12 (pred 12), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, N1 HOLDS
+p = 127: rank 54 (pred 54), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, N1 HOLDS
+p = 151: rank 70 (pred 70), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, N1 HOLDS
+p = 223: rank 108 (pred 108), [S:X] == PX: True, [S:W] == PW: True, P1 HOLDS, P2 HOLDS, P3 HOLDS, P4 HOLDS, P5 HOLDS, N1 HOLDS
+ALL ITEMS HOLD

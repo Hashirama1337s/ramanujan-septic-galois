@@ -1,0 +1,81 @@
+nbthreads = 1
+realprecision = 134
+
+=== p = 23: hypotheses ===
+h = 3, bnfcertify = 1, qfbclassno(-4p) = 3, #forms = 3
+P = (2, (1+sqrt-23)/2) found; P principal? 0
+Cl cyc [3], ray class group mod q cyc [15, 3] (expect h m = 45)
+embeddings: 45
+  [instrument] b_1 route R vs Theorem M (principal form, t = 1): <= 1e-132  ok
+  [instrument] unit: |sum over 33 embeddings of log|sigma b_1||: <= 1e-130  ok
+  [instrument] b_1 real: max relative |Im| over the embeddings with a = 1: 0 (exact at working precision)  ok
+
+-- instruments for the Robert/Siegel side
+  [instrument] |theta(1;L)| = |g(1;L)|^12 (test lattice of embedding 2): <= 1e-132  ok
+  [instrument] ray-class invariance: ubar vs ubar + p: 0 (exact at working precision)  ok
+  [instrument] delta homothety invariance: <= 1e-133  ok
+
+-- K2-E (element level, all 33 embeddings): Q1 prediction and nulls Z1-Z4
+  Q1 element-level formula (Siegel g): 45/45 as predicted; worst |diff| <= 1e-130  -> as predicted
+  Q1' same with Robert theta (log|theta| in place of 12 log|g|), first 11 embeddings: 15/15 as predicted; worst |diff| <= 1e-129  -> as predicted
+  Z1 null: wrong ideal class (b -> bP): 45/45 as predicted; worst |diff| >= 1e1  -> as predicted
+  Z2 null: wrong level (single conductor-q Robert value): 45/45 as predicted; worst |diff| >= 1e0  -> as predicted
+  Z3 null: ubar = u (missing 1/2): 45/45 as predicted; worst |diff| >= 1e0  -> as predicted
+  Z4 null: Hilbert-class-field (Delta) term dropped: 45/45 as predicted; worst |diff| >= 1e2  -> as predicted
+
+-- K2-X (character level, 33 characters X = rho_k (x) chi, k = 0,1,2; chi = [2e], e = 0..10)
+PROOF DRAFT D5-X (i) chi != 1: sum X log|sigma b_1|^2 = -p [chi(2)(rho(P) + rho(Pbar)) - 2 chi(4)] L'(0, X)   (L of conductor q)
+PROOF DRAFT D5-X (ii) chi = 1, rho != 1: sum X log|sigma b_1|^2 = 2 p m (rho(P) + rho(Pbar) - 2) L'_K(0, rho)   (S = {inf})
+Z5 null (old GUESS: sigma_2(b_1) = Stark unit of M/K, S = {inf,q,P}): -2p chi(2)(1 - rho(P) chi(2)) L'_{S0}(0, X)
+   k=0 chi=[2]: LHS = 100.7144585413036629399743 +283.2811299765876917025339*I
+   k=0 chi=[4]: LHS = -255.8223490374145724850971 +112.2541637813613374698828*I
+   k=0 chi=[6]: LHS = 375.1008474874425912800199 +245.7494417701916694115836*I
+   k=0 chi=[8]: LHS = -125.8588470152905208872477 -87.89516957688605937125920*I
+   k=0 chi=[10]: LHS = 5.679389198753165797 e-132 -2.3333924615032386607 e-132*I
+   k=0 chi=[12]: LHS = 348.4466533694832876954900 +238.9755913527394457333870*I
+   k=0 chi=[14]: LHS = 408.5780230965221974258061 -160.9748928942529329446265*I
+   k=0 chi=[16]: LHS = 408.5780230965221974258061 +160.9748928942529329446265*I
+   k=0 chi=[18]: LHS = 348.4466533694832876954900 -238.9755913527394457333870*I
+   k=0 chi=[20]: LHS = 5.679389198753165797 e-132 +2.3333924615032386607 e-132*I
+   k=0 chi=[22]: LHS = -125.8588470152905208872477 +87.89516957688605937125920*I
+   k=0 chi=[24]: LHS = 375.1008474874425912800199 -245.7494417701916694115836*I
+   k=0 chi=[26]: LHS = -255.8223490374145724850971 -112.2541637813613374698828*I
+   k=0 chi=[28]: LHS = 100.7144585413036629399743 -283.2811299765876917025339*I
+   k=1 chi=1: LHS = -1066.463789493699439308910 -1.1006568214637918211 e-132*I
+   k=1 chi=[2]: LHS = -62.14277607531004023176423 +303.8909727289387017518869*I
+   k=1 chi=[4]: LHS = -175.4658793712732120815722 +341.1219293465131852425290*I
+   k=1 chi=[6]: LHS = 288.5935242210352583238181 -15.39843658869979339200406*I
+   k=1 chi=[8]: LHS = -200.4686420121230453298309 -249.8963007036915325244945*I
+   k=1 chi=[10]: LHS = 292.4250309825181621062633 -100.6641679528473663022915*I
+   k=1 chi=[12]: LHS = 103.9668444447393003979423 +232.2503185723605163299435*I
+   k=1 chi=[14]: LHS = 331.5190320673951657938628 +144.7630776268673954297144*I
+   k=1 chi=[16]: LHS = 331.5190320673951657938628 -144.7630776268673954297144*I
+   k=1 chi=[18]: LHS = 103.9668444447393003979423 -232.2503185723605163299435*I
+   k=1 chi=[20]: LHS = 292.4250309825181621062633 +100.6641679528473663022915*I
+   k=1 chi=[22]: LHS = -200.4686420121230453298309 +249.8963007036915325244945*I
+   k=1 chi=[24]: LHS = 288.5935242210352583238181 +15.39843658869979339200406*I
+   k=1 chi=[26]: LHS = -175.4658793712732120815722 -341.1219293465131852425290*I
+   k=1 chi=[28]: LHS = -62.14277607531004023176423 -303.8909727289387017518869*I
+   k=2 chi=1: LHS = -1066.463789493699439308910 +1.1006568214637918211 e-132*I
+   k=2 chi=[2]: LHS = -62.14277607531004023176423 +303.8909727289387017518869*I
+   k=2 chi=[4]: LHS = -175.4658793712732120815722 +341.1219293465131852425290*I
+   k=2 chi=[6]: LHS = 288.5935242210352583238181 -15.39843658869979339200406*I
+   k=2 chi=[8]: LHS = -200.4686420121230453298309 -249.8963007036915325244945*I
+   k=2 chi=[10]: LHS = 292.4250309825181621062633 -100.6641679528473663022915*I
+   k=2 chi=[12]: LHS = 103.9668444447393003979423 +232.2503185723605163299435*I
+   k=2 chi=[14]: LHS = 331.5190320673951657938628 +144.7630776268673954297144*I
+   k=2 chi=[16]: LHS = 331.5190320673951657938628 -144.7630776268673954297144*I
+   k=2 chi=[18]: LHS = 103.9668444447393003979423 -232.2503185723605163299435*I
+   k=2 chi=[20]: LHS = 292.4250309825181621062633 +100.6641679528473663022915*I
+   k=2 chi=[22]: LHS = -200.4686420121230453298309 +249.8963007036915325244945*I
+   k=2 chi=[24]: LHS = 288.5935242210352583238181 +15.39843658869979339200406*I
+   k=2 chi=[26]: LHS = -175.4658793712732120815722 -341.1219293465131852425290*I
+   k=2 chi=[28]: LHS = -62.14277607531004023176423 -303.8909727289387017518869*I
+  X0 trivial character: sum log|sigma b_1|^2 = 0: 1/1 as predicted; worst |diff| <= 1e-130  -> as predicted
+  calibration (implied by V3C): rho = 1, chi != 1 (10 chars): 14/14 as predicted; worst |diff| <= 1e-130  -> as predicted
+  Q2 NEW: rho != 1, chi != 1 (20 chars), formula (i): 28/28 as predicted; worst |diff| <= 1e-130  -> as predicted
+  Q3 NEW: chi = 1, rho != 1 (2 chars), formula (ii): 2/2 as predicted; worst |diff| 0 (exact at working precision)  -> as predicted
+  R1 rho vs rho-bar labelling of sigma_Q (predicted DEGENERATE: equal LHS, by complex-conjugation symmetry): 45/45 as predicted; worst |diff| <= 1e-131  -> as predicted
+  Z5 null: old GUESS D5 on the 22 rho != 1 characters: 30/30 as predicted; worst |diff| >= 1e2  -> as predicted
+
+SUMMARY: as predicted 12, not as predicted 0, instrument faults 0

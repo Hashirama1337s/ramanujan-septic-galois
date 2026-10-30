@@ -1,0 +1,18 @@
+p=5: 320 (x,k) pairs, Omega != 1 in 0
+p=7: 1008 (x,k) pairs, Omega != 1 in 0
+p=11: 4400 (x,k) pairs, Omega != 1 in 0
+p=13: 7488 (x,k) pairs, Omega != 1 in 0
+p=17: 17408 (x,k) pairs, Omega != 1 in 0
+p=19: 24624 (x,k) pairs, Omega != 1 in 0
+p=23: 44528 (x,k) pairs, Omega != 1 in 0
+p=29: 90944 (x,k) pairs, Omega != 1 in 0
+p=31: 111600 (x,k) pairs, Omega != 1 in 0
+p=37: 191808 (x,k) pairs, Omega != 1 in 0
+p=41: 262400 (x,k) pairs, Omega != 1 in 0
+p=43: 303408 (x,k) pairs, Omega != 1 in 0
+p=47: 397808 (x,k) pairs, Omega != 1 in 0
+p=53: 573248 (x,k) pairs, Omega != 1 in 0
+p=59: 793904 (x,k) pairs, Omega != 1 in 0
+p=61: 878400 (x,k) pairs, Omega != 1 in 0
+NEGATIVE CONTROL (drop the (-i)^k normalisation) p=11: Omega != 1 in 3256 of 4400
+NEGATIVE CONTROL (drop the (-i)^k normalisation) p=13: Omega != 1 in 5616 of 7488

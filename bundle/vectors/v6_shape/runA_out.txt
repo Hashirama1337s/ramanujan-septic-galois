@@ -1,0 +1,43 @@
+A1 l=3 y^2=7.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=8 (J2=8)  rel.err=1e-133   null (exponent+1): rel.err=1e-0
+A1 l=5 y^2=11.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=24 (J2=24)  rel.err=1e-132   null (exponent+1): rel.err=1e-0
+A1 l=7 y^2=3.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=48 (J2=48)  rel.err=1e-132   null (exponent+1): rel.err=1e-0
+A1 l=11 y^2=13.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=120 (J2=120)  rel.err=1e-131   null (exponent+1): rel.err=1e-0
+A1 l=13 y^2=5.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=168 (J2=168)  rel.err=1e-132   null (exponent+1): rel.err=1e-0
+A1 l=9 y^2=13.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=72 (J2=72)  rel.err=1e-132   null (exponent+1): rel.err=1e-0
+A1 l=15 y^2=7.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 rows=192 (J2=192)  rel.err=1e-131   null (exponent+1): rel.err=1e-0
+A2 l=5 m=9 delta=4  rel.err=1e-133   null (delta -> delta+2, not a root): rel.err=1e-133
+A2 l=7 m=3 delta=2  rel.err=1e-133   null (delta -> delta+2, not a root): rel.err=1e-0
+A2 l=11 m=7 delta=2  rel.err=1e-132   null (delta -> delta+2, not a root): rel.err=1e-0
+A2 l=13 m=3 delta=6  rel.err=1e-132   null (delta -> delta+2, not a root): rel.err=1e-0
+A3 l=5 m=3 [inert (all primes of l)] h=1  |N| vs closed form rel.err=1e-132  Im(N)/|N|=1e-132  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = n/a
+A3 l=5 m=9 [split] h=2  |N| vs closed form rel.err=1e-132  Im(N)/|N|=1e-132  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = 26.339
+A3 l=7 m=3 [split] h=1  |N| vs closed form rel.err=1e-131  Im(N)/|N|=1e-131  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = n/a
+A3 l=11 m=3 [inert (all primes of l)] h=1  |N| vs closed form rel.err=1e-131  Im(N)/|N|=1e-131  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = n/a
+A3 l=7 m=21 [l | m (Lemma W)] h=4  |N| vs closed form rel.err=1e-132  Im(N)/|N|=1e-132  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = 19.381
+A3 l=15 m=7 [inert (all primes of l)] h=1  |N| vs closed form rel.err=1e-130  Im(N)/|N|=1e-131  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = n/a
+A3 l=9 m=13 [inert (all primes of l)] h=2  |N| vs closed form rel.err=1e-131  Im(N)/|N|=1e-131  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = 387.103
+A3 l=5 m=39 [split] h=4  |N| vs closed form rel.err=1e-133  Im(N)/|N|=1e-132  N strictly smallest of the h coset products: 1  min log(|sigma N|/N) = 38.047
+A4 constants: log 3688 = 8.21284  log 4.888 = 1.58678  2 log3688 - 2 log4.888 = 13.25211
+A4 split margin l=5 m=9: (l^2-2l-1)(pi sqrt m/2 - 1.5868) + 13.252 - 6 pi sqrt m = 0.4617
+A4 split margin l=5 m=11: (l^2-2l-1)(pi sqrt m/2 - 1.5868) + 13.252 - 6 pi sqrt m = 1.4564
+A4 split margin l=5 m=19: (l^2-2l-1)(pi sqrt m/2 - 1.5868) + 13.252 - 6 pi sqrt m = 4.7308
+A4 split margin l=7 m=3: (l^2-2l-1)(pi sqrt m/2 - 1.5868) + 13.252 - 6 pi sqrt m = 19.1563
+A4 split margin l=7 m=5: (l^2-2l-1)(pi sqrt m/2 - 1.5868) + 13.252 - 6 pi sqrt m = 36.5739
+A4 split margin l=11 m=3: (l^2-2l-1)(pi sqrt m/2 - 1.5868) + 13.252 - 6 pi sqrt m = 91.7258
+A4 split l=3 (bound not used; cubic Hauptmodul instead): -25.0456
+A5 l=5 m=9 h=2 cl2=2 |C_N|=128 P=82 certified=1 deg=16 preddeg=16 ok real=8 predreal=8 ok  {exact: round=1e-134 den=1 deg(P)=16 irred=1 squarefree=1 sturm=8 sign(disc)=1 parity_ok=1 clust_ok(W)=1}  (0 s)
+  *** polsturm: Warning: increasing stack size to 16000000.
+A5 l=17 m=3 h=1 cl2=1 |C_N|=1152 P=93 certified=1 deg=144 preddeg=144 ok real=16 predreal=16 ok  {exact: round=1e-530 den=1 deg(P)=144 irred=1 squarefree=1 sturm=16 sign(disc)=1 parity_ok=1 clust_ok(W)=1}  (33 s)
+A5 l=17 m=13 h=2 cl2=2 |C_N|=2048 P=99 certified=1 deg=256 preddeg=256 ok real=32 predreal=32 ok  {numerical}  (3 s)
+A5 l=19 m=7 h=1 cl2=1 |C_N|=1440 P=98 certified=1 deg=180 preddeg=180 ok real=18 predreal=18 ok  {numerical}  (2 s)
+A5 l=19 m=5 h=2 cl2=2 |C_N|=2880 P=97 certified=1 deg=360 preddeg=360 ok real=36 predreal=36 ok  {numerical}  (6 s)
+A5 l=23 m=5 h=2 cl2=2 |C_N|=3872 P=102 certified=1 deg=484 preddeg=484 ok real=44 predreal=44 ok  {numerical}  (9 s)
+A5 l=29 m=3 h=1 cl2=1 |C_N|=3360 P=108 certified=1 deg=420 preddeg=420 ok real=28 predreal=28 ok  {numerical}  (6 s)
+  *** exp: Warning: increasing stack size to 32000000.
+A5 l=23 m=69 h=8 cl2=4 |C_N|=16192 P=130 certified=1 deg=88 preddeg=88 ok real=44 predreal=44 ok  {exact: round=1e-471 den=1 deg(P)=88 irred=1 squarefree=1 sturm=44 sign(disc)=1 parity_ok=1 clust_ok(W)=1}  (590 s)
+A5 l=9 m=13 h=2 cl2=2 |C_N|=576 P=88 certified=1 deg=72 preddeg=72 ok real=12 predreal=12 ok  {exact: round=1e-270 den=1 deg(P)=72 irred=1 squarefree=1 sturm=12 sign(disc)=1 parity_ok=1 clust_ok(W)=1}  (4 s)
+A5 l=15 m=13 h=2 cl2=2 |C_N|=1536 P=96 certified=1 deg=192 preddeg=192 ok real=16 predreal=16 ok  {numerical}  (2 s)
+A5 l=21 m=25 h=2 cl2=2 |C_N|=3072 P=112 certified=1 deg=384 preddeg=384 ok real=24 predreal=24 ok  {numerical}  (6 s)
+A5-open l=35 m=3 h=1 cl2=1 |C_N|=3456 P=117 certified=1 deg=432 preddeg=432 ok real=24 predreal=-1 (none)  {numerical}  (8 s)
+A5-open l=9 m=51 h=6 cl2=2 |C_N|=1296 P=95 certified=1 deg=54 preddeg=54 ok real=6 predreal=-1 (none)  {exact: round=1e-235 den=1 deg(P)=54 irred=1 squarefree=1 sturm=6 sign(disc)=1 parity_ok=1 clust_ok(W)=1}  (6 s)
+A5-open l=25 m=7 h=1 cl2=1 |C_N|=2400 P=107 certified=1 deg=300 preddeg=300 ok real=20 predreal=20 ok  {numerical}  (4 s)

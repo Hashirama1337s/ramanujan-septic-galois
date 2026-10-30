@@ -1,0 +1,30 @@
+default(nbthreads,1); default(realprecision,80);
+indep(p) = {
+  my(m=(p-1)/2, K=bnfinit(y^2+p,1), sq=I*sqrt(p));
+  my(emb=(a)->subst(lift(nfbasistoalg(K,a)),y,sq));
+  my(bas=(id)->my(H=idealhnf(K,id)); [emb(H[,1]),emb(H[,2])]);
+  my(red=(L)->my(w1=L[1],w2=L[2],t,n); if(imag(w1/w2)<0,w1=-w1); for(i=1,500, t=w1/w2; n=round(real(t)); w1=w1-n*w2; if(abs(w1)<abs(w2), t=w1; w1=-w2; w2=t, break)); [w1,w2]);
+  my(logg=(L,z)->my(R=red(L),w1=R[1],w2=R[2],tau=w1/w2,A=[real(w1),real(w2);imag(w1),imag(w2)],r=matsolve(A,[real(z),imag(z)]~),r1=r[1]-floor(r[1]),r2=r[2]-floor(r[2]),q=exp(2*Pi*I*tau),qz=exp(2*Pi*I*(r1*tau+r2)),s);
+      s=(r1^2-r1+1/6)/2*log(abs(q))+log(abs(1-qz)); for(n=1,120,s+=log(abs(1-q^n*qz))+log(abs(1-q^n/qz))); s);
+  my(ld=(L)->my(R=red(L),g2=elleisnum(R,4,1),g3=elleisnum(R,6,1),A=abs(imag(R[1]*conj(R[2])))); 6*log(A)+log(abs(g2^3-27*g3^2)));
+  my(th=(al,tau)->sum(n=-60,60,exp(Pi*I*tau*(n+al)^2)));
+  my(dec=idealprimedec(K,2),P,Pb,qq=idealhnf(K,y),cj=(id)->idealhnf(K,nfgaloisapply(K,-y,id)));
+  P=if(nfeltval(K,(1+y)/2,dec[1])>0,dec[1],dec[2]); Pb=if(P==dec[1],dec[2],dec[1]);
+  my(F=List()); for(a=1,2*p, for(bb=-a+1,a, my(num=bb^2+4*p); if(num%(4*a)==0, my(c=num/(4*a)); if(a<=c && !(bb<0&&a==c) && gcd([a,bb,c])==1, listput(F,[a,bb,c])))));
+  my(worst=0, n=0, LHSv=List());
+  for(i=1,#F, my(a=F[i][1],b=F[i][2],c=F[i][3]); if(a%2==0, my(tt=a); a=c; b=-b; c=tt);
+    my(bp=b/2, ap=lift(Mod(a,4*p)^(-1)), B=bp*(1-a*ap), tau2=(B+sq)/a, bI=idealhnf(K,a,bp+y));
+    if(idealnorm(K,bI)!=a, error("norm"));
+    my(Dd=ld(bas(idealmul(K,bI,P)))+ld(bas(idealmul(K,bI,Pb)))-2*ld(bas(bI)));
+    for(t=1,m, my(lhs=p*log(abs(2*th(t/p,tau2)/th(0,tau2))), u=lift(Mod(ap*t,p)), ub=lift(Mod(u,p)/2), C3=idealmul(K,ub,cj(bI)), C1=idealmul(K,C3,Pb), C2=idealmul(K,C3,P));
+      my(G=(C)->12*logg(bas(idealmul(K,qq,idealinv(K,C))),1));
+      my(rhs=p*(G(C1)+G(C2)-2*G(C3))-p*Dd);
+      worst=max(worst,abs(12*lhs-rhs)); n++));
+  print("p=",p," h=",K.no," D5-E independent: ",n," embeddings, worst |12 log|sigma b1| - RHS| = ",worst);
+  my(bnr1=bnrinit(K,1,1)); for(k=1,K.no-1,
+    my(s=0); for(i=1,#F, my(a=F[i][1],b=F[i][2],cl=idealhnf(K,a,b/2+y)); if(a%2==0, cl=idealhnf(K,F[i][3],-b/2+y));
+      my(v=bnrisprincipal(bnr1,cl,0)); s+=exp(2*Pi*I*k*v[1]/bnr1.cyc[1])*ld(bas(cl)));
+    my(Lp=lfun([bnr1,[k]],0,1));
+    print("  k=",k,": -(1/12) sum rho ldelta = ",-s/12,"  lfun L'_K(0,rho) = ",Lp,"  diff ",abs(-s/12-Lp)));
+};
+indep(23); indep(31);

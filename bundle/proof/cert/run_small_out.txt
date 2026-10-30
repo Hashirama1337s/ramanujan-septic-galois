@@ -1,0 +1,57 @@
+
+================ p = 7  (N = 7, h(-4p) = 1, reduced forms [[1, 0, 7]])
+  convention 1: degree 3, coefficients round to Z with error 10^-3001, max imag part of conjugates 10^-99999
+  used convention 1: G integral (error 10^-3001), monic=1, max coefficient digits 2, irreducible=1, min root separation 10^0.1
+  exact R = b_1^1 candidate in Q(theta), deg 3; max coefficient digits of R: 3
+  roots of x^1 - R in Q(theta): 1
+  EXACT: G(c_1) = 0 in Q(theta): 1;  |iota(c_1) - b_1| = 10^-3001 (half separation 10^-0.2)
+  c_1 = 8*t^2 + 17*t + 6
+  Liouville gap: if b_1 != iota(c_1) then |b_1 - iota(c_1)| >= (H_b + H_c)^-(d-1) = 10^-3.8 (log10 H_b = 1.60, log10 H_c = 1.60); observed 10^-3001 -> GAP ARGUMENT PASSES
+    a = 1: sigma_a(c_1) at iota = b_1 at (1,0,7)  (agreement 10^-3001)
+    a = 2: sigma_a(c_1) at iota = b_3 at (1,0,7)  (agreement 10^-3004)
+    a = 3: sigma_a(c_1) at iota = b_2 at (1,0,7)  (agreement 10^-3003)
+  each analytic conjugate hit exactly once by sigma_a(c_1): 1; worst agreement 10^-3001
+  VERDICT p = 7: CERTIFIED   [0 s]
+  REBAK control: c_1 == d2^6/d1^2 exactly: 1; |iota(d1^6/d2^4) - b_2| = 10^-3004; |iota(d1^-4 d2^-2) - b_3| = 10^-3005
+
+================ p = 5  (N = 20, h(-4p) = 2, reduced forms [[1, 0, 5], [2, 2, 3]])
+  convention 1: degree 4, coefficients round to Z with error 10^-2999, max imag part of conjugates 10^-3001
+  convention 2: degree 4, coefficients round to Z with error 10^--4, max imag part of conjugates 10^--2
+  convention 3: degree 4, coefficients round to Z with error 10^--5, max imag part of conjugates 10^--2
+  used convention 1: G integral (error 10^-2999), monic=1, max coefficient digits 4, irreducible=1, min root separation 10^0.6
+  exact R = b_1^2 candidate in Q(theta), deg 4; max coefficient digits of R: 5
+  roots of x^2 - R in Q(theta): 2
+  EXACT: G(c_1) = 0 in Q(theta): 1;  |iota(c_1) - b_1| = 10^-3002 (half separation 10^0.3)
+  c_1 = -16*t^3 + 20*t^2 + 60*t - 68
+  Liouville gap: if b_1 != iota(c_1) then |b_1 - iota(c_1)| >= (H_b + H_c)^-(d-1) = 10^-6.7 (log10 H_b = 1.93, log10 H_c = 1.93); observed 10^-3002 -> GAP ARGUMENT PASSES
+    a = 1: sigma_a(c_1) at iota = b_1 at (1,0,5)  (agreement 10^-3002)
+    a = 3: sigma_a(c_1) at iota = sigma_Q(b_2), Q=[2, 2, 3] -> (3,-2,2), a'=7, y=7  (agreement 10^-3002)
+    a = 7: sigma_a(c_1) at iota = sigma_Q(b_1), Q=[2, 2, 3] -> (3,-2,2), a'=7, y=7  (agreement 10^-3001)
+    a = 9: sigma_a(c_1) at iota = b_2 at (1,0,5)  (agreement 10^-3003)
+  each analytic conjugate hit exactly once by sigma_a(c_1): 1; worst agreement 10^-3001
+  VERDICT p = 5: CERTIFIED   [2 s]
+
+================ p = 13  (N = 52, h(-4p) = 2, reduced forms [[1, 0, 13], [2, 2, 7]])
+  convention 1: degree 12, coefficients round to Z with error 10^-2962, max imag part of conjugates 10^-2995
+  convention 2: degree 12, coefficients round to Z with error 10^--41, max imag part of conjugates 10^--8
+  convention 3: degree 12, coefficients round to Z with error 10^--44, max imag part of conjugates 10^--8
+  used convention 1: G integral (error 10^-2962), monic=1, max coefficient digits 40, irreducible=1, min root separation 10^-5.1
+  exact R = b_1^6 candidate in Q(theta), deg 12; max coefficient digits of R: 50
+  roots of x^6 - R in Q(theta): 2
+  EXACT: G(c_1) = 0 in Q(theta): 1;  |iota(c_1) - b_1| = 10^-2999 (half separation 10^-5.5)
+  c_1 = 9731968*t^11 - 12976704*t^10 - 102453568*t^9 + 136576960*t^8 + 380916416*t^7 - 507583232*t^6 - 590494528*t^5 + 786333184*t^4 + 347915776*t^3 - 462720960*t^2 - 53078272*t + 70323008
+  Liouville gap: if b_1 != iota(c_1) then |b_1 - iota(c_1)| >= (H_b + H_c)^-(d-1) = 10^-90.9 (log10 H_b = 7.96, log10 H_c = 7.96); observed 10^-2999 -> GAP ARGUMENT PASSES
+    a = 1: sigma_a(c_1) at iota = b_1 at (1,0,13)  (agreement 10^-2999)
+    a = 3: sigma_a(c_1) at iota = b_6 at (1,0,13)  (agreement 10^-2995)
+    a = 5: sigma_a(c_1) at iota = sigma_Q(b_2), Q=[2, 2, 7] -> (7,-2,2), a'=15, y=15  (10^-2996)
+    a = 7: sigma_a(c_1) at iota = sigma_Q(b_6), Q=[2, 2, 7] -> (7,-2,2), a'=15, y=15  (10^-2996)
+    a = 9: sigma_a(c_1) at iota = b_3 at (1,0,13)  (agreement 10^-2996)
+    a = 11: sigma_a(c_1) at iota = sigma_Q(b_5), Q=[2, 2, 7] -> (7,-2,2), a'=15, y=15  (10^-2998)
+    a = 15: sigma_a(c_1) at iota = sigma_Q(b_1), Q=[2, 2, 7] -> (7,-2,2), a'=15, y=15  (10^-2996)
+    a = 17: sigma_a(c_1) at iota = b_2 at (1,0,13)  (agreement 10^-2996)
+    a = 19: sigma_a(c_1) at iota = sigma_Q(b_4), Q=[2, 2, 7] -> (7,-2,2), a'=15, y=15  (10^-2995)
+    a = 21: sigma_a(c_1) at iota = sigma_Q(b_3), Q=[2, 2, 7] -> (7,-2,2), a'=15, y=15  (10^-2994)
+    a = 23: sigma_a(c_1) at iota = b_4 at (1,0,13)  (agreement 10^-2995)
+    a = 25: sigma_a(c_1) at iota = b_5 at (1,0,13)  (agreement 10^-2996)
+  each analytic conjugate hit exactly once by sigma_a(c_1): 1; worst agreement 10^-2994
+  VERDICT p = 13: CERTIFIED   [7 s]

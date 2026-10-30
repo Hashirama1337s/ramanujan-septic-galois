@@ -1,0 +1,29 @@
+
+==================== p = 23  m = 11  h(-4p) = 3
+  F_23: polredbest degree 33, signature 11 real roots; 2 s
+  bnfinit done 3 s: h = 1, class group [], unit rank 21, torsion w = 2, regulator 255776199.9
+  roots of G_p in this field: 11  (4 s)
+  P1: w_k = u_1^(k^2)/u_k in F_p (root of x^p - b_1^(k^2)/b_k matching to >= 100 digits) for 10 of 10 k; worst agreement 10^-393
+  P1-null: b_1^(k^2+1)/b_k has no p-th root in F_p for 10 of 10 k
+  [E_b = <-1, b_1..b_m>] 11 generators: rank 11 of 21 not full; index in saturation = 911383246700278 = [2, 1; 11, 1; 23, 10]; el.div. [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 506, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2048 (want 2^11)
+  [E_w = <-1, b_1, w_2..w_m>] 11 generators: rank 11 of 21 not full; index in saturation = 22 = [2, 1; 11, 1]; el.div. [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22]; squares null ratio 2048 (want 2^11)
+  roots of minpoly(2cos(pi/p)) in F_p: 11
+  J: x^3 - x^2 + 1  unit rank 1, h(J) = 1 (degree 3), embeddings into F_p: 1
+  G_p over F_p: factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  [E_b + J-units] 12 generators: rank 11 of 21 not full; index in saturation = 1801152661463 = Mat([23, 9]); el.div. [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2048 (want 2^11)
+  [E_b + C+] 21 generators: rank 21 of 21 FULL; index in E_F = 14316919422414667102 = [2, 1; 11, 1; 23, 11; 683, 1]; el.div. [345598, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2097152 (want 2^21)
+  [E_b + norm units] 22 generators: rank 21 of 21 FULL; index in E_F = 26405844502152698254105036073191424 = [2, 11; 11, 1; 23, 20; 683, 1]; el.div. [345598, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2097152 (want 2^21)
+  [C+ alone] 10 generators: rank 10 of 21 not full; index in saturation = 1 = 1; el.div. [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; squares null ratio 1024 (want 2^10)
+  [norm units alone] 11 generators: rank 11 of 21 not full; index in saturation = 911383246700278 = [2, 1; 11, 1; 23, 10]; el.div. [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 506, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2048 (want 2^11)
+  [C+ + norm units] 21 generators: rank 21 of 21 FULL; index in E_F = 14316919422414667102 = [2, 1; 11, 1; 23, 11; 683, 1]; el.div. [345598, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2097152 (want 2^21)
+  [E_w + C+ + J] 22 generators: rank 21 of 21 FULL; index in E_F = 15709 = [23, 1; 683, 1]; el.div. [15709]; squares null ratio 2097152 (want 2^21)
+  [E_all = E_w + C+ + J + norm units] 33 generators: rank 21 of 21 FULL; index in E_F = 15709 = [23, 1; 683, 1]; el.div. [15709]; squares null ratio 2097152 (want 2^21)
+  [E_b + C+ + J + norm units] 33 generators: rank 21 of 21 FULL; index in E_F = 28294307158922267 = [23, 10; 683, 1]; el.div. [15709, 23, 23, 23, 23, 23, 23, 23, 23, 23]; squares null ratio 2097152 (want 2^21)
+  Q(zeta_p)^+: h+ = 1 (GRH), unit rank 10
+  [C+ in Q(zeta_p)^+  [PC: index h+ = 1]] 10 generators: rank 10 of 10 FULL; index in E_F = 1 = 1; el.div. []; squares null ratio 1024 (want 2^10)
+  G_p over Q(zeta_p)^+: factor degrees [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  P4: N(b_1) to Q(zeta_p)^+ in the basis xi_2..xi_m (exponents): Mat([-16, 20, -8, -12, 10, -2, -4, 22, -6, -18])
+  total 8 s
+CERT J = x^3 - x^2 + 1: bnfcertify = 1  (0 s)
+CERT Q(zeta_23)^+: bnfcertify = 1  (0 s)
+[lead note 02:58] bnfcertify(F_23) did not finish: process ended by the 7500 s timeout (no result line). Exit line missing because the wrapper subshell was detached.

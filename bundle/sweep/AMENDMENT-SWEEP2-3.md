@@ -1,0 +1,2 @@
+# BAR-SWEEP2 Amendment 3 (before the reruns of 73, 79, 97 and the first runs of 71, 59, 83, 89)
+Observed at 73 (W=13000) and 79 (W=17550): b_1 relations at chance level (holding ~ basis x 72-80 digits < 0.9 W). Coefficients at these primes are ~70-90 digits. New starting precision: W = 160 x basis (73: 26000 as already scheduled). S3 for these primes: 10 random +-1 changes (bar unchanged: < 50 digits). S1, S2, NC unchanged. 89: first determine deg P at >= 4,000 digits (R0), then W = 160 x basis.

@@ -1,0 +1,21 @@
+control p=7 b_1: relation [1, -22, -34, -16]
+control p=7 b_2: relation [-1, 5, -18, -34]
+control p=7 b_3: relation [-1, 14, -16, 18]
+T1 b_1: d=-1, max|n|=25953408, holds to 1993 digits at 2000 (3s)
+T1 b_2: d=1, max|n|=28114944, holds to 1994 digits at 2000 (6s)
+T1 b_3: d=1, max|n|=28114944, holds to 1993 digits at 2000 (10s)
+T1 b_4: d=-1, max|n|=19463936, holds to 1994 digits at 2000 (13s)
+T1 b_5: d=-1, max|n|=25953408, holds to 1993 digits at 2000 (17s)
+T1 b_6: d=-1, max|n|=19463936, holds to 1993 digits at 2000 (20s)
+T1: HOLDS
+T2 e_1: [1, 25584768, -7096960] holds 2000
+T2 e_2: [1, 1739650004385792, -482492099641344] holds 2000
+T2 e_3: [1, 13407412385575915749376, -3718547140575764676608] holds 2000
+T2 e_4: [1, -4073748678240307299282321408, 1129854595596083116067782656] holds 2000
+T2 e_5: [1, 291409856951108964762503293698048, -80822552416373045699853250723840] holds 2000
+T2 e_6: [1, 47361305026477074845022535286784, -13135662595834881877398488350720] holds 2000
+T2: HOLDS
+T3 identity rebuilt from table: 1988 digits
+T3 perturbations: 144 single-integer changes, best agreement 5 digits (bar < 50)
+NC(a) wrong field Q(cos 2pi/13): None
+NC(b) b_1 + 1e-300: None

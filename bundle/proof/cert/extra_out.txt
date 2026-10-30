@@ -1,0 +1,10 @@
+p=7: constant term of G = -1; C3c predicts |N(b_1)| = 2^0 -> MATCH
+   G = x^3 - 41*x^2 + 54*x - 1
+   C2 rule checked for 3 values of a: 0 mismatches
+p=5: constant term of G = [-1, 1; 2, 10]; C3c predicts |N(b_1)| = 2^10 -> MATCH
+   G = x^4 + 72*x^3 - 1056*x^2 + 3328*x - 1024
+   C2 rule checked for 2 values of a: 0 mismatches
+p=13: constant term of G = [-1, 1; 2, 78]; C3c predicts |N(b_1)| = 2^78 -> MATCH
+   C2 rule checked for 6 values of a: 0 mismatches
+p=37: constant term of G = [-1, 1; 2, 666]; C3c predicts |N(b_1)| = 2^666 -> MATCH
+   C2 rule checked for 18 values of a: 0 mismatches

@@ -1,0 +1,32 @@
+In plain words: I will open the cited papers and the two Wikipedia pages and check the identity against those pages, not against the summary.**In plain words.** The constant chase from the second Kronecker formula through the lattice weight, the Gauss sums, and Hasse–Davenport does give \(\frac{p}{2}\chi(2)(\chi(2)-1)\). That half checks. The write-up still does not prove which way the Koo–Shin–Yoon matrix acts, and Corollary 2 rests on three theorems of Washington that are not on the page. This is not a proof.
+
+**Verdicts**
+
+| Step | Verdict |
+|---|---|
+| 0 (orders, \(h(-4p)=h(-p)\)) | CORRECT |
+| 1 (Siegel form of \(\lvert b_t\rvert\)) | CORRECT |
+| 2 (Galois action) | GAP |
+| 3 (Kronecker) | CORRECT |
+| 4 (weight \(1_P+1_{\overline{P}}-1\)) | CORRECT |
+| 5 (one Euler factor) | CORRECT |
+| 6 (Washington + Hasse–Davenport + signs) | CORRECT WITH FIXES |
+| Corollary 1 | CORRECT |
+| Corollary 2 | GAP |
+| **Final** | **NOT A PROOF** |
+
+**Step 2 — GAP.** OPENED KSY25 (ar5iv HTML of arXiv:2506.14139v1). Proposition 4.1 sends \([ax^2+bxy+cy^2]\) to \(f(\tau_{\mathcal{O}})\mapsto f^{\left[\begin{smallmatrix}1&-a'(b+b_{\mathcal{O}})/2\\0&a'\end{smallmatrix}\right]}(-\overline{\omega_Q})\). For \(D=-4p\), (5) gives \(\tau_{\mathcal{O}}=\sqrt{-p}\) and \(b_{\mathcal{O}}=0\), so their \(M_Q\) matches. Section 4 defines the action only on pure pieces: an \(\mathrm{SL}_2\) class acts by \(f^\alpha=f\circ\widetilde{\alpha}\), and \(\mathrm{diag}(1,d)\) acts by \(\zeta_N\mapsto\zeta_N^d\). No sentence says in which order a product acts. OPENED KSY10 (ar5iv of arXiv:1008.0473v2) Proposition 2.1 likewise splits \(G_N\cdot\mathrm{SL}_2(\mathbb{Z}/N\mathbb{Z})/\{\pm1\}\) and cites Lang, Chapter 6, Theorem 3, which was not opened. The parenthetical “complex conjugation permutes \(\mathrm{Cl}(\mathcal{O})\)” is not in Proposition 3.1. Proposition 5.1 quotients by \(T_{\mathcal{O},N}\), the image of \(\mathcal{O}^\times\), not by \(\{\pm1\}\); Remark 5.2(i) makes those the same for this discriminant. Fix: once elements are written \(M_Q=\mathrm{diag}(1,a')\,T^{-a'b'}\), the rule \(f^{\gamma_1\gamma_2}=(f^{\gamma_1})\circ\gamma_2\) forces evaluation at \(\tau-a'b'\) (their reading 1). Write that deduction. Four primes at \(10^{-126}\) do not prove it, and lab proof v4 was not opened.
+
+**Step 3 — CORRECT.** OPENED: French Wikipedia and the scientificlib mirror of “Kronecker limit formula” (English Wikipedia opened, but the display math did not come through as text). Both state \(E_{u,v}(\tau,1)=-2\pi\log\lvert f(u-v\tau;\tau)\,q^{v^2/2}\rvert\), with \(f(z,\tau)=q^{1/12}(p^{1/2}-p^{-1/2})\prod_{n\ge1}(1-q^np)(1-q^n/p)\) and sum \(e^{2\pi i(mu+nv)}y^s/\lvert m\tau+n\rvert^{2s}\). Siegel 1961 and Lang Chapter 20 were not opened. With \((u,v)=(r_2,-r_1)\), \(\lvert f\,q^{v^2/2}\rvert=\lvert g_{(r_1,r_2)}\rvert\) matches OPENED KSY10 (1.3), including \(B_2(r_1)/2\). Their phase \(\mathrm{Im}(\overline{z}\,\omega)/A(L)\) equals \(mr_2-nr_1\). The constant \(-2\pi\) is the one in that statement.
+
+**Steps 4–5 — CORRECT.** On \(\mathcal{O}\), \((-1)^{x+y}\) is \(+1\) on \(2\mathcal{O}_K\) and \(-1\) on \(1+2\mathcal{O}_K\), and \(f=1_P+1_{\overline{P}}-1\) is that function and is \(0\) on the \(w, \overline{w}\) cosets. Both primes contribute, so the class sum is \(p^{s/2}(2\cdot 2^{-s}\overline{\chi}(2)-1)G(\chi^2)L_K=p^{s/2}(2^{1-s}\overline{\chi}(2)-1)G(\chi^2)L_K\). One factor, not \((1-\chi(2)2^{-s})^2\). At \(s=1\) it is \(\overline{\chi}(2)-1\). The Gauss-sum collapse, including the units \(\{\pm1\}\) cancelling the \(\tfrac12\), checks.
+
+**Step 6 — CORRECT WITH FIXES.** Washington was not opened, so “Theorem 4.9” is not found. OPENED Sharifi, *Iwasawa Theory*, Theorem 4.2.14, is the same formula: even primitive \(\chi\), \(L(\chi,1)=-(\tau(\chi)/f)\sum\overline{\chi}(a)\log\lvert1-\zeta^a\rvert\); odd, \(L(\chi,1)=(\pi i\,\tau(\chi)/f)B_{1,\overline{\chi}}\). Fed in as they do, this produces \(A_\chi=-(i/2)p^{-1/2}(1-\overline{\chi}(2))\tau(\chi^2)\tau(\overline{\chi})\tau(\overline{\chi}\psi)C_\chi B_{1,\chi\psi}\). Hasse–Davenport product, SNIPPET (eudic mirror and French Wikipedia of the same article): \(\prod_{a\bmod m}\tau(\chi\rho^a,\psi)=-\chi^{-m}(m)\tau(\chi^m,\psi)\prod_a\tau(\rho^a,\psi)\). For \(m=2\), \(\rho=\psi\), and \(\tau(1)=-1\), the two minuses cancel and give \(\tau(\overline{\chi})\tau(\overline{\chi}\psi)=\chi(4)\tau(\overline{\chi}^2)\tau(\psi)\). OPENED Wikipedia “Gauss sum”, History: \(G(\chi)=\sqrt{p}\) or \(i\sqrt{p}\) according as \(p\equiv1\) or \(3\pmod4\). Here \(p\equiv7\pmod8\), so \(\tau(\psi)=i\sqrt{p}\). Then \(\chi(4)(1-\overline{\chi}(2))=\chi(2)(\chi(2)-1)\), and the \(i\cdot i\) produces \(+\frac{p}{2}\). The product \(\tau(\chi^2)\tau(\overline{\chi}^2)=\chi^2(-1)p\) sits in that article’s “Properties” block; the formula itself did not survive text extraction. The \(L_K'(0)\) line needs the missing sentence \(L(0,\chi)=0\) for even \(\chi\neq1\); \(L'(0,\chi)=-C_\chi/2\) was not opened.
+
+**Corollary 1 — CORRECT.** The character component of \(\prod_b\sigma_{(4b)^{-1}}(\xi)^{(b/p)(p-2b)}\) equals \((\chi(4)-\chi(2))\sum_b\chi(b)(b/p)(2b-p)/2\), which is the multiplier in the theorem. Both sides are units with the same archimedean absolute values, so they differ by a sign. The identity \(\xi^2=\eta_2/\eta_1\) checks: \(2\cdot(p+1)/2\equiv1\pmod p\).
+
+**Corollary 2 — GAP.** The eigenvalue \(\beta^{(\chi)}=-p B_{1,\overline{\chi}\psi}\) matches the same pairing, and the rearrangement \(2^{m-1}p^{m-2}h^-/h(-p)\) is the right absolute-value form of the product they quote. Washington, Lemma 8.1 and Theorem 4.17, were not opened, and \(C^+/\{\pm1\}\cong I_G\) is not proved here. \(B_{1,\psi}=-h(-p)\) was not opened as a class-number formula; only the Gauss-sum input to it was.
+
+**Prior art.** Not a direct specialisation of a theorem opened here. KSY25 moves Galois conjugates; it does not evaluate this norm. Berndt–Chan–Zhang, *Trans. AMS* 349 (1997), ABSTRACT plus PDF extract: Kronecker’s formula is used to identify Ramanujan invariants \(G_n,g_n\) with units, not this character identity. Two searches (SNIPPET) found no statement of \(A_\chi=\frac{p}{2}\chi(2)(\chi(2)-1)B_{1,\chi\psi}C_\chi\).
+
+Next strike: on this page, deduce reading 1 from \(M_Q=\mathrm{diag}(1,a')T^{-a'b'}\) and \(f^{\gamma_1\gamma_2}=(f^{\gamma_1})\circ\gamma_2\), and drop the four-prime exclusion.

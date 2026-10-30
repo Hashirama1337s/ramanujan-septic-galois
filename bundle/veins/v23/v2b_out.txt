@@ -1,0 +1,7 @@
+n=7: deg Q(b_1) = 3; Q(j(sqrt -7)) (deg 1) inside Q(b_1): YES; Q(zeta_7)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 3 => [Q(b_1) : K(j,zeta_n)^+] = 1   (0 s)
+n=9: deg Q(b_1) = 6; Q(j(sqrt -9)) (deg 2) inside Q(b_1): YES; Q(zeta_9)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 6 => [Q(b_1) : K(j,zeta_n)^+] = 1   (0 s)
+n=15: deg Q(b_1) = 8; Q(j(sqrt -15)) (deg 2) inside Q(b_1): YES; Q(zeta_15)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 4 => [Q(b_1) : K(j,zeta_n)^+] = 2   (0 s)
+n=21: deg Q(b_1) = 24; Q(j(sqrt -21)) (deg 4) inside Q(b_1): YES; Q(zeta_21)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 12 => [Q(b_1) : K(j,zeta_n)^+] = 2   (0 s)
+n=25: deg Q(b_1) = 20; Q(j(sqrt -25)) (deg 2) inside Q(b_1): YES; Q(zeta_25)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 20 => [Q(b_1) : K(j,zeta_n)^+] = 1   (0 s)
+n=27: deg Q(b_1) = 27; Q(j(sqrt -27)) (deg 3) inside Q(b_1): YES; Q(zeta_27)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 27 => [Q(b_1) : K(j,zeta_n)^+] = 1   (1 s)
+n=33: deg Q(b_1) = 40; Q(j(sqrt -33)) (deg 4) inside Q(b_1): YES; Q(zeta_33)^+ inside Q(b_1): YES; [K(j, zeta_n):Q]/2 = 20 => [Q(b_1) : K(j,zeta_n)^+] = 2   (22 s)

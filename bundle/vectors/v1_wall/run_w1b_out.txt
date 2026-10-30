@@ -1,0 +1,38 @@
+=== nulls (wrong action)
+  NULL wrong-action W l=3 m=3: 3 values, distance of coefficients to integers 1e-209  -> DID NOT FAIL
+  NULL wrong-action W l=9 m=3: 27 values, distance of coefficients to integers 1e-174  -> DID NOT FAIL
+  NULL wrong-action W l=5 m=5: 20 values, distance of coefficients to integers 1e-189  -> DID NOT FAIL
+  ***   at top-level: ...3);wnull(3,9);wnull(5,5);wnull(5,15)
+  ***                                             ^-----------
+  ***   in function wnull: ...G0,i));err=max(err,abs(c-round(real(c)))));pri
+  ***                                                  ^---------------------
+  *** round: precision too low in roundr (precision loss in truncation).
+... skipping file 'run_w1b.gp'
+=== extras
+W1 l=3 fam=W m=81 (m mod l=0) idoneal=0 ppow=1 h=6 |C_N|=144 deg=18 preddeg=18 mult=[8] W=150 round=1e-136 den=1 irred=1 P(z)@2W=1e-316 realroots=2/18 predreal=2 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 2, 2, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+W1 l=3 fam=W m=85 (m mod l=1) idoneal=1 ppow=0 h=4 |C_N|=128 deg=16 preddeg=16 mult=[8] W=150 round=1e-134 den=1 irred=1 P(z)@2W=1e-316 realroots=8/16 predreal=8 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+W1 l=3 fam=B m=63 (m mod l=0) idoneal=0 ppow=0 h=4 |C_N|=96 deg=4 preddeg=4 mult=[24] W=150 round=1e-150 den=1 irred=1 P(z)@2W=1e-310 realroots=2/4 predreal=2 => NOT ABELIAN [not Galois: mod 5 factor degrees [1, 1, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^4 - 23*x^3 + 195*x^2 - 509*x + 1
+W1 l=3 fam=B m=81 (m mod l=0) idoneal=0 ppow=1 h=6 |C_N|=144 deg=6 preddeg=6 mult=[24] W=150 round=1e-146 den=1 irred=1 P(z)@2W=1e-310 realroots=2/6 predreal=2 => NOT ABELIAN [not Galois: mod 11 factor degrees [1, 1, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^6 + 12372*x^5 - 206184*x^4 + 815744*x^3 + 1649472*x^2 + 791808*x - 512
+W1 l=3 fam=B m=99 (m mod l=0) idoneal=0 ppow=0 h=6 |C_N|=144 deg=6 preddeg=6 mult=[24] W=150 round=1e-147 den=1 irred=1 P(z)@2W=1e-310 realroots=2/6 predreal=2 => NOT ABELIAN [not Galois: mod 17 factor degrees [1, 1, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^6 - 12*x^5 + 33540*x^4 - 201040*x^3 + 28752*x^2 - 268032*x + 64
+W1 l=3 fam=B m=117 (m mod l=0) idoneal=0 ppow=0 h=8 |C_N|=192 deg=8 preddeg=8 mult=[24] W=150 round=1e-144 den=1 irred=1 P(z)@2W=1e-311 realroots=4/8 predreal=4 => NOT ABELIAN [not Galois: mod 23 factor degrees [1, 1, 1, 1, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^8 + 83024*x^7 - 1739456*x^6 + 10232192*x^5 - 458624*x^4 - 81857536*x^3 - 111325184*x^2 - 42508288*x + 4096
+W1 l=3 fam=B m=153 (m mod l=0) idoneal=0 ppow=0 h=8 |C_N|=192 deg=8 preddeg=8 mult=[24] W=150 round=1e-143 den=1 irred=1 P(z)@2W=1e-312 realroots=4/8 predreal=4 => NOT ABELIAN [not Galois: mod 47 factor degrees [1, 1, 1, 1, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^8 + 422144*x^7 - 1687616*x^6 + 330752*x^5 - 65293184*x^4 - 2646016*x^3 - 108007424*x^2 - 216137728*x + 4096
+W1 l=3 fam=B m=225 (m mod l=0) idoneal=0 ppow=0 h=8 |C_N|=192 deg=8 preddeg=8 mult=[24] W=150 round=1e-142 den=1 irred=1 P(z)@2W=1e-313 realroots=4/8 predreal=4 => NOT ABELIAN [not Galois: mod 11 factor degrees [1, 1, 1, 1, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^8 + 6635600*x^7 - 139343552*x^6 + 816199040*x^5 - 46326656*x^4 - 6529592320*x^3 - 8917987328*x^2 - 3397427200*x + 4096
+W1 l=3 fam=B m=243 (m mod l=0) idoneal=0 ppow=1 h=9 |C_N|=216 deg=9 preddeg=9 mult=[24] W=150 round=1e-142 den=1 irred=1 P(z)@2W=1e-314 realroots=1/9 predreal=1 => NOT ABELIAN [not Galois: mod 17 factor degrees [1, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+W1 l=3 fam=B m=333 (m mod l=0) idoneal=0 ppow=0 h=8 |C_N|=192 deg=8 preddeg=8 mult=[24] W=150 round=1e-140 den=1 irred=1 P(z)@2W=1e-314 realroots=4/8 predreal=4 => NOT ABELIAN [not Galois: mod 11 factor degrees [1, 1, 1, 1, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+    P = x^8 + 199148624*x^7 - 4182117056*x^6 + 24495300992*x^5 - 1393917824*x^4 - 195962407936*x^3 - 267655491584*x^2 - 101964095488*x + 4096
+W1 l=3 fam=B m=441 (m mod l=0) idoneal=0 ppow=0 h=16 |C_N|=384 deg=16 preddeg=16 mult=[24] W=150 round=1e-133 den=1 irred=1 P(z)@2W=1e-318 realroots=4/16 predreal=4 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+W1 l=3 fam=B m=729 (m mod l=0) idoneal=0 ppow=1 h=18 |C_N|=432 deg=18 preddeg=18 mult=[24] W=150 round=1e-129 den=1 irred=1 P(z)@2W=1e-322 realroots=2/18 predreal=2 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 2, 2, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+W1 l=3 fam=B m=765 (m mod l=0) idoneal=0 ppow=0 h=16 |C_N|=384 deg=16 preddeg=16 mult=[24] W=150 round=1e-129 den=1 irred=1 P(z)@2W=1e-321 realroots=8/16 predreal=8 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (0 s)
+W1 l=5 fam=B m=75 (m mod l=0) idoneal=0 ppow=0 h=6 |C_N|=480 deg=12 preddeg=12 mult=[40] W=150 round=1e-136 den=1 irred=1 P(z)@2W=1e-310 realroots=4/12 predreal=4 => NOT ABELIAN [not Galois: mod 89 factor degrees [1, 1, 1, 1, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (1 s)
+W1 l=5 fam=B m=125 (m mod l=0) idoneal=0 ppow=1 h=10 |C_N|=800 deg=20 preddeg=20 mult=[40] W=150 round=1e-119 den=1 irred=1 P(z)@2W=1e-313 realroots=4/20 predreal=4 => NOT ABELIAN [not Galois: mod 79 factor degrees [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (1 s)
+W1 l=5 fam=B m=175 (m mod l=0) idoneal=0 ppow=0 h=6 |C_N|=480 deg=12 preddeg=12 mult=[40] W=150 round=1e-137 den=1 irred=1 P(z)@2W=1e-310 realroots=4/12 predreal=4 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (1 s)
+W1 l=5 fam=B m=225 (m mod l=0) idoneal=0 ppow=0 h=8 |C_N|=640 deg=16 preddeg=16 mult=[40] W=150 round=1e-121 den=1 irred=1 P(z)@2W=1e-314 realroots=8/16 predreal=8 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (1 s)
+W1 l=5 fam=B m=325 (m mod l=0) idoneal=0 ppow=0 h=12 |C_N|=960 deg=24 preddeg=24 mult=[40] W=170 round=1e-126 den=1 irred=1 P(z)@2W=1e-358 realroots=8/24 predreal=8 => NOT ABELIAN [not Galois: mod 419 factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (2 s)
+W1 l=5 fam=B m=625 (m mod l=0) idoneal=0 ppow=1 h=10 |C_N|=800 deg=20 preddeg=20 mult=[40] W=170 round=1e-120 den=1 irred=1 P(z)@2W=1e-360 realroots=4/20 predreal=4 => NOT ABELIAN [not Galois: mod 79 factor degrees [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (2 s)
+W1 l=5 fam=B m=1225 (m mod l=0) idoneal=0 ppow=0 h=16 |C_N|=1280 deg=32 preddeg=32 mult=[40] W=224 round=1e-153 den=1 irred=1 P(z)@2W=1e-483 realroots=8/32 predreal=8 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]] Halt:ok Hsame:ok L3:ok  (5 s)

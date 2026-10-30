@@ -1,0 +1,7 @@
+
+== n=57 k=1 h(-4n)=4 W=2231  #conjugate values=72  (pred deg for k=1: 72)
+  integrality: rounding error 10^-847, max coeff digits 1382, monic=1, min separation 10^-102.1, forms with x0 != 0: 3
+  real roots (polsturm of radical): 36 of 72  -> NOT totally real => not Galois => not abelian
+  constant term: |c0| = 2^2052 * 1
+  NEG CONTROL convention 2: rounding error 10^--1376 -> fails as it should
+  time 18 s

@@ -1,0 +1,32 @@
+p=47 h=5 W=1389 degree=115 (want 115)  conjugates in 5685 ms
+  (i)   rounding error 10^-598  max coefficient digits 804  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^-0 -> fails as it should
+  total 11309 ms
+p = 47: G over Q(zeta_p)^+ = 23 factors of degree 5  (7 s)
+  N(b) is a unit: 1
+    chi^2: observed/predicted = 1.00000000000000
+    chi^4: observed/predicted = 1.00000000000000
+    chi^6: observed/predicted = 1.00000000000000
+    chi^8: observed/predicted = 1.00000000000000
+    chi^10: observed/predicted = 1.00000000000000
+    chi^12: observed/predicted = 1.00000000000000
+    chi^14: observed/predicted = 1.00000000000000
+    chi^16: observed/predicted = 1.00000000000000
+    chi^18: observed/predicted = 1.00000000000000
+    chi^20: observed/predicted = 1.00000000000000
+    chi^22: observed/predicted = 1.00000000000000
+    chi^24: observed/predicted = 1.00000000000000
+    chi^26: observed/predicted = 1.00000000000000
+    chi^28: observed/predicted = 1.00000000000000
+    chi^30: observed/predicted = 1.00000000000000
+    chi^32: observed/predicted = 1.00000000000000
+    chi^34: observed/predicted = 1.00000000000000
+    chi^36: observed/predicted = 1.00000000000000
+    chi^38: observed/predicted = 1.00000000000000
+    chi^40: observed/predicted = 1.00000000000000
+    chi^42: observed/predicted = 1.00000000000000
+    chi^44: observed/predicted = 1.00000000000000
+  worst relative deviation over chi with chi(2) != 1: 1.76 e-83; characters with chi(2) = 1: 0  (7 s)
+exit 0

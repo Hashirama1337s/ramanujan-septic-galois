@@ -1,0 +1,9 @@
+galois_p29.txt lines 14
+galois_p31.txt lines 15
+galois_p41.txt lines 20
+galois_p47.txt lines 23
+galois_p53.txt lines 26
+galois_p61.txt lines 30
+galois_p67.txt lines 33
+galois_p73.txt lines 0
+total 161 mismatches 0

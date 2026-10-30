@@ -1,0 +1,17 @@
+  ***   Warning: new maximum stack size = 2000003072 (1907.352 Mbytes).
+l=7 m=21 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 19.38  proved lower bound (24 x log ratio >= 90.04, i.e. log ratio >= 3.75)  consistent
+l=7 m=35 h=6 distinct conjugates of V = 6 (= h)  min log(|sigma V|/V) over sigma != 1 = 23.81  proved lower bound (24 x log ratio >= 124.25, i.e. log ratio >= 5.18)  consistent
+l=7 m=49 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 36.41  proved lower bound (24 x log ratio >= 152.07, i.e. log ratio >= 6.34)  consistent
+l=7 m=63 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 46.09  proved lower bound (24 x log ratio >= 176.11, i.e. log ratio >= 7.34)  consistent
+l=7 m=77 h=8 distinct conjugates of V = 8 (= h)  min log(|sigma V|/V) over sigma != 1 = 35.99  proved lower bound (24 x log ratio >= 197.61, i.e. log ratio >= 8.23)  consistent
+l=7 m=91 h=6 distinct conjugates of V = 6 (= h)  min log(|sigma V|/V) over sigma != 1 = 45.62  proved lower bound (24 x log ratio >= 217.22, i.e. log ratio >= 9.05)  consistent
+l=11 m=33 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 65.85  proved lower bound (24 x log ratio >= 515.56, i.e. log ratio >= 21.48)  consistent
+l=11 m=55 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 101.27  proved lower bound (24 x log ratio >= 698.49, i.e. log ratio >= 29.10)  consistent
+l=11 m=99 h=6 distinct conjugates of V = 6 (= h)  min log(|sigma V|/V) over sigma != 1 = 120.99  proved lower bound (24 x log ratio >= 975.77, i.e. log ratio >= 40.66)  consistent
+l=13 m=39 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 98.92  proved lower bound (24 x log ratio >= 887.81, i.e. log ratio >= 36.99)  consistent
+l=13 m=65 h=8 distinct conjugates of V = 8 (= h)  min log(|sigma V|/V) over sigma != 1 = 116.03  proved lower bound (24 x log ratio >= 1197.06, i.e. log ratio >= 49.88)  consistent
+l=9 m=27 h=3 distinct conjugates of V = 3 (= h)  min log(|sigma V|/V) over sigma != 1 = 54.57  proved lower bound (24 x log ratio >= 254.36, i.e. log ratio >= 10.60)  consistent
+l=9 m=63 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 76.42  proved lower bound (24 x log ratio >= 422.29, i.e. log ratio >= 17.60)  consistent
+l=25 m=75 h=6 distinct conjugates of V = 6 (= h)  min log(|sigma V|/V) over sigma != 1 = 491.16  proved lower bound (24 x log ratio >= 6102.76, i.e. log ratio >= 254.28)  consistent
+l=5 m=35 h=6 distinct conjugates of V = 6 (= h)  min log(|sigma V|/V) over sigma != 1 = 11.83  proved lower bound (24 x log ratio >= 11.69, i.e. log ratio >= 0.49)  consistent
+l=5 m=55 h=4 distinct conjugates of V = 4 (= h)  min log(|sigma V|/V) over sigma != 1 = 21.13  proved lower bound (24 x log ratio >= 15.62, i.e. log ratio >= 0.65)  consistent

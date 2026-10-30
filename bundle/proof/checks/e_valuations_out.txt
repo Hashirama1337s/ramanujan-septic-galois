@@ -1,0 +1,20 @@
+p=7: y^12 = -f2(tau')^24 to 615 digits
+p=11: y^12 = -f2(tau')^24 to 615 digits
+p=19: y^12 = -f2(tau')^24 to 616 digits
+p=23: y^12 = -f2(tau')^24 to 615 digits
+p=31: y^12 = -f2(tau')^24 to 616 digits
+T rules: -1 0 615 digits
+S rules: 616 614 614 digits
+p=23 (p mod 8 = 7), h=3: 2-adic Newton slopes of minpoly(Y): [0, 0, 0]
+p=31 (p mod 8 = 7), h=3: 2-adic Newton slopes of minpoly(Y): [0, 0, 0]
+p=47 (p mod 8 = 7), h=5: 2-adic Newton slopes of minpoly(Y): [0, 0, 0, 0, 0]
+p=71 (p mod 8 = 7), h=7: 2-adic Newton slopes of minpoly(Y): [0, 0, 0, 0, 0, 0, 0]
+p=11 (p mod 8 = 3), h=3: 2-adic Newton slopes of minpoly(Y): [4/3, 4/3, 4/3]
+p=19 (p mod 8 = 3), h=3: 2-adic Newton slopes of minpoly(Y): [4/3, 4/3, 4/3]
+p=59 (p mod 8 = 3), h=9: 2-adic Newton slopes of minpoly(Y): [4/3, 4/3, 4/3, 4/3, 4/3, 4/3, 4/3, 4/3, 4/3]
+p=83 (p mod 8 = 3), h=9: 2-adic Newton slopes of minpoly(Y): [4/3, 4/3, 4/3, 4/3, 4/3, 4/3, 4/3, 4/3, 4/3]
+p=5 (p mod 8 = 5), h=2: 2-adic Newton slopes of minpoly(Y): [2, 2]
+p=13 (p mod 8 = 5), h=2: 2-adic Newton slopes of minpoly(Y): [2, 2]
+p=17 (p mod 8 = 1), h=4: 2-adic Newton slopes of minpoly(Y): [2, 2, 2, 2]
+p=29 (p mod 8 = 5), h=6: 2-adic Newton slopes of minpoly(Y): [2, 2, 2, 2, 2, 2]
+p=41 (p mod 8 = 1), h=8: 2-adic Newton slopes of minpoly(Y): [2, 2, 2, 2, 2, 2, 2, 2]

@@ -1,0 +1,5 @@
+nbthreads = 1
+p = 43  p mod 8 = 3  h(-4p) = 3  predicted degree d = h(p-1)/2 = 63  C3 constant-term 2-exponent e = 903
+p = 47  p mod 8 = 7  h(-4p) = 5  predicted degree d = h(p-1)/2 = 115  C3 constant-term 2-exponent e = 0
+p = 61  p mod 8 = 5  h(-4p) = 6  predicted degree d = h(p-1)/2 = 180  C3 constant-term 2-exponent e = 5490
+p = 67  p mod 8 = 3  h(-4p) = 3  predicted degree d = h(p-1)/2 = 99  C3 constant-term 2-exponent e = 2211

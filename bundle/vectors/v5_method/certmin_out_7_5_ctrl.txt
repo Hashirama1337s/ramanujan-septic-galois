@@ -1,0 +1,29 @@
+
+========== p = 7: h(-4p) = 1 reduced forms [(1, 0, 7)], degree d = 3
+   form (1, 0, 7) -> used (1, 0, 7), a' = 1, x = 0, Im t = sqrt(p)/1 = 2.6458
+   min Im of evaluation points y_min = 2.6458 (Lemma B'/T bound: 0.6614)
+   Arb modular_theta cross-check (256 bits): 3 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 6.6 bits (2.0 digits); closed-form Lemma H 50.1 bits
+   W = 75 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = [5.279125169723540873240e-19 +/- 4.77e-41]  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 3)
+   exact: monic True, degree 3 (want 3), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^0 * 1; C3 predicts 2^0 -> MATCH
+   max coefficient digits 2; sha256(certified coefficient list) = 3dd5447cebd4f13b
+   identical to known x^3 - 41x^2 + 54x - 1: True
+   NEG CONTROL conv 2: certified = True; coefficients whose real ball contains NO integer: 0; imag ball excludes 0: 0 -> control FAILS
+   VERDICT p = 7: CERTIFIED   [total 0.0 s]
+
+========== p = 5: h(-4p) = 2 reduced forms [(1, 0, 5), (2, 2, 3)], degree d = 4
+   form (1, 0, 5) -> used (1, 0, 5), a' = 1, x = 0, Im t = sqrt(p)/1 = 2.2361
+   form (2, 2, 3) -> used (3, -2, 2) (swapped), a' = 7, x = 7, Im t = sqrt(p)/3 = 0.7454
+   min Im of evaluation points y_min = 0.7454 (Lemma B'/T bound: 0.7454)
+   Arb modular_theta cross-check (256 bits): 4 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 12.5 bits (3.7 digits); closed-form Lemma H 54.0 bits
+   W = 81 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = [2.2210446586631145103042e-18 +/- 3.37e-41]  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 6)
+   exact: monic True, degree 4 (want 4), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^10 * 1; C3 predicts 2^10 -> MATCH
+   max coefficient digits 4; sha256(certified coefficient list) = e6aaf9bc92de0d6f
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p5.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 4; imag ball excludes 0: 4 -> certified NON-integral (control passes)
+   VERDICT p = 5: CERTIFIED   [total 0.0 s]

@@ -1,0 +1,19 @@
+== F4' validation (13, 73: full F4 already passed)
+  (F4') p=13 closure correct conv: 10^-68   wrong conv: 10^7  -> PASS
+  (F4') p=73 closure correct conv: 10^34   wrong conv: 10^106  -> FAIL
+== p = 97 (full F1-F4 + F4')
+p=97 h=4 W=9720 degree=192 (want 192)  saved; 649782 ms
+  (F1) rounding error 10^-2533  max coefficient digits 7190  monic=1
+  (F3) constant term = +2^9312 * 1   predicted 2^9312  -> MATCH
+  (F2) irreducible=1
+  (F4) wrong convention: rounding error 10^--7220 -> fails as it should
+  (F4') p=97 closure correct conv: 10^91   wrong conv: 10^162  -> FAIL
+  total 1383895 ms
+== p = 89 (F1-F3 + F4')
+p=89 h=12 W=16697 degree=528 (want 528)  saved; 5289807 ms
+  (F1) rounding error 10^-4240  max coefficient digits 12456  monic=1
+  (F3) constant term = +2^23496 * 1   predicted 2^23496  -> MATCH
+  (F2) irreducible=1
+  (F4') p=89 closure correct conv: 10^72   wrong conv: 10^143  -> FAIL
+  total 5292752 ms
+exit 0

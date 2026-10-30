@@ -1,0 +1,49 @@
+
+================ p = 37  (N = 148, h(-4p) = 2, reduced forms [[1, 0, 37], [2, 2, 19]])
+  convention 1: degree 36, coefficients round to Z with error 10^-2483, max imag part of conjugates 10^-2963
+  convention 2: degree 36, coefficients round to Z with error 10^--517, max imag part of conjugates 10^--39
+  convention 3: degree 36, coefficients round to Z with error 10^--539, max imag part of conjugates 10^--39
+  used convention 1: G integral (error 10^-2483), monic=1, max coefficient digits 518, irreducible=1, min root separation 10^-50.6
+  exact R = b_1^4 candidate in Q(theta), deg 36; max coefficient digits of R: 160
+  roots of x^4 - R in Q(theta): 2
+  EXACT: G(c_1) = 0 in Q(theta): 1;  |iota(c_1) - b_1| = 10^-2968 (half separation 10^-50.9)
+  c_1 = [1779 chars]
+  Liouville gap: if b_1 != iota(c_1) then |b_1 - iota(c_1)| >= (H_b + H_c)^-(d-1) = 10^-1353.0 (log10 H_b = 38.36, log10 H_c = 38.36); observed 10^-2968 -> GAP ARGUMENT PASSES
+    a = 1: sigma_a(c_1) at iota = b_1 at (1,0,37)  (agreement 10^-2968)
+    a = 3: sigma_a(c_1) at iota = b_16 at (1,0,37)  (agreement 10^-2968)
+    a = 5: sigma_a(c_1) at iota = sigma_Q(b_4), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2967)
+    a = 7: sigma_a(c_1) at iota = b_17 at (1,0,37)  (agreement 10^-2956)
+    a = 9: sigma_a(c_1) at iota = b_3 at (1,0,37)  (agreement 10^-2957)
+    a = 11: sigma_a(c_1) at iota = b_10 at (1,0,37)  (agreement 10^-2958)
+    a = 13: sigma_a(c_1) at iota = sigma_Q(b_7), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2957)
+    a = 15: sigma_a(c_1) at iota = sigma_Q(b_10), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2958)
+    a = 17: sigma_a(c_1) at iota = sigma_Q(b_11), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2959)
+    a = 19: sigma_a(c_1) at iota = sigma_Q(b_18), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2959)
+    a = 21: sigma_a(c_1) at iota = b_13 at (1,0,37)  (agreement 10^-2961)
+    a = 23: sigma_a(c_1) at iota = sigma_Q(b_17), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2961)
+    a = 25: sigma_a(c_1) at iota = b_5 at (1,0,37)  (agreement 10^-2962)
+    a = 27: sigma_a(c_1) at iota = b_11 at (1,0,37)  (agreement 10^-2963)
+    a = 29: sigma_a(c_1) at iota = sigma_Q(b_2), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2964)
+    a = 31: sigma_a(c_1) at iota = sigma_Q(b_16), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2965)
+    a = 33: sigma_a(c_1) at iota = b_12 at (1,0,37)  (agreement 10^-2967)
+    a = 35: sigma_a(c_1) at iota = sigma_Q(b_6), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2966)
+    a = 39: sigma_a(c_1) at iota = sigma_Q(b_1), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2966)
+    a = 41: sigma_a(c_1) at iota = b_2 at (1,0,37)  (agreement 10^-2966)
+    a = 43: sigma_a(c_1) at iota = sigma_Q(b_15), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2965)
+    a = 45: sigma_a(c_1) at iota = sigma_Q(b_12), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2965)
+    a = 47: sigma_a(c_1) at iota = b_8 at (1,0,37)  (agreement 10^-2963)
+    a = 49: sigma_a(c_1) at iota = b_7 at (1,0,37)  (agreement 10^-2962)
+    a = 51: sigma_a(c_1) at iota = sigma_Q(b_9), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2961)
+    a = 53: sigma_a(c_1) at iota = b_4 at (1,0,37)  (agreement 10^-2960)
+    a = 55: sigma_a(c_1) at iota = sigma_Q(b_3), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2959)
+    a = 57: sigma_a(c_1) at iota = sigma_Q(b_8), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2958)
+    a = 59: sigma_a(c_1) at iota = sigma_Q(b_14), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2957)
+    a = 61: sigma_a(c_1) at iota = sigma_Q(b_5), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2957)
+    a = 63: sigma_a(c_1) at iota = b_14 at (1,0,37)  (agreement 10^-2957)
+    a = 65: sigma_a(c_1) at iota = b_18 at (1,0,37)  (agreement 10^-2956)
+    a = 67: sigma_a(c_1) at iota = b_9 at (1,0,37)  (agreement 10^-2956)
+    a = 69: sigma_a(c_1) at iota = sigma_Q(b_13), Q=[2, 2, 19] -> (19,-2,2), a'=39, y=39  (10^-2966)
+    a = 71: sigma_a(c_1) at iota = b_15 at (1,0,37)  (agreement 10^-2966)
+    a = 73: sigma_a(c_1) at iota = b_6 at (1,0,37)  (agreement 10^-2967)
+  each analytic conjugate hit exactly once by sigma_a(c_1): 1; worst agreement 10^-2956
+  VERDICT p = 37: CERTIFIED   [27 s]

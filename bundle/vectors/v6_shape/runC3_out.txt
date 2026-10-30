@@ -1,0 +1,188 @@
+  ***   error opening input file: `unC3.gp--AMENDMENT-S1b:J-onlylistexactlyasrunC.gp,thensc(47),sc(73)withthethreadstackraised(asrunC2.gp).sC.gpunchanged.'.
+... skipping file 'runC3.gp'
+CJ p=79 (7 mod 8) h(-4p)=5 J: [[1, 5]]  predJ: [[1, 5]]  ok
+  *** polclass: Warning: increasing stack size to 16000000.
+CJ p=83 (3 mod 8) h(-4p)=9 J: [[3, 1], [3, 2]]  predJ: [[3, 1], [3, 2]]  ok
+CJ p=103 (7 mod 8) h(-4p)=5 J: [[1, 5]]  predJ: [[1, 5]]  ok
+CJ p=107 (3 mod 8) h(-4p)=9 J: [[3, 1], [3, 2]]  predJ: [[3, 1], [3, 2]]  ok
+CJ p=127 (7 mod 8) h(-4p)=5 J: [[1, 5]]  predJ: [[1, 5]]  ok
+CJ p=131 (3 mod 8) h(-4p)=15 J: [[3, 1], [3, 2], [3, 2]]  predJ: [[3, 1], [3, 2], [3, 2]]  ok
+CJ p=139 (3 mod 8) h(-4p)=9 J: [[3, 1], [3, 2]]  predJ: [[3, 1], [3, 2]]  ok
+CJ p=151 (7 mod 8) h(-4p)=7 J: [[1, 7]]  predJ: [[1, 7]]  ok
+CJ p=163 (3 mod 8) h(-4p)=3 J: [[3, 1]]  predJ: [[3, 1]]  ok
+CJ p=167 (7 mod 8) h(-4p)=11 J: [[1, 11]]  predJ: [[1, 11]]  ok
+CJ p=179 (3 mod 8) h(-4p)=15 J: [[3, 1], [3, 2], [3, 2]]  predJ: [[3, 1], [3, 2], [3, 2]]  ok
+CJ p=191 (7 mod 8) h(-4p)=13 J: [[1, 13]]  predJ: [[1, 13]]  ok
+CJ p=199 (7 mod 8) h(-4p)=9 J: [[1, 9]]  predJ: [[1, 9]]  ok
+CJ p=211 (3 mod 8) h(-4p)=9 J: [[3, 1], [3, 2]]  predJ: [[3, 1], [3, 2]]  ok
+CJ p=223 (7 mod 8) h(-4p)=7 J: [[1, 7]]  predJ: [[1, 7]]  ok
+CJ p=227 (3 mod 8) h(-4p)=15 J: [[3, 1], [3, 2], [3, 2]]  predJ: [[3, 1], [3, 2], [3, 2]]  ok
+CJ p=239 (7 mod 8) h(-4p)=15 J: [[1, 15]]  predJ: [[1, 15]]  ok
+CJ p=251 (3 mod 8) h(-4p)=21 J: [[3, 1], [3, 2], [3, 2], [3, 2]]  predJ: [[3, 1], [3, 2], [3, 2], [3, 2]]  ok
+  *** nfinit: Warning: increasing stack size to 16000000.
+  *** nfinit: Warning: increasing stack size to 32000000.
+  *** nfinit: Warning: increasing stack size to 64000000.
+  *** nfinit: Warning: increasing stack size to 128000000.
+  *** nfinit: Warning: increasing stack size to 256000000.
+  *** nfinit: Warning: increasing stack size to 512000000.
+  *** _ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: 
+increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** 
+_ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** nfinit: Warning: increasing stack size to 1024000000.
+  *** nfinit: Warning: increasing stack size to 2048000000.
+C p=47 (p mod 8 = 7) h(-4p)=5 h(-p)=5 ord_p 2=23 n=115
+   J: [[1, 5]]  predJ: [[1, 5]]  ok
+   F_p: [[1, 115]]  predF: [[1, 115]]  ok
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 115: 1   literal old (vi) with lcm(2, ord) = 46: 0   (220 s)
+  *** 
+_ZM_mul_worker: 
+Warning: increasing stack size to 16000000
+.
+
+  *** _ZM_mul_worker: Warning: 
+increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  ***   *** _ZM_mul_worker: _ZM_mul_worker: Warning: Warning: increasing stack size to 16000000increasing stack size to 16000000..
+
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000
+.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_mul_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: 
+increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: 
+increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: 
+Warning: 
+increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000
+.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: 
+Warning: 
+increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** 
+_ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** 
+_ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+
+  *** _ZM_inv_worker: 
+Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** 
+_ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: 
+increasing stack size to 32000000.
+  *** 
+_ZM_inv_worker: Warning: 
+increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** 
+_ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: 
+
+
+increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: 
+Warning: 
+increasing stack size to 16000000.
+  *** 
+_ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning:   *** _ZM_inv_worker: Warning: increasing stack size to 16000000.
+increasing stack size to 16000000  *** ._ZM_inv_worker: 
+Warning: increasing stack size to 16000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000
+.
+
+  ***   *** _ZM_inv_worker: _ZM_inv_worker: Warning: Warning: increasing stack size to 32000000.
+increasing stack size to 32000000.
+  *** 
+_ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.
+  *** _ZM_inv_worker: Warning: increasing stack size to 32000000.

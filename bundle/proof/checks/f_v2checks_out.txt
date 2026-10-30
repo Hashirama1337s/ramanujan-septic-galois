@@ -1,0 +1,16 @@
+(a) S*gc*S^-1 = [a, -p*b; b, a]   g(x) = [t,-p s; s,t] with t=a, s=b: 1
+(b) p=5: class I (x=1 mod 4O) 80 cases, 0 failures; class II (x=1 mod pO) 28 cases, 0 failures
+(b) p=7: class I (x=1 mod 4O) 252 cases, 0 failures; class II (x=1 mod pO) 42 cases, 0 failures
+(b) p=11: class I (x=1 mod 4O) 1100 cases, 0 failures; class II (x=1 mod pO) 70 cases, 0 failures
+(b) p=13: class I (x=1 mod 4O) 1872 cases, 0 failures; class II (x=1 mod pO) 84 cases, 0 failures
+(b) p=17: class I (x=1 mod 4O) 4352 cases, 0 failures; class II (x=1 mod pO) 112 cases, 0 failures
+(b) p=19: class I (x=1 mod 4O) 6156 cases, 0 failures; class II (x=1 mod pO) 126 cases, 0 failures
+(b) p=23: class I (x=1 mod 4O) 11132 cases, 0 failures; class II (x=1 mod pO) 154 cases, 0 failures
+(b) p=29: class I (x=1 mod 4O) 22736 cases, 0 failures; class II (x=1 mod pO) 196 cases, 0 failures
+(b) p=31: class I (x=1 mod 4O) 27900 cases, 0 failures; class II (x=1 mod pO) 210 cases, 0 failures
+(c) h(-4p) = 3h(-p) for p = 3 mod 8, 11 <= p < 10^4: 310 primes, 0 exceptions;  p=3: h(-12)=1, h(-3)=1
+(d) p=3: b_1 = u_1^3 = 2.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000   |b_1 - 2| = 7.366729819393744316 E-211
+(e) p=11: |W_{K,2}| = 3, order of [-1,-C;1,0] mod 2 = 3
+(e) p=19: |W_{K,2}| = 3, order of [-1,-C;1,0] mod 2 = 3
+(e) p=43: |W_{K,2}| = 3, order of [-1,-C;1,0] mod 2 = 3
+(e) p=59: |W_{K,2}| = 3, order of [-1,-C;1,0] mod 2 = 3

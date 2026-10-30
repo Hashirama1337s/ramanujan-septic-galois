@@ -1,0 +1,22 @@
+G2 l=27 m=3 idoneal=1 h=1 pred=- preddeg=81 case=["(iii)"]
+G2 l=27 m=5 idoneal=1 h=2 pred=- preddeg=324 case=["(ii)"]
+G2 l=27 m=7 idoneal=1 h=1 pred=- preddeg=324 case=["(ii)"]
+G2 l=27 m=9 idoneal=1 h=2 pred=- preddeg=54 case=["(iv)"]
+G2 l=27 m=45 idoneal=1 h=4 pred=- preddeg=108 case=["(iv)"]
+G2 l=45 m=5 idoneal=1 h=2 pred=- preddeg=144 case=["(i)"]
+G2 l=45 m=7 idoneal=1 h=1 pred=- preddeg=864 case=["(i)"]
+G2 l=45 m=15 idoneal=1 h=2 pred=- preddeg=72 case=["(iv)"]
+G2 l=45 m=45 idoneal=1 h=4 pred=- preddeg=48 case=(C)
+G2 l=49 m=3 idoneal=1 h=1 pred=- preddeg=882 case=["(ii)"]
+G2 l=49 m=7 idoneal=1 h=1 pred=- preddeg=147 case=["(v)"]
+G2 l=49 m=13 idoneal=1 h=2 pred=- preddeg=1764 case=["(ii)"]
+G2 l=49 m=21 idoneal=1 h=4 pred=- preddeg=588 case=["(v)"]
+G2 l=63 m=5 idoneal=1 h=2 pred=- preddeg=1296 case=["(i)"]
+G2 l=63 m=7 idoneal=1 h=1 pred=- preddeg=216 case=["(i)"]
+G2 l=63 m=21 idoneal=1 h=4 pred=- preddeg=216 case=["(iv)"]
+G2 l=75 m=3 idoneal=1 h=1 pred=- preddeg=600 case=["(i)"]
+G2 l=75 m=7 idoneal=1 h=1 pred=- preddeg=2400 case=["(i)"]
+G2 l=75 m=15 idoneal=1 h=2 pred=- preddeg=200 case=GAP
+G2 l=9 m=9 idoneal=1 h=2 pred=A preddeg=6 case=A (control)
+G2 l=9 m=45 idoneal=1 h=4 pred=A preddeg=12 case=A (control)
+G2 l=25 m=25 idoneal=1 h=2 pred=A preddeg=20 case=A (control)

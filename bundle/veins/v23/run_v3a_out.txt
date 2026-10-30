@@ -1,0 +1,33 @@
+==== p = 7
+p=7 h=1 W=303 degree=3 (want 3)  conjugates in 3 ms
+  (i)   rounding error 10^-304  max coefficient digits 2  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^-304 -> UNEXPECTEDLY INTEGRAL
+  total 6 ms
+  F_7: polredbest degree 3, signature 3 real roots; 0 s
+  bnfinit done 0 s: h = 1, class group [], unit rank 2, torsion w = 2, regulator 0.5254546821
+  roots of G_p in this field: 3  (0 s)
+  F_7: rank of <-1, conjugates> = 2 of unit rank 2  (FULL)
+    index [O^* : <torsion, conjugates>] = 28 = [2, 2; 7, 1]
+    elementary divisors [14, 2]
+    null (squares): index 112, ratio 4 (want 2^2 = 4)
+    h = 1,  index / h = 28 = [2, 2; 7, 1]
+  cyclotomic units <-1, d1, d2>: index 1 (Sinnott/Kummer: h^+ = 1 expected)
+  exponents of b_k in the basis (d1, d2): [-2, 6, -4; 6, -4, -2]
+  bnfcertify(F_7) = 1
+==== p = 23
+p=23 h=3 W=437 degree=33 (want 33)  conjugates in 118 ms
+  (i)   rounding error 10^-343  max coefficient digits 96  monic=1
+  (iii) constant term = -2^0 * 1   predicted 2^0  -> MATCH
+  (iv)  irreducible=1
+  total 119 ms
+  F_23: polredbest degree 33, signature 11 real roots; 2 s
+  bnfinit done 3 s: h = 1, class group [], unit rank 21, torsion w = 2, regulator 255776199.9
+  roots of G_p in this field: 11  (3 s)
+  F_23: rank of <-1, conjugates> = 11 of unit rank 21  (NOT full)
+    index in its saturation = 911383246700278 = [2, 1; 11, 1; 23, 10]
+    elementary divisors [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 506, 23, 23, 23, 23, 23, 23, 23, 23, 23, 1]
+    null (squares): index 1866512889242169344, ratio 2048 (want 2^11 = 2048)
+    h = 1,  index / h = 911383246700278 = [2, 1; 11, 1; 23, 10]
+  total 3 s

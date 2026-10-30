@@ -1,0 +1,51 @@
+
+==== p = 7  h = 1  |Cl(q)| = 3
+  primes used up to l = 29
+  (a) trivial class rep l = 29: |Fval - log b_1| = 3.28 e-153   also direct a = O_K: 2.09 e-153
+  (b) 20 pairs of distinct ideals in the same class of Cl(q): max |dFval| = 1.13 e-152
+  (c) sorted log|conjugates| vs sorted Fval: #3 vs #3, max diff 9.55 e-153
+  (d) signed identity, 2 characters: max |A - pred|/|C| = 0.e-38
+  (e) closed form for N(b_1)^2 at all 3 embeddings: max |log diff| = 1.52 e-152   (sum of log N over embeddings = 4.70 e-153)
+  (f) v3b shift []; reciprocity prediction (x^2 = a_Q mod p, up to sign) []
+      log N_t (v3b shift) vs lattice log N(t^2): max diff 9.55 e-153   (0 s)
+
+==== p = 23  h = 3  |Cl(q)| = 33
+  primes used up to l = 599
+  (a) trivial class rep l = 599: |Fval - log b_1| = 2.31 e-306   also direct a = O_K: 2.67 e-307
+  (b) 20 pairs of distinct ideals in the same class of Cl(q): max |dFval| = 2.17 e-305
+  (c) sorted log|conjugates| vs sorted Fval: #33 vs #33, max diff 2.04 e-305
+  (d) signed identity, 10 characters: max |A - pred|/|C| = 0.e-154
+  (e) closed form for N(b_1)^2 at all 11 embeddings: max |log diff| = 5.43 e-305   (sum of log N over embeddings = -3.56 e-307)
+  (f) v3b shift [7]; reciprocity prediction (x^2 = a_Q mod p, up to sign) [7]
+      log N_t (v3b shift) vs lattice log N(t^2): max diff 2.72 e-305   (0 s)
+
+==== p = 31  h = 3  |Cl(q)| = 45
+  primes used up to l = 1117
+  (a) trivial class rep l = 1117: |Fval - log b_1| = 1.07 e-306   also direct a = O_K: 8.90 e-307
+  (b) 20 pairs of distinct ideals in the same class of Cl(q): max |dFval| = 9.65 e-305
+  (c) sorted log|conjugates| vs sorted Fval: #45 vs #45, max diff 3.90 e-305
+  (d) signed identity, 14 characters: max |A - pred|/|C| = 8.50 e-305
+  (e) closed form for N(b_1)^2 at all 15 embeddings: max |log diff| = 7.97 e-305   (sum of log N over embeddings = 6.16 e-305)
+  (f) v3b shift [6]; reciprocity prediction (x^2 = a_Q mod p, up to sign) [6]
+      log N_t (v3b shift) vs lattice log N(t^2): max diff 6.34 e-305   (0 s)
+
+==== p = 47  h = 5  |Cl(q)| = 115
+  primes used up to l = 6983
+  (a) trivial class rep l = 1693: |Fval - log b_1| = 2.14 e-306   also direct a = O_K: 1.07 e-306
+  (b) 20 pairs of distinct ideals in the same class of Cl(q): max |dFval| = 4.95 e-305
+  (c) sorted log|conjugates| vs sorted Fval: #115 vs #115, max diff 2.94 e-304
+  (d) signed identity, 22 characters: max |A - pred|/|C| = 3.11 e-304
+  (e) closed form for N(b_1)^2 at all 23 embeddings: max |log diff| = 5.98 e-304   (sum of log N over embeddings = -4.21 e-304)
+  (f) v3b shift [12, 17]; reciprocity prediction (x^2 = a_Q mod p, up to sign) [12, 17]
+      log N_t (v3b shift) vs lattice log N(t^2): max diff 2.95 e-304   (0 s)
+
+==== p = 127  h = 5  |Cl(q)| = 315
+  primes used up to l = 16519
+  (a) trivial class rep l = 509: |Fval - log b_1| = 3.72 e-460   also direct a = O_K: 1.33 e-459
+  (b) 20 pairs of distinct ideals in the same class of Cl(q): max |dFval| = 1.62 e-238
+  (c) sorted log|conjugates| vs sorted Fval: #315 vs #315, max diff 3.46 e-237
+  (d) signed identity, 62 characters: max |A - pred|/|C| = 1.51 e-237
+  (e) closed form for N(b_1)^2 at all 63 embeddings: max |log diff| = 6.91 e-237   (sum of log N over embeddings = -4.74 e-237)
+  (f) v3b shift [12, 30]; reciprocity prediction (x^2 = a_Q mod p, up to sign) [12, 30]
+      log N_t (v3b shift) vs lattice log N(t^2): max diff 3.46 e-237   (5 s)
+exit 0

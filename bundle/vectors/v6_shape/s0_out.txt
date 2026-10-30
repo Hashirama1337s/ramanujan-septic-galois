@@ -1,0 +1,9 @@
+S0 NEW  l=7 m=21 P0=120 P=126 |C_N|=672 deg=12 real=12 spread=1e-131 gap=1e-1 ImReal=1e-132 ImNonreal=1e--100 clust_ok=1 real_ok=1 preddeg=12 predreal=12  (1 s)
+S0 OLD law.gp clust(1e-30):  deg=12 real=12
+S0 OLD gl2 rclust(1e-30):    deg=12 real=12
+S0 NEW  l=11 m=1365 P0=240 P=352 |C_N|=7680 deg=960 real=160 spread=1e-354 gap=1e-49 ImReal=1e-359 ImNonreal=1e-2 clust_ok=1 real_ok=1 preddeg=960 predreal=160  (52 s)
+S0 OLD law.gp clust(1e-30):  deg=913 real=153
+S0 OLD gl2 rclust(1e-30):    deg=956 real=156
+S0 NEW  l=11 m=1365 P0=80 P=192 |C_N|=7680 deg=960 real=160 spread=1e-184 gap=1e-49 ImReal=1e-188 ImNonreal=1e-2 clust_ok=0 real_ok=1 preddeg=960 predreal=160  (29 s)
+S0 OLD law.gp clust(1e-30):  deg=913 real=153
+S0 OLD gl2 rclust(1e-30):    deg=956 real=156

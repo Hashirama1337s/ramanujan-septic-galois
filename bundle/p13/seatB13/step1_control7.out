@@ -1,0 +1,21 @@
+p=7 k=1 prod-vs-series digits: 60
+p=7 k=2 prod-vs-series digits: 60
+p=7 k=3 prod-vs-series digits: 60
+p=7 phi prod-vs-series digits: 60
+p=7 dissection digits: 60
+p=13 k=1 prod-vs-series digits: 60
+p=13 k=2 prod-vs-series digits: 60
+p=13 k=3 prod-vs-series digits: 60
+p=13 k=4 prod-vs-series digits: 60
+p=13 k=5 prod-vs-series digits: 60
+p=13 k=6 prod-vs-series digits: 60
+p=13 phi prod-vs-series digits: 60
+p=13 dissection digits: 59
+p=7 u_1 = 1.69161751985455365862175626728
+       Rebak  1.69161751985455365862175626728   digits agree: 700
+p=7 u_2 = 1.04301784115344637284824838782
+       Rebak  1.04301784115344637284824838782   digits agree: 700
+p=7 u_3 = 0.566769000371397203616770062136
+       Rebak  0.566769000371397203616770062136   digits agree: 700
+p=7 full identity with Rebak closed forms, digits: 700
+time 0.0s

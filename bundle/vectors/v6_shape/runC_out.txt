@@ -1,0 +1,37 @@
+  *** polclass: Warning: increasing stack size to 16000000.
+C p=11 (p mod 8 = 3) h(-4p)=3 h(-p)=1 ord_p 2=10 n=15
+   J: [[3, 1]]  predJ: [[3, 1]]  ok
+   F_p: [[3, 5]]  predF: [[3, 5]]  ok
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 10: 1   literal old (vi) with lcm(2, ord) = 10: 1   (0 s)
+C p=17 (p mod 8 = 1) h(-4p)=4 h(-p)=n/a ord_p 2=8 n=32
+   J: [[1, 2], [2, 1]]  predJ: -1
+   F_p: [[2, 4], [2, 4], [2, 8]]  predF: -1
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 8: 1   literal old (vi) with lcm(2, ord) = 8: 1   (0 s)
+C p=23 (p mod 8 = 7) h(-4p)=3 h(-p)=3 ord_p 2=11 n=33
+   J: [[1, 3]]  predJ: [[1, 3]]  ok
+   F_p: [[1, 33]]  predF: [[1, 33]]  ok
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 33: 1   literal old (vi) with lcm(2, ord) = 22: 0   (0 s)
+  *** nfinit: Warning: increasing stack size to 32000000.
+  *** nfinit: Warning: increasing stack size to 64000000.
+  *** nfinit: Warning: increasing stack size to 128000000.
+C p=43 (p mod 8 = 3) h(-4p)=3 h(-p)=1 ord_p 2=14 n=63
+   J: [[3, 1]]  predJ: [[3, 1]]  ok
+   F_p: [[3, 7], [3, 7], [3, 7]]  predF: [[3, 7], [3, 7], [3, 7]]  ok
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 14: 1   literal old (vi) with lcm(2, ord) = 14: 1   (11 s)
+C p=31 (p mod 8 = 7) h(-4p)=3 h(-p)=3 ord_p 2=5 n=45
+   J: [[1, 3]]  predJ: [[1, 3]]  ok
+   F_p: [[1, 15], [1, 15], [1, 15]]  predF: [[1, 15], [1, 15], [1, 15]]  ok
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 15: 1   literal old (vi) with lcm(2, ord) = 10: 0   (2 s)
+  *** nfinit: Warning: increasing stack size to 256000000.
+  *** nfinit: Warning: increasing stack size to 512000000.
+C p=47 (p mod 8 = 7) h(-4p)=5 h(-p)=5 ord_p 2=23 n=115
+   J: [[1, 5]]  predJ: [[1, 5]]  ok
+   F_p: NOT RUN (cap 1800 s or error: e_STACKTHREAD)  predF: [[1, 115]]  MISS
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 115: -1   literal old (vi) with lcm(2, ord) = 46: -1   (89 s)
+  *** nfinit: Warning: increasing stack size to 1024000000.
+C p=73 (p mod 8 = 1) h(-4p)=4 h(-p)=n/a ord_p 2=9 n=144
+   J: [[1, 2], [2, 1]]  predJ: -1
+   F_p: NOT RUN (cap 1800 s or error: e_STACKTHREAD)  predF: [[2, 18], [2, 18], [2, 18], [2, 18]]  MISS
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 18: -1   literal old (vi) with lcm(2, ord) = 18: -1   (243 s)
+  *** nfinit: Warning: increasing stack size to 2048000000.
+  *** nfinit: Warning: increasing stack size to 4096000000.

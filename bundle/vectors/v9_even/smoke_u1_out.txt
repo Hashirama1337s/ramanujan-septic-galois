@@ -1,0 +1,6 @@
+nbthreads = 1
+SMOKE (items already seen: control B7 m=7, GG m=3, CF n=2, n=5)
+CTRL+ B7 m = 7 | idoneal 1 h 1 | W 120 | deg 3 real(num) 3 sturm 3 | round 131 den 1 rootchk 249 clust_ok 1 gap 0 | sqfree 1 parity 1 | ABELIAN : galoisisabelian, SNF [3]
+GG m = 3 | idoneal 1 h 1 | W 120 | deg 8 real(num) 8 sturm 8 | round 131 den 1 rootchk 250 clust_ok 1 gap 0 | sqfree 1 parity 1 | ABELIAN : galoisisabelian, SNF [4, 2]
+CF m = 2 | idoneal 1 h 1 | W 120 | deg 2 real(num) 2 sturm 2 | round 134 den 2 rootchk 250 clust_ok 1 gap -1 | sqfree 1 parity 1 | ABELIAN : galoisisabelian, SNF [2]
+CF m = 5 | idoneal 1 h 2 | W 120 | deg 8 real(num) 4 sturm 4 | round 132 den 4 rootchk 249 clust_ok 1 gap 0 | sqfree 1 parity 1 | NOT : Sturm 4 < 8 (non-real conjugate)

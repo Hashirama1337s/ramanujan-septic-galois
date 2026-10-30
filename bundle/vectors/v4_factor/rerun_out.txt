@@ -1,0 +1,4 @@
+  ***   Warning: new maximum stack size = 8000000000 (7629.395 Mbytes).
+RE-RUN of sealed T3 (parisizemax 8G)
+  p = 43 unit model: S integral monic of degree 63, S(0) = -1, irreducible 1, max coeff digits 1684
+  *** nfinit: Warning: increasing stack size to 4000000000.

@@ -1,0 +1,20 @@
+
+== n=85 k=1 h(-4n)=4 W=5774  #conjugate values=128  (pred deg for k=1: 128)
+  integrality: rounding error 10^-1777, max coeff digits 3995, monic=1, min separation 10^-211.8, forms with x0 != 0: 3
+  real roots (polsturm of radical): 64 of 128  -> NOT totally real => not Galois => not abelian
+  constant term: |c0| = 2^5440 * 1
+  NEG CONTROL convention 2: rounding error 10^--4004 -> fails as it should
+  time 240 s
+
+== n=93 k=1 h(-4n)=4 W=6504  #conjugate values=120  (pred deg for k=1: 120)
+  integrality: rounding error 10^-1932, max coeff digits 4573, monic=1, min separation 10^-238.7, forms with x0 != 0: 3
+  real roots (polsturm of radical): 60 of 120  -> NOT totally real => not Galois => not abelian
+  constant term: |c0| = 2^5580 * 1
+  NEG CONTROL convention 2: rounding error 10^--4567 -> fails as it should
+  time 303 s
+
+== n=105 k=1 h(-4n)=8 W=8922  #conjugate values=192  (pred deg for k=1: 192)
+  integrality: rounding error 10^-2656, max coeff digits 6276, monic=1, min separation 10^-261.0, forms with x0 != 0: 7
+  real roots (polsturm of radical): 48 of 192  -> NOT totally real => not Galois => not abelian
+  constant term: |c0| = 2^10080 * 1
+exit 124

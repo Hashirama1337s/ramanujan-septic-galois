@@ -1,0 +1,5 @@
+l=3 m=3: right-action distinct values 3, wrong-action distinct 3, wrong values not in right set: 0, classes with a' != +-1 mod l: 0 of 24
+l=3 m=9: right-action distinct values 6, wrong-action distinct 6, wrong values not in right set: 0, classes with a' != +-1 mod l: 0 of 48
+l=5 m=5: right-action distinct values 20, wrong-action distinct 20, wrong values not in right set: 0, classes with a' != +-1 mod l: 80 of 160
+l=5 m=15: right-action distinct values 20, wrong-action distinct 20, wrong values not in right set: 0, classes with a' != +-1 mod l: 80 of 160
+l=5 m=7: right-action distinct values 12, wrong-action distinct 12, wrong values not in right set: 0, classes with a' != +-1 mod l: 48 of 96

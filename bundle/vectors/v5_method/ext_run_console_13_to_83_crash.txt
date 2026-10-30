@@ -1,0 +1,226 @@
+
+========== p = 13: h(-4p) = 2 reduced forms [(1, 0, 13), (2, 2, 7)], degree d = 12
+   form (1, 0, 13) -> used (1, 0, 13), a' = 1, x = 0, Im t = sqrt(p)/1 = 3.6056
+   form (2, 2, 7) -> used (7, -2, 2) (swapped), a' = 15, x = 15, Im t = sqrt(p)/7 = 0.5151
+   min Im of evaluation points y_min = 0.5151 (Lemma B'/T bound: 0.5151)
+   Arb modular_theta cross-check (256 bits): 12 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 130.9 bits (39.4 digits); closed-form Lemma H 458.7 bits
+   W = 203 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 4.890e-18  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 66)
+   exact: monic True, degree 12 (want 12), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^78 * 1; C3 predicts 2^78 -> MATCH
+   max coefficient digits 40; sha256(certified coefficient list) = 36f6954a421f1d62
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p13.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 12; imag ball excludes 0: 12 -> certified NON-integral (control passes)
+   VERDICT p = 13: CERTIFIED   [total 0.0 s]
+
+========== p = 17: h(-4p) = 4 reduced forms [(1, 0, 17), (2, 2, 9), (3, -2, 6), (3, 2, 6)], degree d = 32
+   form (1, 0, 17) -> used (1, 0, 17), a' = 1, x = 0, Im t = sqrt(p)/1 = 4.1231
+   form (2, 2, 9) -> used (9, -2, 2) (swapped), a' = 53, x = 53, Im t = sqrt(p)/9 = 0.4581
+   form (3, -2, 6) -> used (3, -2, 6), a' = 23, x = 23, Im t = sqrt(p)/3 = 1.3744
+   form (3, 2, 6) -> used (3, 2, 6), a' = 23, x = -23, Im t = sqrt(p)/3 = 1.3744
+   min Im of evaluation points y_min = 0.4581 (Lemma B'/T bound: 0.4581)
+   Arb modular_theta cross-check (256 bits): 32 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 408.7 bits (123.0 digits); closed-form Lemma H 1525.6 bits
+   W = 483 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 6.779e-18  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 496)
+   exact: monic True, degree 32 (want 32), squarefree True, irreducible (flint factor) True
+   exact: constant term +2^272 * 1; C3 predicts 2^272 -> MATCH
+   max coefficient digits 123; sha256(certified coefficient list) = 1adbf63b2f5f914f
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p17.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 32; imag ball excludes 0: 32 -> certified NON-integral (control passes)
+   VERDICT p = 17: CERTIFIED   [total 0.0 s]
+
+========== p = 19: h(-4p) = 3 reduced forms [(1, 0, 19), (4, -2, 5), (4, 2, 5)], degree d = 27
+   form (1, 0, 19) -> used (1, 0, 19), a' = 1, x = 0, Im t = sqrt(p)/1 = 4.3589
+   form (4, -2, 5) -> used (5, 2, 4) (swapped), a' = 61, x = -61, Im t = sqrt(p)/5 = 0.8718
+   form (4, 2, 5) -> used (5, -2, 4) (swapped), a' = 61, x = 61, Im t = sqrt(p)/5 = 0.8718
+   min Im of evaluation points y_min = 0.8718 (Lemma B'/T bound: 0.4359)
+   Arb modular_theta cross-check (256 bits): 27 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 345.5 bits (104.0 digits); closed-form Lemma H 1360.9 bits
+   W = 420 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 1.903e-17  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 351)
+   exact: monic True, degree 27 (want 27), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^171 * 1; C3 predicts 2^171 -> MATCH
+   max coefficient digits 104; sha256(certified coefficient list) = 2c31b6f4cf345ca2
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p19.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 27; imag ball excludes 0: 0 -> certified NON-integral (control passes)
+   VERDICT p = 19: CERTIFIED   [total 0.0 s]
+
+========== p = 29: h(-4p) = 6 reduced forms [(1, 0, 29), (2, 2, 15), (3, -2, 10), (3, 2, 10), (5, -2, 6), (5, 2, 6)], degree d = 84
+   form (1, 0, 29) -> used (1, 0, 29), a' = 1, x = 0, Im t = sqrt(p)/1 = 5.3852
+   form (2, 2, 15) -> used (15, -2, 2) (swapped), a' = 31, x = 31, Im t = sqrt(p)/15 = 0.3590
+   form (3, -2, 10) -> used (3, -2, 10), a' = 39, x = 39, Im t = sqrt(p)/3 = 1.7951
+   form (3, 2, 10) -> used (3, 2, 10), a' = 39, x = -39, Im t = sqrt(p)/3 = 1.7951
+   form (5, -2, 6) -> used (5, -2, 6), a' = 93, x = 93, Im t = sqrt(p)/5 = 1.0770
+   form (5, 2, 6) -> used (5, 2, 6), a' = 93, x = -93, Im t = sqrt(p)/5 = 1.0770
+   min Im of evaluation points y_min = 0.3590 (Lemma B'/T bound: 0.3590)
+   Arb modular_theta cross-check (256 bits): 84 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 1919.4 bits (577.8 digits); closed-form Lemma H 6913.4 bits
+   W = 1998 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 3.577e-18  [0.1 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 3486)
+   exact: monic True, degree 84 (want 84), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^1218 * 1; C3 predicts 2^1218 -> MATCH
+   max coefficient digits 577; sha256(certified coefficient list) = ee04eb8eb9a9f3ca
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p29.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 84; imag ball excludes 0: 84 -> certified NON-integral (control passes)
+   VERDICT p = 29: CERTIFIED   [total 0.2 s]
+
+========== p = 31: h(-4p) = 3 reduced forms [(1, 0, 31), (5, -4, 7), (5, 4, 7)], degree d = 45
+   form (1, 0, 31) -> used (1, 0, 31), a' = 1, x = 0, Im t = sqrt(p)/1 = 5.5678
+   form (5, -4, 7) -> used (5, -4, 7), a' = 25, x = 50, Im t = sqrt(p)/5 = 1.1136
+   form (5, 4, 7) -> used (5, 4, 7), a' = 25, x = -50, Im t = sqrt(p)/5 = 1.1136
+   min Im of evaluation points y_min = 1.1136 (Lemma B'/T bound: 0.3480)
+   Arb modular_theta cross-check (256 bits): 45 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 695.0 bits (209.2 digits); closed-form Lemma H 3524.3 bits
+   W = 772 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 1.521e-17  [0.0 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 990)
+   exact: monic True, degree 45 (want 45), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^0 * 1; C3 predicts 2^0 -> MATCH
+   max coefficient digits 210; sha256(certified coefficient list) = 8d2f2afe5a3183f9
+   identical to floating-point polynomial on disk (../../veins/v23/G_p31.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 45; imag ball excludes 0: 0 -> certified NON-integral (control passes)
+   VERDICT p = 31: CERTIFIED   [total 0.0 s]
+
+========== p = 41: h(-4p) = 8 reduced forms [(1, 0, 41), (2, 2, 21), (3, -2, 14), (3, 2, 14), (5, -4, 9), (5, 4, 9), (6, -2, 7), (6, 2, 7)], degree d = 160
+   form (1, 0, 41) -> used (1, 0, 41), a' = 1, x = 0, Im t = sqrt(p)/1 = 6.4031
+   form (2, 2, 21) -> used (21, -2, 2) (swapped), a' = 125, x = 125, Im t = sqrt(p)/21 = 0.3049
+   form (3, -2, 14) -> used (3, -2, 14), a' = 55, x = 55, Im t = sqrt(p)/3 = 2.1344
+   form (3, 2, 14) -> used (3, 2, 14), a' = 55, x = -55, Im t = sqrt(p)/3 = 2.1344
+   form (5, -4, 9) -> used (5, -4, 9), a' = 33, x = 66, Im t = sqrt(p)/5 = 1.2806
+   form (5, 4, 9) -> used (5, 4, 9), a' = 33, x = -66, Im t = sqrt(p)/5 = 1.2806
+   form (6, -2, 7) -> used (7, 2, 6) (swapped), a' = 47, x = -47, Im t = sqrt(p)/7 = 0.9147
+   form (6, 2, 7) -> used (7, -2, 6) (swapped), a' = 47, x = 47, Im t = sqrt(p)/7 = 0.9147
+   min Im of evaluation points y_min = 0.3049 (Lemma B'/T bound: 0.3049)
+   Arb modular_theta cross-check (256 bits): 160 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 5262.6 bits (1584.2 digits); closed-form Lemma H 18780.7 bits
+   W = 5343 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 9.557e-18  [1.2 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 12720)
+   exact: monic True, degree 160 (want 160), squarefree True, irreducible (flint factor) True
+   exact: constant term +2^3280 * 1; C3 predicts 2^3280 -> MATCH
+   max coefficient digits 1584; sha256(certified coefficient list) = 55d57d4ed8413d41
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p41.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 160; imag ball excludes 0: 160 -> certified NON-integral (control passes)
+   VERDICT p = 41: CERTIFIED   [total 2.7 s]
+
+========== p = 43: h(-4p) = 3 reduced forms [(1, 0, 43), (4, -2, 11), (4, 2, 11)], degree d = 63
+   form (1, 0, 43) -> used (1, 0, 43), a' = 1, x = 0, Im t = sqrt(p)/1 = 6.5574
+   form (4, -2, 11) -> used (11, 2, 4) (swapped), a' = 47, x = -47, Im t = sqrt(p)/11 = 0.5961
+   form (4, 2, 11) -> used (11, -2, 4) (swapped), a' = 47, x = 47, Im t = sqrt(p)/11 = 0.5961
+   min Im of evaluation points y_min = 0.5961 (Lemma B'/T bound: 0.2981)
+   Arb modular_theta cross-check (256 bits): 63 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 2532.7 bits (762.4 digits); closed-form Lemma H 7967.9 bits
+   W = 2609 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 1.503e-16  [0.2 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 1953)
+   exact: monic True, degree 63 (want 63), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^903 * 1; C3 predicts 2^903 -> MATCH
+   max coefficient digits 763; sha256(certified coefficient list) = 98c3093ce8adc722
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p43.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 63; imag ball excludes 0: 0 -> certified NON-integral (control passes)
+   VERDICT p = 43: CERTIFIED   [total 0.3 s]
+
+========== p = 53: h(-4p) = 6 reduced forms [(1, 0, 53), (2, 2, 27), (3, -2, 18), (3, 2, 18), (6, -2, 9), (6, 2, 9)], degree d = 156
+   form (1, 0, 53) -> used (1, 0, 53), a' = 1, x = 0, Im t = sqrt(p)/1 = 7.2801
+   form (2, 2, 27) -> used (27, -2, 2) (swapped), a' = 55, x = 55, Im t = sqrt(p)/27 = 0.2696
+   form (3, -2, 18) -> used (3, -2, 18), a' = 71, x = 71, Im t = sqrt(p)/3 = 2.4267
+   form (3, 2, 18) -> used (3, 2, 18), a' = 71, x = -71, Im t = sqrt(p)/3 = 2.4267
+   form (6, -2, 9) -> used (9, 2, 6) (swapped), a' = 165, x = -165, Im t = sqrt(p)/9 = 0.8089
+   form (6, 2, 9) -> used (9, -2, 6) (swapped), a' = 165, x = 165, Im t = sqrt(p)/9 = 0.8089
+   min Im of evaluation points y_min = 0.2696 (Lemma B'/T bound: 0.2696)
+   Arb modular_theta cross-check (256 bits): 156 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 7887.7 bits (2374.4 digits); closed-form Lemma H 25386.4 bits
+   W = 7968 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 6.344e-17  [2.7 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 12090)
+   exact: monic True, degree 156 (want 156), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^4134 * 1; C3 predicts 2^4134 -> MATCH
+   max coefficient digits 2375; sha256(certified coefficient list) = 8fca08ac7f36445f
+   identical to floating-point polynomial on disk (../v4_factor/minpoly_p53.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 156; imag ball excludes 0: 156 -> certified NON-integral (control passes)
+   VERDICT p = 53: CERTIFIED   [total 5.6 s]
+
+========== p = 71: h(-4p) = 7 reduced forms [(1, 0, 71), (3, -2, 24), (3, 2, 24), (5, -4, 15), (5, 4, 15), (8, -2, 9), (8, 2, 9)], degree d = 245
+   form (1, 0, 71) -> used (1, 0, 71), a' = 1, x = 0, Im t = sqrt(p)/1 = 8.4261
+   form (3, -2, 24) -> used (3, -2, 24), a' = 95, x = 95, Im t = sqrt(p)/3 = 2.8087
+   form (3, 2, 24) -> used (3, 2, 24), a' = 95, x = -95, Im t = sqrt(p)/3 = 2.8087
+   form (5, -4, 15) -> used (5, -4, 15), a' = 57, x = 114, Im t = sqrt(p)/5 = 1.6852
+   form (5, 4, 15) -> used (5, 4, 15), a' = 57, x = -114, Im t = sqrt(p)/5 = 1.6852
+   form (8, -2, 9) -> used (9, 2, 8) (swapped), a' = 221, x = -221, Im t = sqrt(p)/9 = 0.9362
+   form (8, 2, 9) -> used (9, -2, 8) (swapped), a' = 221, x = 221, Im t = sqrt(p)/9 = 0.9362
+   min Im of evaluation points y_min = 0.9362 (Lemma B'/T bound: 0.2341)
+   Arb modular_theta cross-check (256 bits): 245 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 8958.7 bits (2696.8 digits); closed-form Lemma H 43449.6 bits
+   W = 9039 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 9.013e-17  [4.3 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 29890)
+   exact: monic True, degree 245 (want 245), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^0 * 1; C3 predicts 2^0 -> MATCH
+   max coefficient digits 2697; sha256(certified coefficient list) = a17073043eac4c6c
+   identical to floating-point polynomial on disk (../../veins/v4_fast/minpoly_p71.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 245; imag ball excludes 0: 0 -> certified NON-integral (control passes)
+   VERDICT p = 71: CERTIFIED   [total 9.3 s]
+
+========== p = 73: h(-4p) = 4 reduced forms [(1, 0, 73), (2, 2, 37), (7, -4, 11), (7, 4, 11)], degree d = 144
+   form (1, 0, 73) -> used (1, 0, 73), a' = 1, x = 0, Im t = sqrt(p)/1 = 8.5440
+   form (2, 2, 37) -> used (37, -2, 2) (swapped), a' = 221, x = 221, Im t = sqrt(p)/37 = 0.2309
+   form (7, -4, 11) -> used (7, -4, 11), a' = 167, x = 334, Im t = sqrt(p)/7 = 1.2206
+   form (7, 4, 11) -> used (7, 4, 11), a' = 167, x = -334, Im t = sqrt(p)/7 = 1.2206
+   min Im of evaluation points y_min = 0.2309 (Lemma B'/T bound: 0.2309)
+   Arb modular_theta cross-check (256 bits): 144 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 12186.0 bits (3668.4 digits); closed-form Lemma H 36275.7 bits
+   W = 12267 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 1.580e-16  [6.4 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 10296)
+   exact: monic True, degree 144 (want 144), squarefree True, irreducible (flint factor) True
+   exact: constant term +2^5256 * 1; C3 predicts 2^5256 -> MATCH
+   max coefficient digits 3669; sha256(certified coefficient list) = 8a5a19d23501567c
+   identical to floating-point polynomial on disk (../../veins/v4_fast/minpoly_p73.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 144; imag ball excludes 0: 144 -> certified NON-integral (control passes)
+   VERDICT p = 73: CERTIFIED   [total 13.2 s]
+
+========== p = 79: h(-4p) = 5 reduced forms [(1, 0, 79), (5, -2, 16), (5, 2, 16), (8, -6, 11), (8, 6, 11)], degree d = 195
+   form (1, 0, 79) -> used (1, 0, 79), a' = 1, x = 0, Im t = sqrt(p)/1 = 8.8882
+   form (5, -2, 16) -> used (5, -2, 16), a' = 253, x = 253, Im t = sqrt(p)/5 = 1.7776
+   form (5, 2, 16) -> used (5, 2, 16), a' = 253, x = -253, Im t = sqrt(p)/5 = 1.7776
+   form (8, -6, 11) -> used (11, 6, 8) (swapped), a' = 115, x = -345, Im t = sqrt(p)/11 = 0.8080
+   form (8, 6, 11) -> used (11, -6, 8) (swapped), a' = 115, x = 345, Im t = sqrt(p)/11 = 0.8080
+   min Im of evaluation points y_min = 0.8080 (Lemma B'/T bound: 0.2222)
+   Arb modular_theta cross-check (256 bits): 195 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 9054.6 bits (2725.7 digits); closed-form Lemma H 39912.9 bits
+   W = 9135 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 1.499e-16  [3.9 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 18915)
+   exact: monic True, degree 195 (want 195), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^0 * 1; C3 predicts 2^0 -> MATCH
+   max coefficient digits 2726; sha256(certified coefficient list) = 6b1ea203dbf4145c
+   identical to floating-point polynomial on disk (../../veins/v4_fast/minpoly_p79.gp): True
+   NEG CONTROL conv 2: certified = False; coefficients whose real ball contains NO integer: 195; imag ball excludes 0: 0 -> certified NON-integral (control passes)
+   VERDICT p = 79: CERTIFIED   [total 7.8 s]
+
+========== p = 83: h(-4p) = 9 reduced forms [(1, 0, 83), (3, -2, 28), (3, 2, 28), (4, -2, 21), (4, 2, 21), (7, -2, 12), (7, 2, 12), (9, -8, 11), (9, 8, 11)], degree d = 369
+   form (1, 0, 83) -> used (1, 0, 83), a' = 1, x = 0, Im t = sqrt(p)/1 = 9.1104
+   form (3, -2, 28) -> used (3, -2, 28), a' = 111, x = 111, Im t = sqrt(p)/3 = 3.0368
+   form (3, 2, 28) -> used (3, 2, 28), a' = 111, x = -111, Im t = sqrt(p)/3 = 3.0368
+   form (4, -2, 21) -> used (21, 2, 4) (swapped), a' = 253, x = -253, Im t = sqrt(p)/21 = 0.4338
+   form (4, 2, 21) -> used (21, -2, 4) (swapped), a' = 253, x = 253, Im t = sqrt(p)/21 = 0.4338
+   form (7, -2, 12) -> used (7, -2, 12), a' = 95, x = 95, Im t = sqrt(p)/7 = 1.3015
+   form (7, 2, 12) -> used (7, 2, 12), a' = 95, x = -95, Im t = sqrt(p)/7 = 1.3015
+   form (9, -8, 11) -> used (9, -8, 11), a' = 37, x = 148, Im t = sqrt(p)/9 = 1.0123
+   form (9, 8, 11) -> used (9, 8, 11), a' = 37, x = -148, Im t = sqrt(p)/9 = 1.0123
+   min Im of evaluation points y_min = 0.4338 (Lemma B'/T bound: 0.2169)
+   Arb modular_theta cross-check (256 bits): 369 points, all overlap
+   coefficient bound log2 prod(1+|v|): certified-ball 23847.1 bits (7178.7 digits); closed-form Lemma H 86348.1 bits
+   W = 23930 bits: rounding certified = True, imag parts contain 0 = True, max coefficient radius = 1.042e-17  [60.6 s]
+   pairwise-disjoint value balls: True (0 overlapping pairs of 67896)
+   exact: monic True, degree 369 (want 369), squarefree True, irreducible (flint factor) True
+   exact: constant term -2^10209 * 1; C3 predicts 2^10209 -> MATCH
+Traceback (most recent call last):
+  File "vectors\v5_method\certmin.py", line 260, in <module>
+    certify(p, ctrl)
+  File "vectors\v5_method\certmin.py", line 225, in certify
+    mxd = max(len(str(abs(int(n)))) for n in ints)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "vectors\v5_method\certmin.py", line 225, in <genexpr>
+    mxd = max(len(str(abs(int(n)))) for n in ints)
+                  ^^^^^^^^^^^^^^^^
+ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit
+
+real	1m39.926s
+user	0m0.015s
+sys	0m0.000s

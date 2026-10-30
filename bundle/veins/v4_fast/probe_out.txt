@@ -1,0 +1,12 @@
+p=13 h=2 W=355 degree=12 (want 12)  conjugates in 49 ms
+  (i)   rounding error 10^-323  max coefficient digits 40  monic=1
+  (iii) constant term = -2^78 * 1   predicted 2^78  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^--41 -> fails as it should
+  total 98 ms
+p=73 h=4 W=5124 degree=144 (want 144)  conjugates in 122703 ms
+  (i)   rounding error 10^-1450  max coefficient digits 3669  monic=1
+  (iii) constant term = +2^5256 * 1   predicted 2^5256  -> MATCH
+  (iv)  irreducible=1
+  (ii)  wrong convention: rounding error 10^--3679 -> fails as it should
+  total 244513 ms

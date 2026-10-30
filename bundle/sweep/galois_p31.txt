@@ -1,0 +1,22 @@
+p=31 dP=3 basis=45 W=4000 Whi=4400
+b_1 relation: d=-258071 max|n|=78738561870642 holds 4400 digits (2s)
+b_1 = image of b_1 under (P -> root 1, a = 1)  holds 4400 digits
+b_8 = image of b_1 under (P -> root 1, a = 2)  holds 4404 digits
+b_11 = image of b_1 under (P -> root 1, a = 3)  holds 4402 digits
+b_2 = image of b_1 under (P -> root 1, a = 4)  holds 4401 digits
+b_6 = image of b_1 under (P -> root 1, a = 5)  holds 4402 digits
+b_5 = image of b_1 under (P -> root 1, a = 6)  holds 4402 digits
+b_10 = image of b_1 under (P -> root 1, a = 7)  holds 4403 digits
+b_15 = image of b_1 under (P -> root 1, a = 8)  holds 4402 digits
+b_3 = image of b_1 under (P -> root 1, a = 9)  holds 4402 digits
+b_14 = image of b_1 under (P -> root 1, a = 10)  holds 4402 digits
+b_12 = image of b_1 under (P -> root 1, a = 11)  holds 4402 digits
+b_9 = image of b_1 under (P -> root 1, a = 12)  holds 4402 digits
+b_7 = image of b_1 under (P -> root 1, a = 13)  holds 4403 digits
+b_13 = image of b_1 under (P -> root 1, a = 14)  holds 4401 digits
+b_4 = image of b_1 under (P -> root 1, a = 15)  holds 4402 digits
+S1 via transport: 15 of 15 pieces matched -> HOLDS
+S2 identity rebuilt from b_1's relation + Galois images: 4366 digits at 4400
+TABLE1 [-258071, 41236790865892, 78738561870642, 70478025733466, 61864079698886, 54680987537410, 50361660971564, 49104752987666, 46592782795088, 38941494645046, 27281204090434, 14442104700820, 2570423869348, -4583108637796, -4933745545360, -1938076071000, -242102134648, -166059018026, 119664551424, -105200936984, -289609383954, -66397182324, 168322937948, -51362821906, -180854016310, 135572147986, 234800500836, 40657011582, 57480152620, 329610348518, 357061956460, 696879342, 96096426, -1184942186, -284278998, 745631774, 54338474, -1022117274, -468877730, 130533234, -626467278, -837780564, -265526266, -500243132, -1495535960, -1415395352]~
+MAP [[1, 1], [1, 4], [1, 9], [1, 15], [1, 6], [1, 5], [1, 13], [1, 2], [1, 12], [1, 7], [1, 3], [1, 11], [1, 14], [1, 10], [1, 8]]
+total time 11s

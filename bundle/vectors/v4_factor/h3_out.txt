@@ -1,0 +1,5 @@
+p = 3 mod 8: 108 primes, exceptions to h(-4p) = 3h(-p): 0
+p = 7 mod 8: 109 primes, exceptions to h(-4p) = h(-p): 0
+control: h(-12) = 1 vs 3 h(-3) = 3 (p = 3: unit index 3, relation must FAIL)
+cross-check against qfbclassno at p < 200: 1
+newtonpoly convention: x^2 - 2 -> [1/2, 1/2];  x^3 - 8x - 16 -> [4/3, 4/3, 4/3] (expect 1/2,1/2 and 4/3 x3)

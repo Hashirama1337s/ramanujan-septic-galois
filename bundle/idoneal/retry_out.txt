@@ -1,0 +1,13 @@
+== sealed retry (2W, u^{4n}, conductor 4n)
+retry n=15 W=6000: NOT ABELIAN (best 4272)
+retry n=21 W=6000: NOT ABELIAN (best 4437)
+retry n=33 W=6000: NOT ABELIAN (best 4577)
+retry n=45 W=6000: NOT ABELIAN (best 4615)
+retry n=57 W=6000: NOT ABELIAN (best 4677)
+== POST HOC exploration (labelled; not a verdict)
+  ***   syntax error, unexpected end of file, expecting )-> or ',' or ')': 
+  ***   ...,M,foreach([1,2,4,8,24],e,
+  ***                               ^-
+  ***   syntax error, unexpected ')', expecting end of file: ...ELIAN (holds 
+  ***   ",r[2],")")))));print("POSTHOC do
+  ***               ^---------------------

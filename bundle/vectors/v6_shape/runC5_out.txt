@@ -1,0 +1,15 @@
+nbthreads = 1
+  *** polclass: Warning: increasing stack size to 16000000.
+  *** polcompositum: Warning: increasing stack size to 32000000.
+  *** nfinit: Warning: increasing stack size to 64000000.
+  *** nfinit: Warning: increasing stack size to 128000000.
+  *** nfinit: Warning: increasing stack size to 256000000.
+  *** nfinit: Warning: increasing stack size to 512000000.
+  *** nfinit: Warning: increasing stack size to 1024000000.
+  *** nfinit: Warning: increasing stack size to 2048000000.
+  *** nfinit: Warning: increasing stack size to 4096000000.
+  *** nfinit: Warning: increasing stack size to 6000001024.
+C p=59 (p mod 8 = 3) h(-4p)=9 h(-p)=3 ord_p 2=58 n=261
+   J: [[3, 1], [3, 2]]  predJ: [[3, 1], [3, 2]]  ok
+   F_p: NOT RUN (cap 10700 s or error: e_STACK)  predF: [[3, 29], [3, 58]]  MISS
+   dichotomy f in {fM/2, fM}, fM = lcm(fH, ord_p 2) = 58: -1   literal old (vi) with lcm(2, ord) = 58: -1   (5445 s)

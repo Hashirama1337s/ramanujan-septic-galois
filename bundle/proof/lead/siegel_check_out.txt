@@ -1,0 +1,14 @@
+p=7 k=1  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -1.3153528101899267613 E-308
+p=7 k=2  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -1.5999778029059526382 E-308
+p=7 k=3  |u_k - Siegel expr| ~ 1e-307   arg(Siegel expr) = -4.907364942880468254 E-309
+p=11 k=1  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -4.270126128938816761 E-309
+p=11 k=2  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = 0.E-307
+p=11 k=3  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -1.2647613047417846231 E-308
+p=11 k=4  |u_k - Siegel expr| ~ 1e-308   arg(Siegel expr) = -1.1013763361213814150 E-308
+p=11 k=5  |u_k - Siegel expr| ~ 1e-308   arg(Siegel expr) = -9.115358043614826143 E-309
+p=13 k=1  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -3.601832313515411803 E-309
+p=13 k=2  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -8.805192715778383233 E-309
+p=13 k=3  |u_k - Siegel expr| ~ 1e-306   arg(Siegel expr) = -1.2287914444632062022 E-308
+p=13 k=4  |u_k - Siegel expr| ~ 1e-308   arg(Siegel expr) = -9.719592100432110484 E-309
+p=13 k=5  |u_k - Siegel expr| ~ 1e-308   arg(Siegel expr) = -8.383567307453380563 E-309
+p=13 k=6  |u_k - Siegel expr| ~ 1e-307   arg(Siegel expr) = -9.944506093052740278 E-309

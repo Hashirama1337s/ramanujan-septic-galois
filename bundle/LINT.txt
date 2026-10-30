@@ -1,0 +1,13 @@
+Pre-release lint of the whole bundle (the lab's prepub_lint.py; checks: AI product/company names, real name / personal email /
+private handles, unfinished markers, hand-typed clock times, local machine paths). It walks .md .tex .txt .py .json .cff .bib .html
+files: 378 files here, including this file and README.md, STATUS.md, REDACTIONS.md, CLEANROOM.md.
+
+$ py -3.11 <lab tools>/prepub_lint.py .        (run from the bundle root, after all files except SHA256SUMS were written)
+prepub_lint: 0 finding(s)
+exit code: 0
+
+Wider scan (all files of every extension, including .gp, .sh, .out and .log, which the lint above does not walk; the lint's patterns
+plus lower-case product names, the personal name in any case, WSL drive-mount paths, home-folder variables, environment-manager
+paths, and file names): 0 findings outside REDACTIONS.md. REDACTIONS.md has 160 findings, all of one kind: it quotes the removed
+WSL form of the project path prefix (rules P6, P7, P10 and their substitution rows) so that the redaction can be checked. That prefix
+names a project folder, not a person.

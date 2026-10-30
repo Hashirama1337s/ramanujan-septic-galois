@@ -1,0 +1,48 @@
+
+========== p = 7, N = 7
+   [X1] field polynomial P_N exact (x^deg P_N(x+1/x) = Phi_N): True, degree 3
+   [B0] G_p certified at W = 150: True, identical to certG_p7.txt: True, conjugate balls pairwise disjoint: True, degree 3 = phi(N)/2: True; lab[0] = ((1, 0, 7), 1)
+   [X2] G_p(c_1) = 0 in Q(theta): True
+   [X3] e_mult form: c_1^1 = 2^0 7^3 prod S_j^(C_j/2) exactly: True
+   [X4] E = 1 form: c_1^2 = 4^0 7^(2*0) prod S_j^n_j exactly: True   (n = [-4, -2, 6])
+   [B1] iota(c_1) ball [39.6383183199 +/- 4.10e-12] +/- 2.5e-43 meets conjugate balls [0] -> iota(c_1) = b_1: True
+   [B2] iota(c_1) > 0: True; 2^a p^b prod s_j^n_j > 0: True; balls agree: True -> b_1 = 2^0 7^0 prod (2 sin(pi j/7))^n_j
+   [B3] each sigma_a(c_1) meets exactly one conjugate ball, bijectively: True; principal b_k <- a_k (positive): b_1<-1+, b_2<-3+, b_3<-2+
+   [X5] p = 7: b_2^2 = prod S_j^{1: -2, 2: 6, 3: -4} exactly via sigma_3: True (b_2 > 0: True) -> Rebak form
+   [X5] p = 7: b_3^2 = prod S_j^{1: 6, 2: -4, 3: -2} exactly via sigma_2: True (b_3 > 0: True) -> Rebak form
+   VERDICT p = 7: RIGOROUS (every step enclosed)   [0.0 s]
+
+========== p = 5, N = 20
+   [X1] field polynomial P_N exact (x^deg P_N(x+1/x) = Phi_N): True, degree 4
+   [B0] G_p certified at W = 162: True, identical to certG_p5.txt: True, conjugate balls pairwise disjoint: True, degree 4 = phi(N)/2: True; lab[0] = ((1, 0, 5), 1)
+   [X2] G_p(c_1) = 0 in Q(theta): True
+   [X3] e_mult form: c_1^2 = 2^5 5^0 prod S_j^(C_j/2) exactly: True
+   [X4] E = 1 form: c_1^2 = 4^2 5^(2*0) prod S_j^n_j exactly: True   (n = [-1, 0, -2, 1, 1, -1, 0, -1, 0])
+   [B1] iota(c_1) ball [8.37690809272 +/- 2.45e-12] +/- 1.1e-46 meets conjugate balls [0] -> iota(c_1) = b_1: True
+   [B2] iota(c_1) > 0: True; 2^a p^b prod s_j^n_j > 0: True; balls agree: True -> b_1 = 2^2 5^0 prod (2 sin(pi j/20))^n_j
+   [B3] each sigma_a(c_1) meets exactly one conjugate ball, bijectively: True; principal b_k <- a_k (positive): b_1<-1+, b_2<-9+
+   VERDICT p = 5: RIGOROUS (every step enclosed)   [0.0 s]
+
+========== p = 13, N = 52
+   [X1] field polynomial P_N exact (x^deg P_N(x+1/x) = Phi_N): True, degree 12
+   [B0] G_p certified at W = 406: True, identical to certG_p13.txt: True, conjugate balls pairwise disjoint: True, degree 12 = phi(N)/2: True; lab[0] = ((1, 0, 13), 1)
+   [X2] G_p(c_1) = 0 in Q(theta): True
+   [X3] e_mult form: c_1^6 = 2^39 13^7 prod S_j^(C_j/2) exactly: True
+   [X4] E = 1 form: c_1^2 = 4^5 13^(2*-1) prod S_j^n_j exactly: True   (n = [1, 3, -2, 2, -4, 0, -2, 2, 0, -4, -3, 1, 3, 0, 3, 5, 3, 3, 0, 1, 1, -2, 2, 1, 2])
+   [B1] iota(c_1) ball [3429.60652388 +/- 3.78e-9] +/- 3.1e-111 meets conjugate balls [0] -> iota(c_1) = b_1: True
+   [B2] iota(c_1) > 0: True; 2^a p^b prod s_j^n_j > 0: True; balls agree: True -> b_1 = 2^5 13^-1 prod (2 sin(pi j/52))^n_j
+   [B3] each sigma_a(c_1) meets exactly one conjugate ball, bijectively: True; principal b_k <- a_k (positive): b_1<-1+, b_2<-17+, b_3<-9+, b_4<-23+, b_5<-25+, b_6<-3+
+   VERDICT p = 13: RIGOROUS (every step enclosed)   [0.0 s]
+
+========== p = 37, N = 148
+   [X1] field polynomial P_N exact (x^deg P_N(x+1/x) = Phi_N): True, degree 36
+   [B0] G_p certified at W = 3594: True, identical to certG_p37.txt: True, conjugate balls pairwise disjoint: True, degree 36 = phi(N)/2: True; lab[0] = ((1, 0, 37), 1)
+   [X2] G_p(c_1) = 0 in Q(theta): True
+   [X3] e_mult form: c_1^4 = 2^74 37^-5 prod S_j^(C_j/2) exactly: True
+   [X4] E = 1 form: c_1^2 = 4^15 37^(2*-1) prod S_j^n_j exactly: True   (n = [3, 9, -4, 4, 3, 6, 9, 1, 2, -7, -4, -1, -10, 8, -3, 6, -7, 1, 0, -8, 8, 5, 6, -1, 6, -5, 12, -1, -7, -3, -2, -1, 3, -6, -13, 4, 7, 2, 5, 17, 12, 10, 4, 11, 7, 4, 1, 12, 9, 13, -2, -4, 1, 9, 2, -3, 6, -1, 2, -4, 7, 4, 6, 13, -2, 6, -7, -2, -12, 0, 8, -7, 4])
+   [B1] iota(c_1) ball [81998865310.9 +/- 1.87e-3] +/- 0.0e+00 meets conjugate balls [0] -> iota(c_1) = b_1: True
+   [B2] iota(c_1) > 0: True; 2^a p^b prod s_j^n_j > 0: True; balls agree: True -> b_1 = 2^15 37^-1 prod (2 sin(pi j/148))^n_j
+   [B3] each sigma_a(c_1) meets exactly one conjugate ball, bijectively: True; principal b_k <- a_k (positive): b_1<-1+, b_2<-41+, b_3<-9+, b_4<-53+, b_5<-25+, b_6<-73+, b_7<-49+, b_8<-47+, b_9<-67+, b_10<-11+, b_11<-27+, b_12<-33+, b_13<-21+, b_14<-63+, b_15<-71+, b_16<-3+, b_17<-7+, b_18<-65+
+   VERDICT p = 37: RIGOROUS (every step enclosed)   [0.2 s]
+
+SUMMARY: {7: True, 5: True, 13: True, 37: True}

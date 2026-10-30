@@ -1,0 +1,9 @@
+p = 47: P1 HOLDS | P2 HOLDS | P3 HOLDS | P3b (C3 constant term) HOLDS | NULL HOLDS
+       max coefficient digits 804; sha256(certified coefficient list) = a430a17466e8e694 | M2 file certG_p47.txt sha256 = 453e73bd7deec0a6b6a821f913fef70bd063af1df215f586dfc41bdc4827b2ea | WALL p = 47: 0.5 s
+p = 61: P1 HOLDS | P2 HOLDS | P3 HOLDS | P3b (C3 constant term) HOLDS | NULL HOLDS
+       max coefficient digits 3066; sha256(certified coefficient list) = ea39d74f67fa109c | M2 file certG_p61.txt sha256 = c91267695fd1cd13f87afff56761d937288a0f3fe36dc0059e50a7fea86bf668 | WALL p = 61: 10.2 s
+p = 67: P1 HOLDS | P2 HOLDS | P3 HOLDS | P3b (C3 constant term) HOLDS | NULL HOLDS
+       max coefficient digits 2251; sha256(certified coefficient list) = 1adce1837d854c6f | M2 file certG_p67.txt sha256 = 6307c5dbce4f953aaa419bd669d662958add3a616d5badb4bf0f3f0ea150a9d0 | WALL p = 67: 3.5 s
+POSITIVE CONTROL p = 53: HOLDS (null at control: HOLDS)
+TIME (descriptive): TOTAL WALL 19.7 s
+BAR-M2 OVERALL: HOLDS

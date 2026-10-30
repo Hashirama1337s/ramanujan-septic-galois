@@ -1,0 +1,13 @@
+nbthreads = 1
+Im(w1/w2) > 0: 1
+eta1 check: 9.727868584508541929 E-76
+eta2 check: 4.413749651928045184 E-76
+Legendre e1*w2 - e2*w1 - 2 Pi I: 12.5663706143591729538505735331180115367886775975004232838998
+Delta check: 6.726379854263076613 E-76
+sigma(z) small-z sanity |sigma(z)/z - 1|: 0.000338118485958843972972250807447904241974496328247305550788695
+znstar(7) cyc [6] gen [3]
+znstar(23) cyc [22] gen [5]
+L(0,psi) for psi=(./7): 1 (expect 1 = h(-7)) odd? 1
+theta periodicity |th(z+w1)|/|th(z)| - 1: 2.2454038243245556026 E-76
+theta periodicity |th(z+w2)|/|th(z)| - 1: -1.6754166996883222573 E-75
+theta homogeneity |th(lam z, lam L)/th(z,L) - 1|: 5.683269865273969834 E-76

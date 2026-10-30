@@ -1,0 +1,2 @@
+   b_1 degree 5 tried (2s)
+   b_1 degree 10 tried (66s)

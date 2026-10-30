@@ -1,0 +1,2 @@
+L: degree 66, real roots 0  (8 s)
+exit 124

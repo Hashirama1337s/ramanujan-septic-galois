@@ -1,0 +1,3 @@
+prod (X - b_k) - quintic(X; e_j(P)) reduced = 0
+e5 - P^11 reduced = 0
+cubic irreducible over Q: True  disc = -1362944

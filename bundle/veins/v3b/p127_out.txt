@@ -1,0 +1,26 @@
+
+==== p = 23  h = 3  forms [[1, 0, 23], [3, -2, 8], [3, 2, 8]]  pair representatives [[3, 2, 8]]  (0 s)
+  shift vectors tried 11; with integral trace (to 10^-200): [[7]]
+  log10 max |N_t| = 23.3; char. polynomial of N(b_t): integral to 10^-343, constant term -1
+  RESULT p = 23: 10 characters with chi(2) != 1, worst relative deviation 0.e-38; 0 characters with chi(2) = 1, max |A|/|C| = 0.e-38  (0 s)
+
+==== p = 31  h = 3  forms [[1, 0, 31], [5, -4, 7], [5, 4, 7]]  pair representatives [[5, 4, 7]]  (0 s)
+  shift vectors tried 15; with integral trace (to 10^-200): [[6]]
+  log10 max |N_t| = 31.4; char. polynomial of N(b_t): integral to 10^-284, constant term -1
+    chi^10: chi(2) = 1   |A|/|C| = 1.46 e-402  (predicted 0)
+    chi^20: chi(2) = 1   |A|/|C| = 2.85 e-402  (predicted 0)
+  RESULT p = 31: 12 characters with chi(2) != 1, worst relative deviation 7.92 e-403; 2 characters with chi(2) = 1, max |A|/|C| = 2.85 e-402  (0 s)
+
+==== p = 127  h = 5  forms [[1, 0, 127], [8, -6, 17], [8, 6, 17], [11, -8, 13], [11, 8, 13]]  pair representatives [[8, 6, 17], [11, 8, 13]]  (17 s)
+  shift vectors tried 3969; with integral trace (to 10^-750): [[12, 30]]
+  log10 max |N_t| = 310.7; char. polynomial of N(b_t): coefficients exceed working precision (check skipped)
+    chi^14: chi(2) = 1   |A|/|C| = 3.61 e-1499  (predicted 0)
+    chi^28: chi(2) = 1   |A|/|C| = 1.49 e-1498  (predicted 0)
+    chi^42: chi(2) = 1   |A|/|C| = 5.36 e-1499  (predicted 0)
+    chi^56: chi(2) = 1   |A|/|C| = 2.04 e-1498  (predicted 0)
+    chi^70: chi(2) = 1   |A|/|C| = 9.09 e-1499  (predicted 0)
+    chi^84: chi(2) = 1   |A|/|C| = 1.07 e-1498  (predicted 0)
+    chi^98: chi(2) = 1   |A|/|C| = 2.44 e-1498  (predicted 0)
+    chi^112: chi(2) = 1   |A|/|C| = 1.35 e-1498  (predicted 0)
+  RESULT p = 127: 54 characters with chi(2) != 1, worst relative deviation 0.e-404; 8 characters with chi(2) = 1, max |A|/|C| = 0.e-404  (23 s)
+exit 0

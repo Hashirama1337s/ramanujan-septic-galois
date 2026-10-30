@@ -1,0 +1,9 @@
+CM tau0 = i: r_j = [1.0000000000000000000, 0.7793222545349218127, 0.24300579911403306650, 0.03583250939929435197]
+CM tau0 = i: r_1 minimal polynomial degree 16: 199*x^16 + 1312*x^15 - 936*x^14 - 4512*x^13 + 644*x^12 + 1056*x^11 + 12136*x^10 + 2144*x^9 - 24342*x^8 + 2144*x^7 + 12136*x^6 + 1056*x^5 + 644*x^4 - 4512*x^3 - 936*x^2 + 1312*x + 199  (holds 2000 digits at 2000)
+   conjugate 1 = -chi_2/chi_3  (2002 digits)
+   conjugate 6 = -chi_3/chi_2  (99999 digits)
+   root 7 is r_1 itself
+   conjugate 8 = chi_0/chi_1  (2003 digits)
+CM tau0 = i: conjugates matched to character ratios: 3
+non-CM tau = 1.2345 i: r_j = [1.0000000000000000000, 0.6247887671007551997, 0.13479164767774542492, 0.011893159099891216904]
+non-CM tau = 1.2345 i: r_1 has NO algebraic relation of degree <= 16

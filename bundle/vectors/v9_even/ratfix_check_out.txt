@@ -1,0 +1,8 @@
+nbthreads = 1
+ratfix controls (POST HOC instrument check, not a sealed test); Dmax = 10^12, 200 digits
+true set GG m=15 (expect ok 1): #values 16, den 1, err digits 209, ok 1
+wrong level 4 GG m=15 (expect ok 0): #values 8, den 959700174062474297435519317742627865901935874491512827563256476380782760051704054200, err digits 79, ok 0
+true set GG m=7 (expect ok 1): #values 8, den 1, err digits 209, ok 1
+wrong level 4 GG m=7 (expect ok 0): #values 4, den 3924379810173844948711891292548724523284080209, err digits 43, ok 0
+true set CF n=8 (expect ok 1): #values 4, den 8, err digits 211, ok 1
+true set CF n=61 (expect ok 1): #values 48, den 4096, err digits 209, ok 1

@@ -1,0 +1,11 @@
+=== F3: p.206 piece b_1 at n, N = 4n
+F3 n=7 idoneal=1 h=1 |C_N|=168 deg=3 mult=[56] W=150 round=1e-150 den=1 irred=1 P(z)@2W=1e-308 Im(z)=99999 realroots=3/3 nonreal_conj=0 => ABELIAN [[3]] L3:ok  (0 s)
+F3 n=13 idoneal=1 h=2 |C_N|=1248 deg=12 mult=[104] W=150 round=1e-112 den=1 irred=1 P(z)@2W=1e-330 Im(z)=99999 realroots=12/12 nonreal_conj=0 => ABELIAN [[12]] L3:ok  (1 s)
+F3 n=11 idoneal=0 h=3 |C_N|=1320 deg=15 mult=[88] W=150 round=1e-125 den=1 irred=1 P(z)@2W=1e-330 Im(z)=99999 realroots=5/15 nonreal_conj=10 => NOT ABELIAN [not Galois: mod 7 factor degrees [5, 10]] L3:ok  (2 s)
+F3 n=9 idoneal=1 h=2 |C_N|=432 deg=6 mult=[72] W=150 round=1e-140 den=1 irred=1 P(z)@2W=1e-314 Im(z)=99999 realroots=6/6 nonreal_conj=0 => ABELIAN [[6]] L3:ok  (0 s)
+F3 n=15 idoneal=1 h=2 |C_N|=960 deg=8 mult=[120] W=150 round=1e-138 den=1 irred=1 P(z)@2W=1e-319 Im(z)=99999 realroots=4/8 nonreal_conj=4 => NOT ABELIAN [not Galois: mod 59 factor degrees [1, 1, 1, 1, 2, 2]] L3:ok  (1 s)
+F3 n=21 idoneal=1 h=4 |C_N|=4032 deg=24 mult=[168] W=266 round=1e-147 den=1 irred=1 P(z)@2W=1e-623 Im(z)=99999 realroots=12/24 nonreal_conj=12 => NOT ABELIAN [not Galois: mod 47 factor degrees [3, 3, 3, 3, 6, 6]] L3:ok  (10 s)
+F3 n=25 idoneal=1 h=2 |C_N|=4000 deg=20 mult=[200] W=317 round=1e-160 den=1 irred=1 P(z)@2W=1e-720 Im(z)=99999 realroots=20/20 nonreal_conj=0 => ABELIAN [[20]] L3:ok  (11 s)
+  [P5iv] F3 n=15: 12 classes, two representatives agree to 10^-208
+
+[exited with code 0]

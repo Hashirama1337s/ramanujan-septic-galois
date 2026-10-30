@@ -1,0 +1,16 @@
+  ***   I was expecting an integer here:
+  ***   robe:degreeofP_p(algdepupto24)andclassnumbers,
+  ***   ^----------------------------------------------
+p=41 mod4=1 h(-4p)=8 h(-p)=- degP=8 basis=160 maxcoef(P poly)~1e32 (0s)
+p=43 mod4=3 h(-4p)=3 h(-p)=1 degP=3 basis=63 maxcoef(P poly)~1e15 (0s)
+p=47 mod4=3 h(-4p)=5 h(-p)=5 degP=5 basis=115 maxcoef(P poly)~1e11 (0s)
+p=53 mod4=1 h(-4p)=6 h(-p)=- degP=6 basis=156 maxcoef(P poly)~1e37 (0s)
+p=59 mod4=3 h(-4p)=9 h(-p)=3 degP=9 basis=261 maxcoef(P poly)~1e42 (0s)
+p=61 mod4=1 h(-4p)=6 h(-p)=- degP=6 basis=180 maxcoef(P poly)~1e44 (0s)
+p=67 mod4=3 h(-4p)=3 h(-p)=1 degP=3 basis=99 maxcoef(P poly)~1e30 (0s)
+p=71 mod4=3 h(-4p)=7 h(-p)=7 degP=7 basis=245 maxcoef(P poly)~1e24 (0s)
+p=73 mod4=1 h(-4p)=4 h(-p)=- degP=4 basis=144 maxcoef(P poly)~1e45 (0s)
+p=79 mod4=3 h(-4p)=5 h(-p)=5 degP=5 basis=195 maxcoef(P poly)~1e27 (0s)
+p=83 mod4=3 h(-4p)=9 h(-p)=3 degP=9 basis=369 maxcoef(P poly)~1e70 (0s)
+p=89 mod4=1 h(-4p)=12 h(-p)=- degP=0 basis=0 maxcoef(P poly)~1e? (1s)
+p=97 mod4=1 h(-4p)=4 h(-p)=- degP=4 basis=192 maxcoef(P poly)~1e68 (0s)

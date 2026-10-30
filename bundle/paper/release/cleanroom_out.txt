@@ -1,0 +1,7 @@
+1. product of pieces vs root of P^3-8P^2+80P-32: 1000 digits
+2. u_k^11 vs table: [997, 998, 998, 998, 998] digits
+3. identity rebuilt from table + cubic: 995 digits; relative to phi-1: 945 digits
+4. negative control (one entry +1): 2 digits (must be small)
+5. p=13: u_k^13 vs table: [993, 993, 993, 993, 993, 994] digits
+6. p=13 identity rebuilt from table: 989 digits
+7. p=13 negative control (one entry +1): 1 digits (must be small)

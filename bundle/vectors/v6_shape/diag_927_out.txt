@@ -1,0 +1,11 @@
+diag_927_out.txt: outputs of the two runs in diag_927.gp, copied from the terminal (lines cut at 200/400 chars by the viewer).
+---- diag.gp ----
+direct V' vs closed: 7.847875245862492833 E-153
+1 principal values; min/max rel spread to B_1,B_2,B_4:
+0.E-153
+[83.4753492117918715581916560593148054252053565372238631462400002320334329630614612273607737799689201685257856146065581694540482352560392717092524907440, 0.36209896607527710664765207331335127283047201 ... (truncated by the viewer)
+(note: the 'P[i][1][1]==1' selection in diag.gp keeps only forms with a = 1, i.e. one value; diag2.gp does the coset properly)
+---- diag2.gp ----
+F[1]=[1, 0, 27] #values=216 max err to B_k = 6.299417831403021723 E-152
+pclust: 3 reps, mult [72, 72, 72] spread 6.738074903103214046 E-152 ok 1
+reps vs B: [0.E-153, 4.414646558799812810 E-153, 3.296508255865992256 E-153]

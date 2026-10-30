@@ -1,0 +1,4 @@
+(E) p = 3 mod 4: 217 primes, even h found: 0
+(E) p = 1 mod 4: 211 primes, odd h found: 0
+(E) primes 5..2999 with h(-4p) <= 2: [[5, 2], [7, 1], [13, 2], [37, 2]]
+(E) controls: h(-28) = 1 (want 1); h(-20) = 2 (want 2); h(-60) = 2 (composite, want 2)
