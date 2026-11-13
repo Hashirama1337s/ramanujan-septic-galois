@@ -1,9 +1,9 @@
 {
-  "title": "Moki & Julio: Ramanujan's septic theta identity at every odd prime - explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units",
+  "title": "Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units",
   "upload_type": "publication",
   "publication_type": "preprint",
   "version": "1.0",
-  "description": "<p>On page 206 of the lost notebook Ramanujan recorded an incomplete septic identity for phi(q); Rebak (2023) supplied the missing terms. For every odd prime p the p-dissection of phi at q = e^{-pi/sqrt p} gives pieces u_k; we study b_k = u_k^p at the CM point and their relatives at other levels. Results: explicit identities at p = 11 and 13 and certified minimal polynomials of b_1 at every prime 5 &lt;= p &lt;= 97 (ball arithmetic); the field F_p of the pieces, an explicit Galois rule, integrality and the 2-adic valuation law, units exactly for p = 7 mod 8, with an index formula in Bernoulli numbers; the cyclotomic cases (p in {3, 5, 7, 13, 37}; odd n in {3, 5, 7, 9, 13, 25, 37}); one abelian-over-Q law at every odd level in terms of Euler's idoneal numbers (Theorem G), covering Berndt-Rebak's cubic and quintic pieces and the Rogers-Ramanujan continued fraction; even-level laws for the Goellnitz-Gordon (m = 3, 7, 15) and cubic (n = 2, 8) continued fractions; and a Stark-unit dictionary for the pieces. Proofs were checked by independent AI reviewers, not yet by a human expert; status words and condition tags are given for every statement; nothing rests on GRH. Code, data, sealed predictions and a clean-room record are included. Text CC BY 4.0; code MIT.</p>",
+  "description": "<p><b>In plain words.</b> \nOn page 206 of his 'lost notebook' Ramanujan wrote that a certain sum, taken at one special point, equals a simple factor times 1 plus three further pieces, and he left the three pieces blank. Rebák filled them in in 2023. The same split exists for every odd prime p, with 1 plus (p-1)/2 pieces. We found explicit formulas for the pieces at p = 11 and p = 13, computed them for every prime below 100, and wrote proofs for most of the rules that govern them. The proofs were checked by independent AI reviewers; no human expert has checked any of them yet.</p>\n<p><b>The idea in one picture.</b> the numbers √2 and -√2 are twins. Both solve x² = 2, and no rule written only with whole numbers can tell them apart. Ramanujan's pieces come in larger families of twins like that, and one symmetry rule (a Galois rule) carries the first piece to every other one. <b>Where the picture breaks.</b> the families here are large (at p = 37 the equation for the first piece has degree 36), and the symmetry acts on a whole number system, not just on a sign.</p>\n<p><b>For specialists.</b> On page 206 of the lost notebook Ramanujan recorded an incomplete septic identity for phi(q); Rebak (2023) supplied the missing terms. For every odd prime p the p-dissection of phi at q = e^{-pi/sqrt p} gives pieces u_k; we study b_k = u_k^p at the CM point and their relatives at other levels. Results: explicit identities at p = 11 and 13 and certified minimal polynomials of b_1 at every prime 5 &lt;= p &lt;= 97 (ball arithmetic); the field F_p of the pieces, an explicit Galois rule, integrality and the 2-adic valuation law, units exactly for p = 7 mod 8, with an index formula in Bernoulli numbers; the cyclotomic cases (p in {3, 5, 7, 13, 37}; odd n in {3, 5, 7, 9, 13, 25, 37}); one abelian-over-Q law at every odd level in terms of Euler's idoneal numbers (Theorem G), covering Berndt-Rebak's cubic and quintic pieces and the Rogers-Ramanujan continued fraction; even-level laws for the Goellnitz-Gordon (m = 3, 7, 15) and cubic (n = 2, 8) continued fractions; and a Stark-unit dictionary for the pieces. Proofs were checked by independent AI reviewers, not yet by a human expert; status words and condition tags are given for every statement; nothing rests on GRH. Code, data, sealed predictions and a clean-room record are included. Text CC BY 4.0; code MIT.</p>\n<p><b>Links.</b> Repository, with a plain-language guide: <a href=\"https://github.com/Hashirama1337s/ramanujan-septic-galois\">github.com/Hashirama1337s/ramanujan-septic-galois</a>. All projects: <a href=\"https://github.com/Hashirama1337s\">the Moki &amp; Julio lab map</a>.</p>\n<p><i>Prepared with AI assistance; what was checked, and by what, is stated above.</i></p>",
   "creators": [
     {
       "name": "Moki & Julio"
@@ -22,7 +22,11 @@
     "Rogers-Ramanujan continued fraction",
     "cubic continued fraction",
     "Goellnitz-Gordon continued fraction",
-    "ball arithmetic"
+    "ball arithmetic",
+    "Ramanujan",
+    "theta functions",
+    "Galois theory",
+    "number theory"
   ],
   "related_identifiers": [
     {

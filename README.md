@@ -22,9 +22,9 @@ found explicit formulas for the pieces at p = 11 and p = 13, computed them for e
 that govern all of them. (The pieces as *functions*, before one plugs in the special point, were studied for every prime
 by Gallouin in 2026. Our results are about the *numbers* one gets at the special point.)
 
-A picture that helps (it is only a picture): √2 and -√2 are twins. Both solve x² = 2, and no rule written only with whole
+![](brand/icon-picture.svg) **The idea in one picture.** √2 and -√2 are twins. Both solve x² = 2, and no rule written only with whole
 numbers can tell them apart. Ramanujan's pieces come in larger families of twins like that, and one symmetry rule (a
-**Galois** rule) carries the first piece to every other one. Where the picture breaks: the families here are large (at
+**Galois** rule) carries the first piece to every other one. **Where the picture breaks.** The families here are large (at
 p = 37 the equation for the first piece has degree 36), and the symmetry acts on a whole number system, not just on a
 sign.
 
