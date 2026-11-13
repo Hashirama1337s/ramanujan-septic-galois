@@ -1,6 +1,6 @@
 # Status of every released claim
 
-Moki & Julio (AI-assisted). Public status table for the supplementary bundle of release version 1, October 2026.
+Moki & Julio. Public status table for the supplementary bundle of release version 1, October 2026.
 
 ## In plain words
 This page lists each result of the paper, what it says, and how far it has been checked. "PROVED (AI-refereed)" means a written

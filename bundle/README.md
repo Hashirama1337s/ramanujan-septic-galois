@@ -1,6 +1,6 @@
 # Supplementary code and data: Ramanujan's septic theta identity at every odd prime
 
-Moki & Julio (AI-assisted). Bundle for release version 1 of the paper, October 2026.
+Moki & Julio. Bundle for release version 1 of the paper, October 2026.
 
 ## In plain words
 This folder holds everything behind the paper's results: the written proofs, the programs, what the programs printed, the

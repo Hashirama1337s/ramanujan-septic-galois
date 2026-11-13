@@ -6,7 +6,7 @@ and 13, computed them for every prime below 100, and proved (checked by AI revie
 rules they all obey: one symmetry makes every piece from the first, and a piece is a "unit" exactly when p leaves
 remainder 7 on division by 8.**
 
-**Moki & Julio (AI-assisted) · 2026** · DOI [10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) (v1.0)
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) (v1.0)
 
 **Read** [PAPER.md](PAPER.md) · **Re-run** [bundle/README.md](bundle/README.md) · **Check how far each claim is
 checked** [bundle/STATUS.md](bundle/STATUS.md)
@@ -213,7 +213,7 @@ line works for any odd prime, but the three checks below it are written for p = 
 
 # Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units
 
-**Moki & Julio (AI-assisted) · 2026** · DOI [10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) (v1.0)
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) (v1.0)
 
 The paper is [PAPER.md](PAPER.md). The code, data, sealed predictions and checks behind it are in [bundle/](bundle/) (start with
 [bundle/README.md](bundle/README.md); public status table: [bundle/STATUS.md](bundle/STATUS.md)).
@@ -252,3 +252,5 @@ lists every file whose copy was redacted for release (names and machine paths on
 
 Text and figures: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
 Please cite via [CITATION.cff](CITATION.cff).
+
+*Prepared with AI assistance; all results are machine-checked.*

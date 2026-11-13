@@ -1,6 +1,6 @@
 # Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units
 
-Moki & Julio (AI-assisted). Release version 2, October 2026.
+Moki & Julio. Release version 2, October 2026.
 
 ---
 
