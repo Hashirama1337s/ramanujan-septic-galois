@@ -248,11 +248,11 @@ the pieces as modular functions, in Gallouin [Ga, Prop 4.1]; we claim nothing fo
 explicit description of the u_k, equivalently of b_k = u_k^p (Ramanujan's exponent 2/7 is septic-specific: at p = 7 the b_k are
 squares in the cubic field; at other primes the natural exponent is 1/p).
 
-**Theta form (exact).** With θ[a](τ) = Σ_n e^{πiτ(n+a)²}, u_k = 2θ[k/p](τ_0)/θ[0](τ_0) and b_k = B_k(τ_0) with
+**Theta form (exact).** With θ\[a\](τ) = Σ_n e^{πiτ(n+a)²}, u_k = 2θ\[k/p\](τ_0)/θ\[0\](τ_0) and b_k = B_k(τ_0) with
 B_k := (2θ[k/p]/θ[0])^p; B_m depends only on ±m mod p.
 
 **Monotonicity (PROVED (AI-refereed), part of the C1–C3 write-up [S-C13]).** u_1 > u_2 > ⋯ > u_m > 0. (Poisson summation turns
-θ[k/p](τ_0) into a positive constant times Π_{n≥1}(1 − r^{2n})(1 + 2r^{2n−1}cos(2πk/p) + r^{4n−2}), r = e^{−π/√p}, each factor
+θ\[k/p\](τ_0) into a positive constant times Π_{n≥1}(1 − r^{2n})(1 + 2r^{2n−1}cos(2πk/p) + r^{4n−2}), r = e^{−π/√p}, each factor
 strictly decreasing in k.)
 
 ### 2.3 The product (CLASSICAL)
@@ -971,7 +971,7 @@ b_1 is not a unit, but the ratios b_j/b_k are, by C9) and the other families.
 ## 7. Methods and certification
 
 ### 7.1 Evaluating the pieces
-Theta series θ[k/p](i√p), truncated with a rigorous Gaussian tail bound (every omitted term below 10^{−(prec+40)}); an independent program
+Theta series θ\[k/p\](i√p), truncated with a rigorous Gaussian tail bound (every omitted term below 10^{−(prec+40)}); an independent program
 used the Jacobi triple product. Implementation A used mpmath (PSLQ) for p = 11, 13 and PARI/GP for the sweep; implementation B used
 PARI/GP from a written specification without seeing A's code or results.
 
