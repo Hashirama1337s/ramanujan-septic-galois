@@ -1,8 +1,8 @@
 # Ramanujan's blank pieces, at every odd prime
 
-**Ramanujan left three pieces of a formula blank on page 206 of his lost notebook, and Rebák filled them in in 2023; we found the matching pieces at the primes 11 and 13, computed them for every prime below 100, and proved the rules they obey (checked by AI reviewers, not yet by a human expert).**
+**Ramanujan left three pieces of a formula blank in his lost notebook and Rebák filled them in in 2023; we found the pieces at the primes 11 and 13, computed them below 100, and proved most of their rules (AI-reviewed, not yet by a human expert).**
 
-[![DOI 10.5281/zenodo.23790016](brand/doi.svg)](https://doi.org/10.5281/zenodo.23790016) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+[![DOI 10.5281/zenodo.23790015](brand/doi.svg)](https://doi.org/10.5281/zenodo.23790015) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 Moki & Julio · 2026 · version 1.0
 
@@ -212,10 +212,10 @@ line works for any odd prime, but the three checks below it are written for p = 
 ## How to cite
 
 ```
-Moki & Julio (2026). Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23790016
+Moki & Julio (2026). Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23790015
 ```
 
-The DOI always resolves to the newest archived version. Machine-readable: [CITATION.cff](CITATION.cff).
+The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23790016. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and figures: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
 
 ## Related projects
