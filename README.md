@@ -1,17 +1,15 @@
 # Ramanujan's blank pieces, at every odd prime
 
-**On page 206 of his "lost notebook" Ramanujan split a number into 1 plus three pieces and left the pieces blank. Rebák
-filled them in in 2023. The same split works for every odd prime p, with (p-1)/2 pieces. We found the pieces at p = 11
-and 13, computed them for every prime below 100, and proved (checked by AI reviewers, not yet by a human expert) the
-rules they all obey: one symmetry makes every piece from the first, and a piece is a "unit" exactly when p leaves
-remainder 7 on division by 8.**
+**Ramanujan left three pieces of a formula blank on page 206 of his lost notebook, and Rebák filled them in in 2023; we found the matching pieces at the primes 11 and 13, computed them for every prime below 100, and proved the rules they obey (checked by AI reviewers, not yet by a human expert).**
 
-**Moki & Julio · 2026** · DOI [10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) (v1.0)
+[![DOI 10.5281/zenodo.23790016](brand/doi.svg)](https://doi.org/10.5281/zenodo.23790016) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+
+Moki & Julio · 2026 · version 1.0
 
 **Read** [PAPER.md](PAPER.md) · **Re-run** [bundle/README.md](bundle/README.md) · **Check how far each claim is
 checked** [bundle/STATUS.md](bundle/STATUS.md)
 
-## The story in a minute
+## In plain words
 
 One of Ramanujan's tools was the theta function
 φ(q) = 1 + 2q + 2q⁴ + 2q⁹ + 2q¹⁶ + ... , a sum of q raised to the square numbers. On page 206 of his "lost notebook" he
@@ -36,9 +34,53 @@ when p leaves remainder 7 on division by 8; and closed forms with sines, like Ra
 3, 5, 7, 13 and 37 (we found them at 5, 7, 13 and 37). Most rules have written proofs checked by independent AI
 reviewers. **No human expert has checked any of them yet**; that reading is the real bar, and we ask for it.
 
-## Climb the ladder
+## At a glance
 
-### Step 1 - the idea (for anyone)
+*The exact claims, for specialists. Terms are explained in "How it works" and "Words you will meet".*
+
+Status words are the paper's (section 7.7). Nothing depends on the generalised Riemann hypothesis.
+
+- **Explicit identities (NUMERICAL, two independent implementations).** p = 11: b_k are the roots of a quintic over the
+  Weber cubic field Q(P) and integer combinations of P^i cos(2πj/11); p = 13: integer combinations of cos(2πj/52); both
+  to more than 1,500 digits. Explicit cosine tables at every prime 11 ≤ p ≤ 79 except 59 and 71; the exact minimal
+  polynomial of b_1 at every prime 5 ≤ p ≤ 97, certified in ball arithmetic.
+- **Structure (PROVED (AI-refereed), p ≥ 5, unconditional).** b_k lies in F_p = (K(j(√-p))·Q(ζ_p))^+, K = Q(√-p); an
+  explicit automorphism rule moves b_k to b_{±xk}; each b_k is an algebraic integer with norm ±2^e, and a unit iff
+  p ≡ 7 (mod 8). (The function-level Galois action and Siegel form are Gallouin's (2026); these statements are about values
+  at the CM point.)
+- **Cyclotomic cases (PROVED (AI-refereed)).** All b_k lie in an abelian field iff h(-4p) ≤ 2 iff p ∈ {3, 5, 7, 13, 37};
+  explicit products of sines at 5, 7, 13, 37 (RIGOROUS (ball arithmetic)). For odd composite n the list is
+  {3, 5, 7, 9, 13, 25, 37}.
+- **Theorem G (PROVED (AI-refereed); a gap in case (D) found by a later reader and repaired, repair accepted by two
+  referees).** For odd l and odd m ≥ 3, the first level-l theta piece at i√m generates an abelian extension of Q iff m is
+  idoneal and (l is a prime power dividing m, or l = 3 and m ≡ 2 mod 3).
+- **Even levels (PROOF DRAFT, one referee round):** Göllnitz-Gordon fraction abelian iff m ∈ {3, 7, 15}; Ramanujan's cubic
+  continued fraction iff n ∈ {2, 8}. **Stark dictionary** for p ≡ 7 (mod 8): PROOF DRAFTS, one referee round each.
+
+Prior work the results build on (Rebák; Berndt-Rebák; Kim-Rebák; Weber, Grube, Kani; Gallouin; Koo-Shin-Yoon; Kubert-Lang;
+Stark; Hajir-Rodriguez Villegas): section 1.2 of [PAPER.md](PAPER.md). Status of every result: [bundle/STATUS.md](bundle/STATUS.md).
+
+Full technical record: [TECHNICAL.md](TECHNICAL.md).
+
+## What we do not claim
+
+- **No human expert has checked any proof.** Several results had one referee round only (C7, C8, the C9 valuation law,
+  C10), and every PROOF DRAFT had one round. Theorem G is the cautionary case: three review rounds accepted it, and a gap
+  in one case was found only later and then repaired.
+- The explicit cosine tables are numerical: two independent programs agree at p = 11-37; at 41-79 one program found them,
+  cross-checked by a second method at 73 and 79.
+- Corrections on record: a residue-degree law we first stated was REFUTED at p = 23, 31, 47 and replaced; a sealed
+  prediction "cosine forms iff n idoneal" for composites was REFUTED; several sealed nulls failed as nulls.
+- Open: whether Q(b_1) = F_p for every prime (proved prime by prime up to 97); a conceptual proof of the sine identities;
+  tables for p > 100; sine forms at n = 9 and 25 (not computed).
+- The full unit-group indices of F_23 and F_31 rest on GRH through PARI and are NOT CLAIMED.
+- Explicit lists that use Euler's idoneal numbers beyond Grube's theorem could miss one hypothetical idoneal number
+  above 1848.
+- Novelty statements are a search floor (arXiv, Zenodo, journals and citing papers, October 2026), not a clearance.
+
+## How it works
+
+### The idea
 
 Ramanujan's entry, as corrected by Rebák, reads
 
@@ -58,7 +100,7 @@ flowchart LR
   D --> F[Unit exactly when<br/>p leaves remainder 7 mod 8]
 ```
 
-### Step 2 - how it works (for a curious student)
+### A worked example
 
 Three words first. An **algebraic integer** is a number that solves an equation x^n + (whole numbers)·x^(n-1) + ... = 0
 with leading coefficient 1. It is a **unit** when its inverse is also an algebraic integer (as for 1 + √2, whose inverse is
@@ -83,31 +125,7 @@ search picked out the coefficients. Then the formula was rebuilt from the table 
 a second program written separately found the identical table, and changing any single coefficient by 1 destroys the
 match.
 
-### Step 3 - the real thing (for specialists)
-
-Status words are the paper's (section 7.7). Nothing depends on the generalised Riemann hypothesis.
-
-- **Explicit identities (NUMERICAL, two independent implementations).** p = 11: b_k are the roots of a quintic over the
-  Weber cubic field Q(P) and integer combinations of P^i cos(2πj/11); p = 13: integer combinations of cos(2πj/52); both
-  to more than 1,500 digits. Explicit cosine tables at every prime 11 ≤ p ≤ 79 except 59 and 71; the exact minimal
-  polynomial of b_1 at every prime 5 ≤ p ≤ 97, certified in ball arithmetic.
-- **Structure (PROVED (AI-refereed), p ≥ 5, unconditional).** b_k lies in F_p = (K(j(√-p))·Q(ζ_p))^+, K = Q(√-p); an
-  explicit automorphism rule moves b_k to b_{±xk}; each b_k is an algebraic integer with norm ±2^e, and a unit iff
-  p ≡ 7 (mod 8). (The function-level Galois action and Siegel form are Gallouin's (2026); these statements are about values
-  at the CM point.)
-- **Cyclotomic cases (PROVED (AI-refereed)).** All b_k lie in an abelian field iff h(-4p) ≤ 2 iff p ∈ {3, 5, 7, 13, 37};
-  explicit products of sines at 5, 7, 13, 37 (RIGOROUS (ball arithmetic)). For odd composite n the list is
-  {3, 5, 7, 9, 13, 25, 37}.
-- **Theorem G (PROVED (AI-refereed); a gap in case (D) found by a later reader and repaired, repair accepted by two
-  referees).** For odd l and odd m ≥ 3, the first level-l theta piece at i√m generates an abelian extension of Q iff m is
-  idoneal and (l is a prime power dividing m, or l = 3 and m ≡ 2 mod 3).
-- **Even levels (PROOF DRAFT, one referee round):** Göllnitz-Gordon fraction abelian iff m ∈ {3, 7, 15}; Ramanujan's cubic
-  continued fraction iff n ∈ {2, 8}. **Stark dictionary** for p ≡ 7 (mod 8): PROOF DRAFTS, one referee round each.
-
-Prior work the results build on (Rebák; Berndt-Rebák; Kim-Rebák; Weber, Grube, Kani; Gallouin; Koo-Shin-Yoon; Kubert-Lang;
-Stark; Hajir-Rodriguez Villegas): section 1.2 of [PAPER.md](PAPER.md). Status of every result: [bundle/STATUS.md](bundle/STATUS.md).
-
-## Use it as a tool
+## Reproduce and reuse
 
 Questions this lets you answer:
 
@@ -177,22 +195,6 @@ To explore another prime, change `p` and the tuple `(1, 2, 3)` to `range(1, (p +
 line works for any odd prime, but the three checks below it are written for p = 7 only. The exact tables for p = 11 and
 13 are in `paper/release/verify_deg11.py`.
 
-## What we did not show
-
-- **No human expert has checked any proof.** Several results had one referee round only (C7, C8, the C9 valuation law,
-  C10), and every PROOF DRAFT had one round. Theorem G is the cautionary case: three review rounds accepted it, and a gap
-  in one case was found only later and then repaired.
-- The explicit cosine tables are numerical: two independent programs agree at p = 11-37; at 41-79 one program found them,
-  cross-checked by a second method at 73 and 79.
-- Corrections on record: a residue-degree law we first stated was REFUTED at p = 23, 31, 47 and replaced; a sealed
-  prediction "cosine forms iff n idoneal" for composites was REFUTED; several sealed nulls failed as nulls.
-- Open: whether Q(b_1) = F_p for every prime (proved prime by prime up to 97); a conceptual proof of the sine identities;
-  tables for p > 100; sine forms at n = 9 and 25 (not computed).
-- The full unit-group indices of F_23 and F_31 rest on GRH through PARI and are NOT CLAIMED.
-- Explicit lists that use Euler's idoneal numbers beyond Grube's theorem could miss one hypothetical idoneal number
-  above 1848.
-- Novelty statements are a search floor (arXiv, Zenodo, journals and citing papers, October 2026), not a clearance.
-
 ## Words you will meet
 
 - **Theta function φ(q)** - the sum 1 + 2q + 2q⁴ + 2q⁹ + ... of q raised to the square numbers.
@@ -207,50 +209,20 @@ line works for any odd prime, but the three checks below it are written for p = 
 - **Ball arithmetic** - computing with numbers that carry guaranteed error bars.
 - **Search floor** - a dated search of named sources; not proof that nobody did it before.
 
+## How to cite
+
+```
+Moki & Julio (2026). Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23790016
+```
+
+The DOI always resolves to the newest archived version. Machine-readable: [CITATION.cff](CITATION.cff).
+Text and figures: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
+
+## Related projects
+
+- [debruijn-newman-degree-two](https://github.com/Hashirama1337s/debruijn-newman-degree-two): proven de Bruijn-Newman bounds below 1/2 for two degree-2 L-functions
+- All projects: [the Moki & Julio lab map](https://github.com/Hashirama1337s)
+
 ---
 
-## For specialists: the original README
-
-# Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units
-
-**Moki & Julio · 2026** · DOI [10.5281/zenodo.23790016](https://doi.org/10.5281/zenodo.23790016) (v1.0)
-
-The paper is [PAPER.md](PAPER.md). The code, data, sealed predictions and checks behind it are in [bundle/](bundle/) (start with
-[bundle/README.md](bundle/README.md); public status table: [bundle/STATUS.md](bundle/STATUS.md)).
-
-## In plain words
-
-On page 206 of his "lost notebook", Ramanujan wrote a formula that splits one of his theta functions, at a special point, into 1 plus
-three further pieces, and he left the three pieces blank. Rebák filled them in in 2023. The same split exists for every odd prime p,
-with 1 plus (p−1)/2 pieces. We found explicit formulas for the pieces at p = 11 and p = 13, computed them for every prime below 100, and
-proved rules that govern all of them. (The pieces as functions, before one plugs in the special point, were studied for every prime by
-Gallouin in 2026; our results are about the numbers one gets at the special point.)
-
-- Each piece, raised to the p-th power, lives in one predictable number field, and one symmetry rule produces every piece from the first.
-- Every piece is an algebraic integer whose only prime factors lie over 2; it is a unit exactly when p leaves remainder 7 on division by 8.
-- Closed forms built from sines, like Ramanujan's at p = 7, can exist only for the primes 3, 5, 7, 13 and 37; we found them at 5, 7, 13
-  and 37.
-- One rule covers every odd level: the first theta piece of odd level l at the point i√m is cyclotomic exactly when m is one of Euler's
-  idoneal numbers and l is a power of a single prime dividing m, plus one small accident at level 3. The same question has clean
-  answers for the Rogers–Ramanujan continued fraction (only at n = 1), the Göllnitz–Gordon fraction (m = 3, 7, 15) and Ramanujan's
-  cubic continued fraction (n = 2, 8).
-- For p leaving remainder 7 on division by 8, a norm of the first piece is a Stark unit, and the first piece itself is an explicit
-  product of classical elliptic units and a Hilbert-class-field factor.
-
-**How far to trust this.** Most results have written proofs checked by independent AI reviewers. **No human expert has checked any of
-them yet**; that reading is the real bar, and we ask for it. Proof drafts are labelled as such. Exact minimal polynomials are certified
-in ball arithmetic at every prime up to 97. Nothing depends on the generalised Riemann hypothesis. Novelty statements are a search floor
-(arXiv, Zenodo, journals and citing papers, October 2026), not a clearance.
-
-## Reproduce
-
-See [bundle/README.md](bundle/README.md) for the exact commands and software versions, and [bundle/CLEANROOM.md](bundle/CLEANROOM.md)
-for a clean-room rebuild record. Sealed predictions and their hashes are in the bundle; [bundle/REDACTIONS.md](bundle/REDACTIONS.md)
-lists every file whose copy was redacted for release (names and machine paths only) with its hashes before and after.
-
-## Licence and citation
-
-Text and figures: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
-Please cite via [CITATION.cff](CITATION.cff).
-
-*Prepared with AI assistance; all results are machine-checked.*
+*Prepared with AI assistance; what was checked, and by what, is stated above.*
