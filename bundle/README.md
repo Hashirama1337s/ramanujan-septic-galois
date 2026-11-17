@@ -112,3 +112,9 @@ python cyclo.py; python field.py; python prod.py; python verify.py; python p13/r
 Path convention: every script reads and writes files by paths relative to the bundle root, so run it from the root. Scripts that read
 a file by its bare name (`read("v2.gp")`, `read("cert.gp")`, `read("lib.gp")`) are run from the root with gp's search path extended to
 their folder, e.g. `gp -q -D nbthreads=1 -D path=.:proof/cert proof/cert/run_11.gp`.
+
+## Figures
+The two figures of the repository's front page are drawn from the certified G_p files of this bundle only:
+`python figures/make_figures.py .`, run from the repository root, one level above this folder (Python 3.11 +
+matplotlib 3.11; a few seconds). The script and the figures sit in `figures/` at the repository root, outside this
+bundle, so they are not listed in `SHA256SUMS`.

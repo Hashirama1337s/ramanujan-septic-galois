@@ -4,7 +4,7 @@
 
 [![DOI 10.5281/zenodo.23790015](brand/doi.svg)](https://doi.org/10.5281/zenodo.23790015) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
-Moki & Julio · 2026 · version 1.0
+Moki & Julio · 2026 · version 1.0.1
 
 **Read** [PAPER.md](PAPER.md) · **Re-run** [bundle/README.md](bundle/README.md) · **Check how far each claim is
 checked** [bundle/STATUS.md](bundle/STATUS.md)
@@ -33,6 +33,10 @@ is 2 (its norm, the product of the piece with all its twins, is a power of 2, up
 when p leaves remainder 7 on division by 8; and closed forms with sines, like Ramanujan's, can exist only for the primes
 3, 5, 7, 13 and 37 (we found them at 5, 7, 13 and 37). Most rules have written proofs checked by independent AI
 reviewers. **No human expert has checked any of them yet**; that reading is the real bar, and we ask for it.
+
+![Tiles for every prime from 5 to 97 in four columns by remainder on division by 8: every norm is a power of 2, and in the remainder-7 column every norm is exactly 1](figures/norms-mod8.svg)
+
+*For every prime p from 5 to 97, the norm of the first piece b₁ = u₁^p: the product of b₁ and all its twins, read off the certified equation of b₁. Each tile is one prime, placed in a column by the remainder p leaves on division by 8. Every norm is a power of 2, up to sign, so the only prime hiding inside a piece is 2. In the right-hand column (remainder 7) the norm is exactly 1: those pieces are units, as the rule proved in the paper says (its written proof was checked by independent AI reviewers; no human expert has checked it yet). The exponents are exact; for example the norm at p = 13 is −2⁷⁸, the constant term of the degree-12 equation in the worked example.*
 
 ## At a glance
 
@@ -117,6 +121,10 @@ division by 8.
 
 **p = 13 is different.** Here 13 leaves remainder 5 on division by 8, so the rule says the pieces are not units. Indeed
 the equation for b_1 has degree 12, 40-digit coefficients and constant term 2^78: the only prime hiding inside is 2.
+
+![Bar chart of the class number h(−4p) for the primes 5 to 97: only p = 5, 7, 13 and 37 have a value of 1 or 2, the only cases where closed forms with sines like Ramanujan's can exist](figures/class-number-wall.svg)
+
+*For each prime p from 5 to 97: the size of the family of twins of b₁ (the degree of its certified equation), divided by (p − 1)/2. This number is the class number h(−4p), and the script checks that against an independent count. The paper proves that all the pieces lie in an abelian number field, so that closed forms with sines like Ramanujan's can exist, exactly when it is 1 or 2. Among these primes that happens only at p = 5, 7, 13 and 37 (green), and products of sines were found at all four; p = 3 also qualifies but is not drawn, since the certified tables start at 5. At the other primes explicit formulas can still exist, but they need numbers beyond sines and cosines (at p = 11, powers of a root of the Weber cubic times cosines). The proofs were checked by independent AI reviewers; no human expert has checked them yet.*
 
 **p = 11: how the formulas were found.** The product of the five pieces, P = u_1···u_5, solves P³ - 8P² + 80P - 32 = 0,
 with P = 0.4164394342758640956... . Each b_k is a combination, with whole-number coefficients, of 15 numbers
@@ -209,14 +217,42 @@ line works for any odd prime, but the three checks below it are written for p = 
 - **Ball arithmetic** - computing with numbers that carry guaranteed error bars.
 - **Search floor** - a dated search of named sources; not proof that nobody did it before.
 
+## Open doors
+
+What this work leaves open, and what we noticed along the way but did not test, for anyone who wants to take the next step.
+
+- **Does the first piece carry everything, at every prime?** At each prime p from 5 to 97 we proved (AI-refereed), prime by
+  prime with certified computer arithmetic, that the first piece b_1 alone generates the whole number system F_p that
+  holds all the pieces. Whether this holds at every prime is not proved: a general "separation" argument is missing. The
+  same question for odd composite n is open when n is not a prime power. Both are listed in Section 8 of the paper.
+  *Status:* UNTESTED observation from this work. *Start here:* Theorem M in section 7.4 of [PAPER.md](PAPER.md), and the
+  certified minimal polynomials and the program `certmin.py` in `bundle/vectors/v5_method/`. *Ceiling:* one proof for all
+  primes in place of 23 separate certificates.
+- **Why products of sines, and are there more?** At p = 5, 7, 13 and 37 every piece is an exact product of sines, checked
+  rigorously with ball arithmetic, but there is no conceptual reason on paper for why the exponents are what they are.
+  The odd composite cases n = 9 and 25 are on the proved list of cyclotomic cases too, yet their sine forms were never
+  computed. *Status:* UNTESTED observation from this work. *Start here:* section 5.3 of [PAPER.md](PAPER.md) (the
+  exponent vectors) and `bundle/vectors/v5_method/stepd/stepd.py`; the paper suggests the cyclotomic-unit index as a
+  route. *Ceiling:* a conceptual proof of the four sine identities, and explicit sine forms at n = 9 and 25.
+- **Other modular functions at special points.** The arguments behind the Rogers-Ramanujan and even-level results (the
+  even-level ones are still proof drafts, section 5.9) should
+  work for any modular function with rational coefficients that tells apart all points of its curve (a Hauptmodul), for
+  example those of Γ(3) and Γ(4), and the Rogers-Ramanujan fraction at other special points. This is a prediction, not
+  tested. *Status:* UNTESTED observation from this work. *Start here:* sections 5.6, 5.9 and 7.6 of [PAPER.md](PAPER.md)
+  (including the "every conjugate is real" test for abelian values, which the paper calls folklore-level), with
+  `bundle/vectors/v3_rr/` and `bundle/vectors/v9_even/`. *Ceiling:* the abelian cases of these results extended, with
+  proofs, to a whole family of modular functions.
+
 ## How to cite
 
 ```
-Moki & Julio (2026). Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23790015
+Moki & Julio (2026). Ramanujan's septic theta identity at every odd prime: explicit analogues, a Galois rule, the abelian cases at every odd level, and Ramanujan's units. Version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.23790015
 ```
 
 The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23790016. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and figures: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
+
+v1.0.1: adds Open doors and figures; no change to the certified results.
 
 ## Related projects
 

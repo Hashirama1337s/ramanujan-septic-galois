@@ -1091,6 +1091,24 @@ conjugates and exact integer algebra only.
 
 ---
 
+## Open doors
+
+Three of the open problems of §8, chosen because the bundle gives a direct starting point.
+
+- **Generation by b_1 (§8, item 2).** Q(b_1) = F_p is PROVED (AI-refereed) prime by prime for 5 ≤ p ≤ 97 (C10, §7.4); a
+  separation lemma for all p is missing, and the composite analogue Q(b_1) = E is open for non-prime-power n. *Status:*
+  UNTESTED observation from this work. *Start here:* Theorem M (§7.4); `bundle/vectors/v5_method/` (`certmin.py`,
+  certified G_p). *Ceiling:* a proof of Q(b_1) = F_p for every prime p ≥ 5.
+- **The strong form (§8, item 3).** The sine identities at 5, 7, 13, 37 are RIGOROUS (ball arithmetic) (§5.3); a conceptual
+  proof via the cyclotomic-unit index in Q(ζ_{4p})^+ (Sinnott) is open, and the sine forms at n = 9 and 25 (Q(ζ_36)^+,
+  Q(ζ_100)^+) were not computed. *Status:* UNTESTED observation from this work. *Start here:* §5.3, §5.4;
+  `bundle/vectors/v5_method/stepd/`. *Ceiling:* a conceptual proof of the four identities and the sine forms at n = 9, 25.
+- **Other Hauptmoduln (§8, item 7).** The C7 and U arguments should cover any function with rational coefficients that
+  separates the points of its curve (Hauptmoduln of Γ(3), Γ(4), and R at other CM points); this is a prediction, untested.
+  *Status:* UNTESTED observation from this work. *Start here:* §5.6, §5.9, §7.6 (the folklore-level abelian test);
+  `bundle/vectors/v3_rr/`, `bundle/vectors/v9_even/`. *Ceiling:* the abelian-over-Q results of C7 and U extended, with
+  proofs, to CM values of a whole family of modular functions.
+
 ## Prior art
 
 The pieces u_k are Ramanujan's prime-dissection radicands for φ. As modular functions they were treated for every prime p ≥ 5 by Gallouin
